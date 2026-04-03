@@ -1,0 +1,22 @@
+{
+  "name": "East Cambridgeshire",
+  "onsCode": "E07000009",
+  "totalEmployment": 32820,
+  "claimantRate": 2.2,
+  "medianEarnings": 34311,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.2,
+      "rank": 43,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34311,
+      "rank": 112,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

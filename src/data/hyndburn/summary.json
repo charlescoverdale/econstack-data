@@ -1,0 +1,22 @@
+{
+  "name": "Hyndburn",
+  "onsCode": "E07000120",
+  "totalEmployment": 29180,
+  "claimantRate": 5.5,
+  "medianEarnings": 29647,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.5,
+      "rank": 315,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29647,
+      "rank": 289,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

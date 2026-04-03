@@ -1,0 +1,359 @@
+{
+  "sectors": [
+    {
+      "sector": "Agriculture, forestry & fishing",
+      "sicSection": "A",
+      "employment": 985,
+      "localShare": 0.0192,
+      "nationalShare": 0.0052,
+      "lq": 3.67,
+      "classification": "Highly specialised"
+    },
+    {
+      "sector": "Mining & quarrying",
+      "sicSection": "B",
+      "employment": 0,
+      "localShare": 0,
+      "nationalShare": 0.0007,
+      "lq": 0,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Manufacturing",
+      "sicSection": "C",
+      "employment": 3420,
+      "localShare": 0.0665,
+      "nationalShare": 0.0713,
+      "lq": 0.93,
+      "classification": "Average"
+    },
+    {
+      "sector": "Electricity, gas & air conditioning",
+      "sicSection": "D",
+      "employment": 75,
+      "localShare": 0.0015,
+      "nationalShare": 0.0036,
+      "lq": 0.4,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Water supply & waste management",
+      "sicSection": "E",
+      "employment": 520,
+      "localShare": 0.0101,
+      "nationalShare": 0.0071,
+      "lq": 1.43,
+      "classification": "Specialised"
+    },
+    {
+      "sector": "Construction",
+      "sicSection": "F",
+      "employment": 4750,
+      "localShare": 0.0924,
+      "nationalShare": 0.0489,
+      "lq": 1.89,
+      "classification": "Highly specialised"
+    },
+    {
+      "sector": "Wholesale & retail trade",
+      "sicSection": "G",
+      "employment": 8500,
+      "localShare": 0.1654,
+      "nationalShare": 0.1372,
+      "lq": 1.21,
+      "classification": "Average"
+    },
+    {
+      "sector": "Transport & storage",
+      "sicSection": "H",
+      "employment": 1100,
+      "localShare": 0.0214,
+      "nationalShare": 0.0508,
+      "lq": 0.42,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Accommodation & food service",
+      "sicSection": "I",
+      "employment": 5400,
+      "localShare": 0.1051,
+      "nationalShare": 0.0769,
+      "lq": 1.37,
+      "classification": "Specialised"
+    },
+    {
+      "sector": "Information & communication",
+      "sicSection": "J",
+      "employment": 1865,
+      "localShare": 0.0363,
+      "nationalShare": 0.0478,
+      "lq": 0.76,
+      "classification": "Average"
+    },
+    {
+      "sector": "Financial & insurance",
+      "sicSection": "K",
+      "employment": 450,
+      "localShare": 0.0088,
+      "nationalShare": 0.0341,
+      "lq": 0.26,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Real estate",
+      "sicSection": "L",
+      "employment": 1000,
+      "localShare": 0.0195,
+      "nationalShare": 0.0193,
+      "lq": 1.01,
+      "classification": "Average"
+    },
+    {
+      "sector": "Professional, scientific & technical",
+      "sicSection": "M",
+      "employment": 3960,
+      "localShare": 0.0771,
+      "nationalShare": 0.0963,
+      "lq": 0.8,
+      "classification": "Average"
+    },
+    {
+      "sector": "Administrative & support services",
+      "sicSection": "N",
+      "employment": 2850,
+      "localShare": 0.0555,
+      "nationalShare": 0.0884,
+      "lq": 0.63,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Public administration & defence",
+      "sicSection": "O",
+      "employment": 900,
+      "localShare": 0.0175,
+      "nationalShare": 0.0452,
+      "lq": 0.39,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Education",
+      "sicSection": "P",
+      "employment": 5000,
+      "localShare": 0.0973,
+      "nationalShare": 0.0857,
+      "lq": 1.14,
+      "classification": "Average"
+    },
+    {
+      "sector": "Human health & social work",
+      "sicSection": "Q",
+      "employment": 6750,
+      "localShare": 0.1313,
+      "nationalShare": 0.1375,
+      "lq": 0.96,
+      "classification": "Average"
+    },
+    {
+      "sector": "Arts, entertainment & recreation",
+      "sicSection": "R",
+      "employment": 2115,
+      "localShare": 0.0412,
+      "nationalShare": 0.0242,
+      "lq": 1.7,
+      "classification": "Highly specialised"
+    },
+    {
+      "sector": "Other service activities",
+      "sicSection": "S",
+      "employment": 1750,
+      "localShare": 0.0341,
+      "nationalShare": 0.0197,
+      "lq": 1.73,
+      "classification": "Highly specialised"
+    }
+  ],
+  "totalLocal": 51390,
+  "totalEngland": 27633910,
+  "claimantTrend": [
+    {
+      "date": "March 2023",
+      "localRate": 2,
+      "englandRate": 3.7
+    },
+    {
+      "date": "April 2023",
+      "localRate": 2,
+      "englandRate": 3.7
+    },
+    {
+      "date": "May 2023",
+      "localRate": 2,
+      "englandRate": 3.6
+    },
+    {
+      "date": "June 2023",
+      "localRate": 2,
+      "englandRate": 3.6
+    },
+    {
+      "date": "July 2023",
+      "localRate": 1.9,
+      "englandRate": 3.7
+    },
+    {
+      "date": "August 2023",
+      "localRate": 1.9,
+      "englandRate": 3.6
+    },
+    {
+      "date": "September 2023",
+      "localRate": 1.9,
+      "englandRate": 3.6
+    },
+    {
+      "date": "October 2023",
+      "localRate": 1.9,
+      "englandRate": 3.6
+    },
+    {
+      "date": "November 2023",
+      "localRate": 2,
+      "englandRate": 3.7
+    },
+    {
+      "date": "December 2023",
+      "localRate": 2,
+      "englandRate": 3.7
+    },
+    {
+      "date": "January 2024",
+      "localRate": 2,
+      "englandRate": 3.7
+    },
+    {
+      "date": "February 2024",
+      "localRate": 2.1,
+      "englandRate": 3.8
+    },
+    {
+      "date": "March 2024",
+      "localRate": 2.1,
+      "englandRate": 3.8
+    },
+    {
+      "date": "April 2024",
+      "localRate": 2.1,
+      "englandRate": 3.8
+    },
+    {
+      "date": "May 2024",
+      "localRate": 2.1,
+      "englandRate": 3.8
+    },
+    {
+      "date": "June 2024",
+      "localRate": 2.2,
+      "englandRate": 3.9
+    },
+    {
+      "date": "July 2024",
+      "localRate": 2.4,
+      "englandRate": 4.2
+    },
+    {
+      "date": "August 2024",
+      "localRate": 2.4,
+      "englandRate": 4.2
+    },
+    {
+      "date": "September 2024",
+      "localRate": 2.4,
+      "englandRate": 4.2
+    },
+    {
+      "date": "October 2024",
+      "localRate": 2.2,
+      "englandRate": 4.2
+    },
+    {
+      "date": "November 2024",
+      "localRate": 2.2,
+      "englandRate": 4.1
+    },
+    {
+      "date": "December 2024",
+      "localRate": 2.3,
+      "englandRate": 4
+    },
+    {
+      "date": "January 2025",
+      "localRate": 2.3,
+      "englandRate": 4
+    },
+    {
+      "date": "February 2025",
+      "localRate": 2.4,
+      "englandRate": 4.2
+    },
+    {
+      "date": "March 2025",
+      "localRate": 2.3,
+      "englandRate": 4.1
+    },
+    {
+      "date": "April 2025",
+      "localRate": 2.2,
+      "englandRate": 4.1
+    },
+    {
+      "date": "May 2025",
+      "localRate": 2.2,
+      "englandRate": 4
+    },
+    {
+      "date": "June 2025",
+      "localRate": 2.2,
+      "englandRate": 4
+    },
+    {
+      "date": "July 2025",
+      "localRate": 2.2,
+      "englandRate": 4
+    },
+    {
+      "date": "August 2025",
+      "localRate": 2.2,
+      "englandRate": 4
+    },
+    {
+      "date": "September 2025",
+      "localRate": 2.3,
+      "englandRate": 3.9
+    },
+    {
+      "date": "October 2025",
+      "localRate": 2.3,
+      "englandRate": 3.9
+    },
+    {
+      "date": "November 2025",
+      "localRate": 2.3,
+      "englandRate": 3.9
+    },
+    {
+      "date": "December 2025",
+      "localRate": 2.3,
+      "englandRate": 3.9
+    },
+    {
+      "date": "January 2026",
+      "localRate": 2.4,
+      "englandRate": 3.9
+    },
+    {
+      "date": "February 2026",
+      "localRate": 2.5,
+      "englandRate": 4.1
+    }
+  ]
+}

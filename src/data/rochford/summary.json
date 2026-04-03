@@ -1,0 +1,22 @@
+{
+  "name": "Rochford",
+  "onsCode": "E07000075",
+  "totalEmployment": 23385,
+  "claimantRate": 2.3,
+  "medianEarnings": 38107,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 52,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 38107,
+      "rank": 49,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

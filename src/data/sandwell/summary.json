@@ -1,0 +1,22 @@
+{
+  "name": "Sandwell",
+  "onsCode": "E08000028",
+  "totalEmployment": 124910,
+  "claimantRate": 6.8,
+  "medianEarnings": 27652,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.8,
+      "rank": 340,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 27652,
+      "rank": 336,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Derbyshire Dales",
+  "onsCode": "E07000035",
+  "totalEmployment": 33385,
+  "claimantRate": 2,
+  "medianEarnings": 33700,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2,
+      "rank": 15,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33700,
+      "rank": 133,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

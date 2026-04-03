@@ -1,0 +1,22 @@
+{
+  "name": "Preston",
+  "onsCode": "E07000123",
+  "totalEmployment": 99595,
+  "claimantRate": 4.6,
+  "medianEarnings": 30038,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.6,
+      "rank": 286,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30038,
+      "rank": 266,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

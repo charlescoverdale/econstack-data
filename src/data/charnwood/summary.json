@@ -1,0 +1,22 @@
+{
+  "name": "Charnwood",
+  "onsCode": "E07000130",
+  "totalEmployment": 72520,
+  "claimantRate": 2.4,
+  "medianEarnings": 33550,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 67,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33550,
+      "rank": 137,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Conwy",
+  "onsCode": "W06000003",
+  "totalEmployment": 42015,
+  "claimantRate": 3.8,
+  "medianEarnings": 28113,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 239,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28113,
+      "rank": 330,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

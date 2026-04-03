@@ -1,0 +1,22 @@
+{
+  "name": "Lambeth",
+  "onsCode": "E09000022",
+  "totalEmployment": 157680,
+  "claimantRate": 6.3,
+  "medianEarnings": 43666,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.3,
+      "rank": 333,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 43666,
+      "rank": 11,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

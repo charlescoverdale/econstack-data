@@ -1,0 +1,22 @@
+{
+  "name": "South Kesteven",
+  "onsCode": "E07000141",
+  "totalEmployment": 55300,
+  "claimantRate": 3,
+  "medianEarnings": 29071,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 149,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29071,
+      "rank": 304,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

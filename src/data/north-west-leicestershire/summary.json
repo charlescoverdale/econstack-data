@@ -1,0 +1,22 @@
+{
+  "name": "North West Leicestershire",
+  "onsCode": "E07000134",
+  "totalEmployment": 76650,
+  "claimantRate": 2.1,
+  "medianEarnings": 32252,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.1,
+      "rank": 27,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32252,
+      "rank": 179,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Gloucester",
+  "onsCode": "E07000081",
+  "totalEmployment": 68770,
+  "claimantRate": 3.6,
+  "medianEarnings": 30455,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.6,
+      "rank": 223,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30455,
+      "rank": 248,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

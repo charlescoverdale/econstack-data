@@ -1,0 +1,22 @@
+{
+  "name": "Southampton",
+  "onsCode": "E06000045",
+  "totalEmployment": 113125,
+  "claimantRate": 4.3,
+  "medianEarnings": 32907,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.3,
+      "rank": 274,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32907,
+      "rank": 163,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

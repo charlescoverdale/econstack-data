@@ -1,0 +1,22 @@
+{
+  "name": "Neath Port Talbot",
+  "onsCode": "W06000012",
+  "totalEmployment": 47905,
+  "claimantRate": 3.2,
+  "medianEarnings": 30709,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.2,
+      "rank": 177,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30709,
+      "rank": 236,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

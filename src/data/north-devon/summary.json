@@ -1,0 +1,22 @@
+{
+  "name": "North Devon",
+  "onsCode": "E07000043",
+  "totalEmployment": 43745,
+  "claimantRate": 3.2,
+  "medianEarnings": 28386,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.2,
+      "rank": 176,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28386,
+      "rank": 323,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

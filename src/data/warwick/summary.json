@@ -1,0 +1,22 @@
+{
+  "name": "Warwick",
+  "onsCode": "E07000222",
+  "totalEmployment": 98805,
+  "claimantRate": 2.4,
+  "medianEarnings": 39797,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 68,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 39797,
+      "rank": 33,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

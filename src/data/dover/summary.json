@@ -1,0 +1,22 @@
+{
+  "name": "Dover",
+  "onsCode": "E07000108",
+  "totalEmployment": 36490,
+  "claimantRate": 3.6,
+  "medianEarnings": 33704,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.6,
+      "rank": 220,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33704,
+      "rank": 132,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

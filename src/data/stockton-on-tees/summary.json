@@ -1,0 +1,22 @@
+{
+  "name": "Stockton-on-Tees",
+  "onsCode": "E06000004",
+  "totalEmployment": 83885,
+  "claimantRate": 3.8,
+  "medianEarnings": 29877,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 231,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29877,
+      "rank": 271,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Havant",
+  "onsCode": "E07000090",
+  "totalEmployment": 39020,
+  "claimantRate": 3.5,
+  "medianEarnings": 30819,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 211,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30819,
+      "rank": 231,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

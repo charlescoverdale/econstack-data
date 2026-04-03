@@ -1,0 +1,22 @@
+{
+  "name": "County Durham",
+  "onsCode": "E06000047",
+  "totalEmployment": 189835,
+  "claimantRate": 3.2,
+  "medianEarnings": 29718,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.2,
+      "rank": 169,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29718,
+      "rank": 282,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

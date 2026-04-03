@@ -1,0 +1,22 @@
+{
+  "name": "Birmingham",
+  "onsCode": "E08000025",
+  "totalEmployment": 563255,
+  "claimantRate": 10,
+  "medianEarnings": 30180,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 10,
+      "rank": 350,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30180,
+      "rank": 258,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

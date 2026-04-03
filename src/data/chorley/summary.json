@@ -1,0 +1,22 @@
+{
+  "name": "Chorley",
+  "onsCode": "E07000118",
+  "totalEmployment": 41220,
+  "claimantRate": 2.4,
+  "medianEarnings": 33337,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 62,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33337,
+      "rank": 144,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

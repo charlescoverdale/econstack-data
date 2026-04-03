@@ -1,0 +1,22 @@
+{
+  "name": "Harrow",
+  "onsCode": "E09000015",
+  "totalEmployment": 71470,
+  "claimantRate": 4.7,
+  "medianEarnings": 36000,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.7,
+      "rank": 294,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36000,
+      "rank": 82,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

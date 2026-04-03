@@ -1,0 +1,22 @@
+{
+  "name": "West Berkshire",
+  "onsCode": "E06000037",
+  "totalEmployment": 103740,
+  "claimantRate": 2.4,
+  "medianEarnings": 38513,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 74,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 38513,
+      "rank": 44,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

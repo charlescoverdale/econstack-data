@@ -1,0 +1,22 @@
+{
+  "name": "Chelmsford",
+  "onsCode": "E07000070",
+  "totalEmployment": 97355,
+  "claimantRate": 2.7,
+  "medianEarnings": 35791,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 118,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35791,
+      "rank": 86,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

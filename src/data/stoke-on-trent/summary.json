@@ -1,0 +1,22 @@
+{
+  "name": "Stoke-on-Trent",
+  "onsCode": "E06000021",
+  "totalEmployment": 124645,
+  "claimantRate": 5.5,
+  "medianEarnings": 29041,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.5,
+      "rank": 317,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29041,
+      "rank": 305,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,31 @@
+{
+  "births": 2160,
+  "deaths": 2045,
+  "active": 19870,
+  "year": "2024",
+  "birthRate": 10.9,
+  "deathRate": 10.3,
+  "netFormationRate": 0.6,
+  "survivalRates": {
+    "1year": 0,
+    "3year": 0,
+    "5year": 0
+  },
+  "trend": [
+    {
+      "year": "2021",
+      "births": 2480,
+      "deaths": 2700,
+      "active": 22645
+    },
+    {
+      "year": "2024",
+      "births": 2160,
+      "deaths": 2045,
+      "active": 19870
+    }
+  ],
+  "englandBirthRate": 11.2,
+  "englandDeathRate": 9.9,
+  "englandSurvival5yr": 40.7
+}

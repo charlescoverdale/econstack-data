@@ -1,0 +1,22 @@
+{
+  "name": "Stevenage",
+  "onsCode": "E07000243",
+  "totalEmployment": 53735,
+  "claimantRate": 3.5,
+  "medianEarnings": 35747,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 207,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35747,
+      "rank": 87,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

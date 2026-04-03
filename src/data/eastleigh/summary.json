@@ -1,0 +1,22 @@
+{
+  "name": "Eastleigh",
+  "onsCode": "E07000086",
+  "totalEmployment": 65055,
+  "claimantRate": 2.4,
+  "medianEarnings": 34474,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 75,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34474,
+      "rank": 110,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

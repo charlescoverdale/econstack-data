@@ -1,0 +1,22 @@
+{
+  "name": "Westminster",
+  "onsCode": "E09000033",
+  "totalEmployment": 811210,
+  "claimantRate": 4.1,
+  "medianEarnings": 45172,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.1,
+      "rank": 259,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 45172,
+      "rank": 7,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

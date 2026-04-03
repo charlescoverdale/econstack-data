@@ -1,0 +1,22 @@
+{
+  "name": "Hounslow",
+  "onsCode": "E09000018",
+  "totalEmployment": 163160,
+  "claimantRate": 5.1,
+  "medianEarnings": 35301,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.1,
+      "rank": 308,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35301,
+      "rank": 98,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

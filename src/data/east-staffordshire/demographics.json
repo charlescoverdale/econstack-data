@@ -1,0 +1,116 @@
+{
+  "totalPopulation": 124019,
+  "workingAge": 78867,
+  "workingAgePct": 63.6,
+  "dependencyRatio": 57.3,
+  "ageBands": [
+    {
+      "band": "0-4",
+      "local": 6966,
+      "localPct": 5.6,
+      "englandPct": 5.4
+    },
+    {
+      "band": "5-9",
+      "local": 7473,
+      "localPct": 6,
+      "englandPct": 5.9
+    },
+    {
+      "band": "10-14",
+      "local": 7626,
+      "localPct": 6.1,
+      "englandPct": 6
+    },
+    {
+      "band": "15-19",
+      "local": 6751,
+      "localPct": 5.4,
+      "englandPct": 5.7
+    },
+    {
+      "band": "20-24",
+      "local": 6507,
+      "localPct": 5.2,
+      "englandPct": 6
+    },
+    {
+      "band": "25-29",
+      "local": 8098,
+      "localPct": 6.5,
+      "englandPct": 6.6
+    },
+    {
+      "band": "30-34",
+      "local": 8696,
+      "localPct": 7,
+      "englandPct": 7
+    },
+    {
+      "band": "35-39",
+      "local": 8119,
+      "localPct": 6.5,
+      "englandPct": 6.7
+    },
+    {
+      "band": "40-44",
+      "local": 7594,
+      "localPct": 6.1,
+      "englandPct": 6.3
+    },
+    {
+      "band": "45-49",
+      "local": 7863,
+      "localPct": 6.3,
+      "englandPct": 6.4
+    },
+    {
+      "band": "50-54",
+      "local": 9002,
+      "localPct": 7.3,
+      "englandPct": 6.9
+    },
+    {
+      "band": "55-59",
+      "local": 8682,
+      "localPct": 7,
+      "englandPct": 6.7
+    },
+    {
+      "band": "60-64",
+      "local": 7555,
+      "localPct": 6.1,
+      "englandPct": 5.8
+    },
+    {
+      "band": "65-69",
+      "local": 6181,
+      "localPct": 5,
+      "englandPct": 4.9
+    },
+    {
+      "band": "70-74",
+      "local": 6212,
+      "localPct": 5,
+      "englandPct": 5
+    },
+    {
+      "band": "75-79",
+      "local": 4689,
+      "localPct": 3.8,
+      "englandPct": 3.6
+    },
+    {
+      "band": "80-84",
+      "local": 3127,
+      "localPct": 2.5,
+      "englandPct": 2.5
+    },
+    {
+      "band": "85+",
+      "local": 2878,
+      "localPct": 2.3,
+      "englandPct": 2.4
+    }
+  ]
+}

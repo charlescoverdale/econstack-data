@@ -1,0 +1,22 @@
+{
+  "name": "Medway",
+  "onsCode": "E06000035",
+  "totalEmployment": 97245,
+  "claimantRate": 4.3,
+  "medianEarnings": 33857,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.3,
+      "rank": 273,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33857,
+      "rank": 125,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Knowsley",
+  "onsCode": "E08000011",
+  "totalEmployment": 65495,
+  "claimantRate": 4.3,
+  "medianEarnings": 32542,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.3,
+      "rank": 266,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32542,
+      "rank": 171,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Manchester",
+  "onsCode": "E08000003",
+  "totalEmployment": 450975,
+  "claimantRate": 6,
+  "medianEarnings": 30067,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6,
+      "rank": 328,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30067,
+      "rank": 264,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

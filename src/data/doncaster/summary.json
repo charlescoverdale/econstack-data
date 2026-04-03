@@ -1,0 +1,22 @@
+{
+  "name": "Doncaster",
+  "onsCode": "E08000017",
+  "totalEmployment": 130440,
+  "claimantRate": 4.3,
+  "medianEarnings": 31119,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.3,
+      "rank": 268,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31119,
+      "rank": 219,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Dacorum",
+  "onsCode": "E07000096",
+  "totalEmployment": 130970,
+  "claimantRate": 3.2,
+  "medianEarnings": 36473,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.2,
+      "rank": 174,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36473,
+      "rank": 70,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

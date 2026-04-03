@@ -1,0 +1,22 @@
+{
+  "name": "Oldham",
+  "onsCode": "E08000004",
+  "totalEmployment": 92380,
+  "claimantRate": 6.6,
+  "medianEarnings": 29124,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.6,
+      "rank": 336,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29124,
+      "rank": 301,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

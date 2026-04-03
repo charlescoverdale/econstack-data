@@ -1,0 +1,25 @@
+{
+  "births": 1135,
+  "deaths": 885,
+  "active": 10145,
+  "year": "2019",
+  "birthRate": 11.2,
+  "deathRate": 8.7,
+  "netFormationRate": 2.5,
+  "survivalRates": {
+    "oneYear": 93.4,
+    "threeYear": 61.2,
+    "fiveYear": 44.9
+  },
+  "trend": [
+    {
+      "year": "2019",
+      "births": 1135,
+      "deaths": 885,
+      "active": 10145
+    }
+  ],
+  "englandBirthRate": 11.2,
+  "englandDeathRate": 9.9,
+  "englandSurvival5yr": 40.7
+}

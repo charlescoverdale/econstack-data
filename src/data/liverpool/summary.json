@@ -1,0 +1,22 @@
+{
+  "name": "Liverpool",
+  "onsCode": "E08000012",
+  "totalEmployment": 286720,
+  "claimantRate": 5.6,
+  "medianEarnings": 30947,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.6,
+      "rank": 319,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30947,
+      "rank": 224,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

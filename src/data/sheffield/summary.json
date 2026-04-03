@@ -1,0 +1,22 @@
+{
+  "name": "Sheffield",
+  "onsCode": "E08000019",
+  "totalEmployment": 268650,
+  "claimantRate": 4.4,
+  "medianEarnings": 31816,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.4,
+      "rank": 276,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31816,
+      "rank": 193,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

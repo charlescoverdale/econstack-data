@@ -1,0 +1,22 @@
+{
+  "name": "Glasgow City",
+  "onsCode": "S12000049",
+  "totalEmployment": 443220,
+  "claimantRate": 4.7,
+  "medianEarnings": 32121,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.7,
+      "rank": 296,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32121,
+      "rank": 181,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

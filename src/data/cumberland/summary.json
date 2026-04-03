@@ -1,0 +1,22 @@
+{
+  "name": "Cumberland",
+  "onsCode": "E06000063",
+  "totalEmployment": 129850,
+  "claimantRate": 2.6,
+  "medianEarnings": 33840,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.6,
+      "rank": 107,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33840,
+      "rank": 126,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

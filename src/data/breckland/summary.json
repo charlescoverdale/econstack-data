@@ -1,0 +1,22 @@
+{
+  "name": "Breckland",
+  "onsCode": "E07000143",
+  "totalEmployment": 50960,
+  "claimantRate": 2.6,
+  "medianEarnings": 28930,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.6,
+      "rank": 100,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28930,
+      "rank": 309,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

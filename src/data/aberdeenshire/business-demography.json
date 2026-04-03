@@ -1,0 +1,43 @@
+{
+  "births": 830,
+  "deaths": 825,
+  "active": 10430,
+  "year": "2024",
+  "birthRate": 8,
+  "deathRate": 7.9,
+  "netFormationRate": 0.1,
+  "survivalRates": {
+    "oneYear": 94.1,
+    "threeYear": 59.7,
+    "fiveYear": 41.2
+  },
+  "trend": [
+    {
+      "year": "2019",
+      "births": 1105,
+      "deaths": 1155,
+      "active": 12095
+    },
+    {
+      "year": "2020",
+      "births": 845,
+      "deaths": 1135,
+      "active": 11785
+    },
+    {
+      "year": "2021",
+      "births": 895,
+      "deaths": 1230,
+      "active": 11480
+    },
+    {
+      "year": "2024",
+      "births": 830,
+      "deaths": 825,
+      "active": 10430
+    }
+  ],
+  "englandBirthRate": 11.2,
+  "englandDeathRate": 9.9,
+  "englandSurvival5yr": 40.7
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Wandsworth",
+  "onsCode": "E09000032",
+  "totalEmployment": 127735,
+  "claimantRate": 4,
+  "medianEarnings": 49310,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4,
+      "rank": 258,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 49310,
+      "rank": 1,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

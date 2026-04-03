@@ -1,0 +1,22 @@
+{
+  "name": "Plymouth",
+  "onsCode": "E06000026",
+  "totalEmployment": 118355,
+  "claimantRate": 3.5,
+  "medianEarnings": 28992,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 213,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28992,
+      "rank": 307,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

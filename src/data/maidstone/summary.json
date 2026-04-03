@@ -1,0 +1,22 @@
+{
+  "name": "Maidstone",
+  "onsCode": "E07000110",
+  "totalEmployment": 83615,
+  "claimantRate": 3.5,
+  "medianEarnings": 34151,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 212,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34151,
+      "rank": 116,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

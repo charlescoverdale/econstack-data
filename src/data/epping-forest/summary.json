@@ -1,0 +1,22 @@
+{
+  "name": "Epping Forest",
+  "onsCode": "E07000072",
+  "totalEmployment": 56665,
+  "claimantRate": 3,
+  "medianEarnings": 38171,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 152,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 38171,
+      "rank": 48,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

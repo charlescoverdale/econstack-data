@@ -1,0 +1,22 @@
+{
+  "name": "Worcester",
+  "onsCode": "E07000237",
+  "totalEmployment": 54315,
+  "claimantRate": 3.5,
+  "medianEarnings": 32997,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 204,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32997,
+      "rank": 155,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

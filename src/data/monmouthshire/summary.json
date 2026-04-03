@@ -1,0 +1,22 @@
+{
+  "name": "Monmouthshire",
+  "onsCode": "W06000021",
+  "totalEmployment": 35940,
+  "claimantRate": 2.4,
+  "medianEarnings": 35020,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 78,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35020,
+      "rank": 102,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

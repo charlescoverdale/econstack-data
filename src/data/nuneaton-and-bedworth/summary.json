@@ -1,0 +1,22 @@
+{
+  "name": "Nuneaton and Bedworth",
+  "onsCode": "E07000219",
+  "totalEmployment": 46510,
+  "claimantRate": 4.2,
+  "medianEarnings": 32402,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.2,
+      "rank": 262,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32402,
+      "rank": 174,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Hartlepool",
+  "onsCode": "E06000001",
+  "totalEmployment": 30405,
+  "claimantRate": 4.6,
+  "medianEarnings": 28830,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.6,
+      "rank": 285,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28830,
+      "rank": 312,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

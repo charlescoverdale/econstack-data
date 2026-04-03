@@ -1,0 +1,22 @@
+{
+  "name": "Test Valley",
+  "onsCode": "E07000093",
+  "totalEmployment": 58855,
+  "claimantRate": 2,
+  "medianEarnings": 35314,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2,
+      "rank": 21,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35314,
+      "rank": 97,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

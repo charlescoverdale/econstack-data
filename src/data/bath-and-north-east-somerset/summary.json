@@ -1,0 +1,22 @@
+{
+  "name": "Bath and North East Somerset",
+  "onsCode": "E06000022",
+  "totalEmployment": 96450,
+  "claimantRate": 2,
+  "medianEarnings": 32481,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2,
+      "rank": 25,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32481,
+      "rank": 172,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Havering",
+  "onsCode": "E09000016",
+  "totalEmployment": 90360,
+  "claimantRate": 4.5,
+  "medianEarnings": 40726,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.5,
+      "rank": 282,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 40726,
+      "rank": 26,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,72 @@
+{
+  "totalCommuters": 215994,
+  "workFromHomePct": 29.1,
+  "modes": [
+    {
+      "mode": "Work mainly at or from home",
+      "local": 62832,
+      "localPct": 29.1,
+      "englandPct": 31.5
+    },
+    {
+      "mode": "Underground, metro, light rail, tram",
+      "local": 151,
+      "localPct": 0.1,
+      "englandPct": 1.9
+    },
+    {
+      "mode": "Train",
+      "local": 1249,
+      "localPct": 0.6,
+      "englandPct": 2
+    },
+    {
+      "mode": "Bus, minibus or coach",
+      "local": 7640,
+      "localPct": 3.5,
+      "englandPct": 4.3
+    },
+    {
+      "mode": "Taxi",
+      "local": 1282,
+      "localPct": 0.6,
+      "englandPct": 0.7
+    },
+    {
+      "mode": "Motorcycle, scooter or moped",
+      "local": 722,
+      "localPct": 0.3,
+      "englandPct": 0.5
+    },
+    {
+      "mode": "Driving a car or van",
+      "local": 110576,
+      "localPct": 51.2,
+      "englandPct": 44.5
+    },
+    {
+      "mode": "Passenger in a car or van",
+      "local": 11275,
+      "localPct": 5.2,
+      "englandPct": 3.9
+    },
+    {
+      "mode": "Bicycle",
+      "local": 3308,
+      "localPct": 1.5,
+      "englandPct": 2.1
+    },
+    {
+      "mode": "On foot",
+      "local": 14950,
+      "localPct": 6.9,
+      "englandPct": 7.6
+    },
+    {
+      "mode": "Other method of travel to work",
+      "local": 2009,
+      "localPct": 0.9,
+      "englandPct": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Gateshead",
+  "onsCode": "E08000037",
+  "totalEmployment": 94975,
+  "claimantRate": 4,
+  "medianEarnings": 29494,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4,
+      "rank": 255,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29494,
+      "rank": 294,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

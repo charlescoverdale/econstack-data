@@ -1,0 +1,22 @@
+{
+  "name": "South Oxfordshire",
+  "onsCode": "E07000179",
+  "totalEmployment": 61250,
+  "claimantRate": 2,
+  "medianEarnings": 43026,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2,
+      "rank": 22,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 43026,
+      "rank": 14,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

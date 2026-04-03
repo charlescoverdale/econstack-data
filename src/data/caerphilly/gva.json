@@ -1,0 +1,124 @@
+{
+  "totalGVA": 3171208736,
+  "gvaPerJob": 58343,
+  "nationalGVAPerJob": 63763,
+  "productivityRank": 271,
+  "totalRanked": 391,
+  "gvaByIndustry": [
+    {
+      "sector": "Manufacturing",
+      "sicSection": "C",
+      "gva": 766846077,
+      "share": 0.2418
+    },
+    {
+      "sector": "Wholesale & retail trade",
+      "sicSection": "G",
+      "gva": 326880910,
+      "share": 0.1031
+    },
+    {
+      "sector": "Public administration & defence",
+      "sicSection": "O",
+      "gva": 278421462,
+      "share": 0.0878
+    },
+    {
+      "sector": "Human health & social work",
+      "sicSection": "Q",
+      "gva": 276181608,
+      "share": 0.0871
+    },
+    {
+      "sector": "Construction",
+      "sicSection": "F",
+      "gva": 270979139,
+      "share": 0.0854
+    },
+    {
+      "sector": "Education",
+      "sicSection": "P",
+      "gva": 218338214,
+      "share": 0.0689
+    },
+    {
+      "sector": "Real estate",
+      "sicSection": "L",
+      "gva": 216694772,
+      "share": 0.0683
+    },
+    {
+      "sector": "Administrative & support services",
+      "sicSection": "N",
+      "gva": 181956771,
+      "share": 0.0574
+    },
+    {
+      "sector": "Professional, scientific & technical",
+      "sicSection": "M",
+      "gva": 135317346,
+      "share": 0.0427
+    },
+    {
+      "sector": "Accommodation & food service",
+      "sicSection": "I",
+      "gva": 99609566,
+      "share": 0.0314
+    },
+    {
+      "sector": "Financial & insurance",
+      "sicSection": "K",
+      "gva": 86186441,
+      "share": 0.0272
+    },
+    {
+      "sector": "Transport & storage",
+      "sicSection": "H",
+      "gva": 85800000,
+      "share": 0.0271
+    },
+    {
+      "sector": "Water supply & waste management",
+      "sicSection": "E",
+      "gva": 68069307,
+      "share": 0.0215
+    },
+    {
+      "sector": "Information & communication",
+      "sicSection": "J",
+      "gva": 57089153,
+      "share": 0.018
+    },
+    {
+      "sector": "Arts, entertainment & recreation",
+      "sicSection": "R",
+      "gva": 48112676,
+      "share": 0.0152
+    },
+    {
+      "sector": "Other service activities",
+      "sicSection": "S",
+      "gva": 30282010,
+      "share": 0.0095
+    },
+    {
+      "sector": "Mining & quarrying",
+      "sicSection": "B",
+      "gva": 10094340,
+      "share": 0.0032
+    },
+    {
+      "sector": "Agriculture, forestry & fishing",
+      "sicSection": "A",
+      "gva": 7757396,
+      "share": 0.0024
+    },
+    {
+      "sector": "Electricity, gas & air conditioning",
+      "sicSection": "D",
+      "gva": 6591549,
+      "share": 0.0021
+    }
+  ],
+  "methodology": "Estimated using national GVA-per-job ratios applied to local sector employment (BRES). Indicative only."
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Merton",
+  "onsCode": "E09000024",
+  "totalEmployment": 78050,
+  "claimantRate": 4.6,
+  "medianEarnings": 43507,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.6,
+      "rank": 290,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 43507,
+      "rank": 13,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

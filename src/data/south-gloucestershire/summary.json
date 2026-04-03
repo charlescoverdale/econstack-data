@@ -1,0 +1,22 @@
+{
+  "name": "South Gloucestershire",
+  "onsCode": "E06000025",
+  "totalEmployment": 169425,
+  "claimantRate": 2.1,
+  "medianEarnings": 35002,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.1,
+      "rank": 37,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35002,
+      "rank": 103,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

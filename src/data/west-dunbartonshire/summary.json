@@ -1,0 +1,22 @@
+{
+  "name": "West Dunbartonshire",
+  "onsCode": "S12000039",
+  "totalEmployment": 30105,
+  "claimantRate": 3.8,
+  "medianEarnings": 31962,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 241,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31962,
+      "rank": 184,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

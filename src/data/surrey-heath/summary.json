@@ -1,0 +1,22 @@
+{
+  "name": "Surrey Heath",
+  "onsCode": "E07000214",
+  "totalEmployment": 51195,
+  "claimantRate": 2.3,
+  "medianEarnings": 37793,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 55,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 37793,
+      "rank": 55,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

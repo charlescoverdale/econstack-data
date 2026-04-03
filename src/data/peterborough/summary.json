@@ -1,0 +1,22 @@
+{
+  "name": "Peterborough",
+  "onsCode": "E06000031",
+  "totalEmployment": 116520,
+  "claimantRate": 5.5,
+  "medianEarnings": 29828,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.5,
+      "rank": 318,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29828,
+      "rank": 273,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

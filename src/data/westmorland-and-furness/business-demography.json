@@ -1,0 +1,25 @@
+{
+  "births": 740,
+  "deaths": 765,
+  "active": 9700,
+  "year": "2024",
+  "birthRate": 7.6,
+  "deathRate": 7.9,
+  "netFormationRate": -0.3,
+  "survivalRates": {
+    "1year": 0,
+    "3year": 0,
+    "5year": 0
+  },
+  "trend": [
+    {
+      "year": "2024",
+      "births": 740,
+      "deaths": 765,
+      "active": 9700
+    }
+  ],
+  "englandBirthRate": 11.2,
+  "englandDeathRate": 9.9,
+  "englandSurvival5yr": 40.7
+}

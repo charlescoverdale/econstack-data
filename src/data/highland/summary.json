@@ -1,0 +1,22 @@
+{
+  "name": "Highland",
+  "onsCode": "S12000017",
+  "totalEmployment": 116470,
+  "claimantRate": 2.4,
+  "medianEarnings": 31416,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 80,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31416,
+      "rank": 212,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

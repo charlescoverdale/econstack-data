@@ -1,0 +1,22 @@
+{
+  "name": "Sutton",
+  "onsCode": "E09000029",
+  "totalEmployment": 71905,
+  "claimantRate": 3.5,
+  "medianEarnings": 38359,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 210,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 38359,
+      "rank": 45,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

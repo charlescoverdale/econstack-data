@@ -1,0 +1,22 @@
+{
+  "name": "Exeter",
+  "onsCode": "E07000041",
+  "totalEmployment": 98970,
+  "claimantRate": 2.3,
+  "medianEarnings": 29531,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 57,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29531,
+      "rank": 293,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

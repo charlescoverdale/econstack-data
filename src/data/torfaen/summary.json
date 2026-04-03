@@ -1,0 +1,22 @@
+{
+  "name": "Torfaen",
+  "onsCode": "W06000020",
+  "totalEmployment": 36820,
+  "claimantRate": 3.8,
+  "medianEarnings": 33201,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 240,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33201,
+      "rank": 148,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Rotherham",
+  "onsCode": "E08000018",
+  "totalEmployment": 100480,
+  "claimantRate": 3.8,
+  "medianEarnings": 29664,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 234,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29664,
+      "rank": 285,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

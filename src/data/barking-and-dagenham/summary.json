@@ -1,0 +1,22 @@
+{
+  "name": "Barking and Dagenham",
+  "onsCode": "E09000002",
+  "totalEmployment": 58415,
+  "claimantRate": 7.6,
+  "medianEarnings": 32911,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 7.6,
+      "rank": 348,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32911,
+      "rank": 162,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

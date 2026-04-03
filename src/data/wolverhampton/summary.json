@@ -1,0 +1,22 @@
+{
+  "name": "Wolverhampton",
+  "onsCode": "E08000031",
+  "totalEmployment": 109060,
+  "claimantRate": 6.9,
+  "medianEarnings": 31308,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.9,
+      "rank": 342,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31308,
+      "rank": 216,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

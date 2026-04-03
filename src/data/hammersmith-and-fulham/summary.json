@@ -1,0 +1,22 @@
+{
+  "name": "Hammersmith and Fulham",
+  "onsCode": "E09000013",
+  "totalEmployment": 142405,
+  "claimantRate": 4.8,
+  "medianEarnings": 42811,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.8,
+      "rank": 298,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 42811,
+      "rank": 17,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

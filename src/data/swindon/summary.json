@@ -1,0 +1,22 @@
+{
+  "name": "Swindon",
+  "onsCode": "E06000030",
+  "totalEmployment": 112810,
+  "claimantRate": 3.4,
+  "medianEarnings": 33135,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.4,
+      "rank": 198,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33135,
+      "rank": 150,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

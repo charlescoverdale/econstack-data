@@ -1,0 +1,22 @@
+{
+  "name": "Slough",
+  "onsCode": "E06000039",
+  "totalEmployment": 78855,
+  "claimantRate": 6,
+  "medianEarnings": 35521,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6,
+      "rank": 331,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35521,
+      "rank": 91,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

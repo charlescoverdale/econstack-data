@@ -1,0 +1,22 @@
+{
+  "name": "St Albans",
+  "onsCode": "E07000240",
+  "totalEmployment": 65090,
+  "claimantRate": 2.4,
+  "medianEarnings": 45543,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 72,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 45543,
+      "rank": 5,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

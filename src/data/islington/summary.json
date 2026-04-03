@@ -1,0 +1,22 @@
+{
+  "name": "Islington",
+  "onsCode": "E09000019",
+  "totalEmployment": 264195,
+  "claimantRate": 5.6,
+  "medianEarnings": 47411,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.6,
+      "rank": 320,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 47411,
+      "rank": 2,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

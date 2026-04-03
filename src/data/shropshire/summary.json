@@ -1,0 +1,22 @@
+{
+  "name": "Shropshire",
+  "onsCode": "E06000051",
+  "totalEmployment": 128820,
+  "claimantRate": 2.5,
+  "medianEarnings": 29603,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 86,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29603,
+      "rank": 290,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

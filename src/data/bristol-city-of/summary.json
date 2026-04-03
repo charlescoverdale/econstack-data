@@ -1,0 +1,22 @@
+{
+  "name": "Bristol, City of",
+  "onsCode": "E06000023",
+  "totalEmployment": 311875,
+  "claimantRate": 3.7,
+  "medianEarnings": 34051,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.7,
+      "rank": 227,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34051,
+      "rank": 121,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

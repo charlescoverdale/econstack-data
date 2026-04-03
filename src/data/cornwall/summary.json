@@ -1,0 +1,22 @@
+{
+  "name": "Cornwall",
+  "onsCode": "E06000052",
+  "totalEmployment": 232295,
+  "claimantRate": 3.4,
+  "medianEarnings": 28210,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.4,
+      "rank": 197,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28210,
+      "rank": 327,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

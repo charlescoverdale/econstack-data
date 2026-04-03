@@ -1,0 +1,22 @@
+{
+  "name": "Vale of Glamorgan",
+  "onsCode": "W06000014",
+  "totalEmployment": 41650,
+  "claimantRate": 3.3,
+  "medianEarnings": 31410,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.3,
+      "rank": 187,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31410,
+      "rank": 213,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

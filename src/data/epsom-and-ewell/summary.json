@@ -1,0 +1,22 @@
+{
+  "name": "Epsom and Ewell",
+  "onsCode": "E07000208",
+  "totalEmployment": 32445,
+  "claimantRate": 2.2,
+  "medianEarnings": 43006,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.2,
+      "rank": 44,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 43006,
+      "rank": 16,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

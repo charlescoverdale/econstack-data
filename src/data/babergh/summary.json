@@ -1,0 +1,22 @@
+{
+  "name": "Babergh",
+  "onsCode": "E07000200",
+  "totalEmployment": 32455,
+  "claimantRate": 2.5,
+  "medianEarnings": 30118,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 89,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30118,
+      "rank": 262,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

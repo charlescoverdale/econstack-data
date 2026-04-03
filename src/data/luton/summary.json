@@ -1,0 +1,22 @@
+{
+  "name": "Luton",
+  "onsCode": "E06000032",
+  "totalEmployment": 109210,
+  "claimantRate": 6.6,
+  "medianEarnings": 28741,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.6,
+      "rank": 337,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28741,
+      "rank": 318,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

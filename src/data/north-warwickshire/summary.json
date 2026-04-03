@@ -1,0 +1,22 @@
+{
+  "name": "North Warwickshire",
+  "onsCode": "E07000218",
+  "totalEmployment": 54475,
+  "claimantRate": 2.8,
+  "medianEarnings": 35067,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.8,
+      "rank": 131,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35067,
+      "rank": 100,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

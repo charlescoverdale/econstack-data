@@ -1,0 +1,22 @@
+{
+  "name": "Inverclyde",
+  "onsCode": "S12000018",
+  "totalEmployment": 24385,
+  "claimantRate": 3.3,
+  "medianEarnings": 29020,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.3,
+      "rank": 189,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29020,
+      "rank": 306,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

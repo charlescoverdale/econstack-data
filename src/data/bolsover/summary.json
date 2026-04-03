@@ -1,0 +1,22 @@
+{
+  "name": "Bolsover",
+  "onsCode": "E07000033",
+  "totalEmployment": 32510,
+  "claimantRate": 3,
+  "medianEarnings": 29674,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 147,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29674,
+      "rank": 284,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

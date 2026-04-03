@@ -1,0 +1,22 @@
+{
+  "name": "Cheshire West and Chester",
+  "onsCode": "E06000050",
+  "totalEmployment": 174760,
+  "claimantRate": 2.7,
+  "medianEarnings": 32391,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 110,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32391,
+      "rank": 176,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

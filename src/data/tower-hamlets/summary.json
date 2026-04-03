@@ -1,0 +1,22 @@
+{
+  "name": "Tower Hamlets",
+  "onsCode": "E09000030",
+  "totalEmployment": 344600,
+  "claimantRate": 6.7,
+  "medianEarnings": 45183,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.7,
+      "rank": 338,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 45183,
+      "rank": 6,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

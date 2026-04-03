@@ -1,0 +1,38 @@
+{
+  "percentiles": [
+    {
+      "percentile": "p10",
+      "local": 9442,
+      "england": 11440
+    },
+    {
+      "percentile": "p25",
+      "local": 18335,
+      "england": 22142
+    },
+    {
+      "percentile": "p50",
+      "local": 29824,
+      "england": 33080
+    },
+    {
+      "percentile": "p75",
+      "local": 41157,
+      "england": 48731
+    },
+    {
+      "percentile": "p90",
+      "local": 0,
+      "england": 70943
+    }
+  ],
+  "year": "2025",
+  "genderGap": {
+    "maleMedian": 31632,
+    "femaleMedian": 26876,
+    "gapPercent": 15,
+    "englandMaleMedian": 38762,
+    "englandFemaleMedian": 27848,
+    "englandGapPercent": 28.2
+  }
+}

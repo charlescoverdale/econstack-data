@@ -1,0 +1,22 @@
+{
+  "name": "Bolton",
+  "onsCode": "E08000001",
+  "totalEmployment": 116360,
+  "claimantRate": 5.3,
+  "medianEarnings": 29409,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.3,
+      "rank": 311,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29409,
+      "rank": 295,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

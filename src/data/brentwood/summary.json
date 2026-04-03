@@ -1,0 +1,22 @@
+{
+  "name": "Brentwood",
+  "onsCode": "E07000068",
+  "totalEmployment": 33370,
+  "claimantRate": 2.6,
+  "medianEarnings": 39864,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.6,
+      "rank": 99,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 39864,
+      "rank": 32,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

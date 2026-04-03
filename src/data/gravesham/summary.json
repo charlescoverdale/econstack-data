@@ -1,0 +1,22 @@
+{
+  "name": "Gravesham",
+  "onsCode": "E07000109",
+  "totalEmployment": 34660,
+  "claimantRate": 4.2,
+  "medianEarnings": 35065,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.2,
+      "rank": 264,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35065,
+      "rank": 101,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

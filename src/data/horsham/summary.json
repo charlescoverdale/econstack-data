@@ -1,0 +1,22 @@
+{
+  "name": "Horsham",
+  "onsCode": "E07000227",
+  "totalEmployment": 57175,
+  "claimantRate": 2.1,
+  "medianEarnings": 36448,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.1,
+      "rank": 35,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36448,
+      "rank": 71,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

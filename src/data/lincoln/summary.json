@@ -1,0 +1,22 @@
+{
+  "name": "Lincoln",
+  "onsCode": "E07000138",
+  "totalEmployment": 60445,
+  "claimantRate": 3.9,
+  "medianEarnings": 29824,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.9,
+      "rank": 245,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29824,
+      "rank": 274,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

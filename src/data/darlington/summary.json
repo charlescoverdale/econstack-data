@@ -1,0 +1,22 @@
+{
+  "name": "Darlington",
+  "onsCode": "E06000005",
+  "totalEmployment": 54880,
+  "claimantRate": 3.6,
+  "medianEarnings": 30100,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.6,
+      "rank": 216,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30100,
+      "rank": 263,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Thurrock",
+  "onsCode": "E06000034",
+  "totalEmployment": 77440,
+  "claimantRate": 4.4,
+  "medianEarnings": 36407,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.4,
+      "rank": 278,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36407,
+      "rank": 74,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Redcar and Cleveland",
+  "onsCode": "E06000003",
+  "totalEmployment": 40370,
+  "claimantRate": 3.8,
+  "medianEarnings": 28630,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 230,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28630,
+      "rank": 319,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Ceredigion",
+  "onsCode": "W06000008",
+  "totalEmployment": 26310,
+  "claimantRate": 2.7,
+  "medianEarnings": 29326,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 125,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29326,
+      "rank": 299,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

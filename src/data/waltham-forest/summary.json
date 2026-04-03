@@ -1,0 +1,22 @@
+{
+  "name": "Waltham Forest",
+  "onsCode": "E09000031",
+  "totalEmployment": 88145,
+  "claimantRate": 6.7,
+  "medianEarnings": 37971,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.7,
+      "rank": 339,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 37971,
+      "rank": 52,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Southwark",
+  "onsCode": "E09000028",
+  "totalEmployment": 289390,
+  "claimantRate": 5.7,
+  "medianEarnings": 43006,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.7,
+      "rank": 322,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 43006,
+      "rank": 15,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

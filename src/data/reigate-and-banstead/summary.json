@@ -1,0 +1,22 @@
+{
+  "name": "Reigate and Banstead",
+  "onsCode": "E07000211",
+  "totalEmployment": 66445,
+  "claimantRate": 2.2,
+  "medianEarnings": 40014,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.2,
+      "rank": 45,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 40014,
+      "rank": 28,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

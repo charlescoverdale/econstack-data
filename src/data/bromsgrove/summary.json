@@ -1,0 +1,22 @@
+{
+  "name": "Bromsgrove",
+  "onsCode": "E07000234",
+  "totalEmployment": 42290,
+  "claimantRate": 2.7,
+  "medianEarnings": 36409,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 114,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36409,
+      "rank": 73,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

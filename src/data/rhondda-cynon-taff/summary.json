@@ -1,0 +1,22 @@
+{
+  "name": "Rhondda Cynon Taff",
+  "onsCode": "W06000016",
+  "totalEmployment": 80345,
+  "claimantRate": 3.2,
+  "medianEarnings": 29802,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.2,
+      "rank": 178,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29802,
+      "rank": 279,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

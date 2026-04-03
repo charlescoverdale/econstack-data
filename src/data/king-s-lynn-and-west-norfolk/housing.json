@@ -1,0 +1,149 @@
+{
+  "trend": [
+    {
+      "year": 2015,
+      "local": 186185,
+      "england": 212000
+    },
+    {
+      "year": 2016,
+      "local": 193211,
+      "england": 220000
+    },
+    {
+      "year": 2017,
+      "local": 203750,
+      "england": 232000
+    },
+    {
+      "year": 2018,
+      "local": 210776,
+      "england": 240000
+    },
+    {
+      "year": 2019,
+      "local": 215167,
+      "england": 245000
+    },
+    {
+      "year": 2020,
+      "local": 221315,
+      "england": 252000
+    },
+    {
+      "year": 2021,
+      "local": 232732,
+      "england": 265000
+    },
+    {
+      "year": 2022,
+      "local": 241514,
+      "england": 275000
+    },
+    {
+      "year": 2023,
+      "local": 245905,
+      "england": 280000
+    },
+    {
+      "year": 2024,
+      "local": 250296,
+      "england": 285000
+    },
+    {
+      "year": 2025,
+      "local": 254688,
+      "england": 290000
+    }
+  ],
+  "medianPrice": 254688,
+  "priceToEarnings": 8.3,
+  "yearChange": 1.8,
+  "tenure": [
+    {
+      "tenure": "Owned",
+      "local": 45203,
+      "localPct": 67,
+      "englandPct": 61.3
+    },
+    {
+      "tenure": "Owned: Owns outright",
+      "local": 28053,
+      "localPct": 41.6,
+      "englandPct": 32.5
+    },
+    {
+      "tenure": "Owned: Owns with a mortgage or loan",
+      "local": 17150,
+      "localPct": 25.4,
+      "englandPct": 28.8
+    },
+    {
+      "tenure": "Shared ownership",
+      "local": 323,
+      "localPct": 0.5,
+      "englandPct": 1
+    },
+    {
+      "tenure": "Shared ownership: Shared ownership",
+      "local": 323,
+      "localPct": 0.5,
+      "englandPct": 1
+    },
+    {
+      "tenure": "Social rented",
+      "local": 9180,
+      "localPct": 13.6,
+      "englandPct": 17.1
+    },
+    {
+      "tenure": "Social rented: Rents from council or Local Authority",
+      "local": 2167,
+      "localPct": 3.2,
+      "englandPct": 8.3
+    },
+    {
+      "tenure": "Social rented: Other social rented",
+      "local": 7013,
+      "localPct": 10.4,
+      "englandPct": 8.8
+    },
+    {
+      "tenure": "Private rented",
+      "local": 12704,
+      "localPct": 18.8,
+      "englandPct": 20.5
+    },
+    {
+      "tenure": "Private rented: Private landlord or letting agency",
+      "local": 10482,
+      "localPct": 15.5,
+      "englandPct": 18.2
+    },
+    {
+      "tenure": "Private rented: Other private rented",
+      "local": 2222,
+      "localPct": 3.3,
+      "englandPct": 2.2
+    },
+    {
+      "tenure": "Lives rent free",
+      "local": 54,
+      "localPct": 0.1,
+      "englandPct": 0.1
+    },
+    {
+      "tenure": "Owns with a mortgage or loan or shared ownership",
+      "local": 17473,
+      "localPct": 25.9,
+      "englandPct": 29.8
+    },
+    {
+      "tenure": "Private rented or lives rent free",
+      "local": 12758,
+      "localPct": 18.9,
+      "englandPct": 20.6
+    }
+  ],
+  "totalHouseholds": 67464
+}

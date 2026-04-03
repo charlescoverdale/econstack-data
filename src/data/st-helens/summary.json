@@ -1,0 +1,22 @@
+{
+  "name": "St. Helens",
+  "onsCode": "E08000013",
+  "totalEmployment": 63720,
+  "claimantRate": 3.9,
+  "medianEarnings": 31443,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.9,
+      "rank": 243,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31443,
+      "rank": 211,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,57 @@
+{
+  "imdRank": 127,
+  "imdScore": 19.61,
+  "imdPercentile": 60,
+  "totalLAs": 317,
+  "domains": [
+    {
+      "domain": "Income",
+      "key": "income",
+      "rank": 166,
+      "score": 0.1,
+      "percentile": 48
+    },
+    {
+      "domain": "Employment",
+      "key": "employment",
+      "rank": 145,
+      "score": 0.09,
+      "percentile": 55
+    },
+    {
+      "domain": "Education, Skills & Training",
+      "key": "education",
+      "rank": 19,
+      "score": 33.05,
+      "percentile": 94
+    },
+    {
+      "domain": "Health & Disability",
+      "key": "health",
+      "rank": 139,
+      "score": -0.04,
+      "percentile": 56
+    },
+    {
+      "domain": "Crime",
+      "key": "crime",
+      "rank": 249,
+      "score": -0.59,
+      "percentile": 22
+    },
+    {
+      "domain": "Barriers to Housing & Services",
+      "key": "housing",
+      "rank": 75,
+      "score": 25.8,
+      "percentile": 77
+    },
+    {
+      "domain": "Living Environment",
+      "key": "environment",
+      "rank": 183,
+      "score": 18.32,
+      "percentile": 43
+    }
+  ]
+}

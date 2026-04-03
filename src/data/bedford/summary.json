@@ -1,0 +1,22 @@
+{
+  "name": "Bedford",
+  "onsCode": "E06000055",
+  "totalEmployment": 82360,
+  "claimantRate": 4.5,
+  "medianEarnings": 35987,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.5,
+      "rank": 280,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35987,
+      "rank": 83,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

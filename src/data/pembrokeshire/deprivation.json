@@ -1,0 +1,65 @@
+{
+  "imdRank": 12,
+  "imdScore": 19.58,
+  "imdPercentile": 50,
+  "totalLAs": 22,
+  "source": "WIMD",
+  "domains": [
+    {
+      "domain": "Income",
+      "key": "income",
+      "rank": 14,
+      "score": 18.07,
+      "percentile": 41
+    },
+    {
+      "domain": "Employment",
+      "key": "employment",
+      "rank": 14,
+      "score": 17.26,
+      "percentile": 41
+    },
+    {
+      "domain": "Health",
+      "key": "health",
+      "rank": 17,
+      "score": 13.26,
+      "percentile": 27
+    },
+    {
+      "domain": "Education",
+      "key": "education",
+      "rank": 9,
+      "score": 22.25,
+      "percentile": 64
+    },
+    {
+      "domain": "Access to Services",
+      "key": "access",
+      "rank": 3,
+      "score": 40.41,
+      "percentile": 91
+    },
+    {
+      "domain": "Housing",
+      "key": "housing",
+      "rank": 12,
+      "score": 18.13,
+      "percentile": 50
+    },
+    {
+      "domain": "Community Safety",
+      "key": "community_safety",
+      "rank": 19,
+      "score": 15.71,
+      "percentile": 18
+    },
+    {
+      "domain": "Physical Environment",
+      "key": "environment",
+      "rank": 14,
+      "score": 12.19,
+      "percentile": 41
+    }
+  ]
+}

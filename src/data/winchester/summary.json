@@ -1,0 +1,22 @@
+{
+  "name": "Winchester",
+  "onsCode": "E07000094",
+  "totalEmployment": 97900,
+  "claimantRate": 2.1,
+  "medianEarnings": 38352,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.1,
+      "rank": 33,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 38352,
+      "rank": 46,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

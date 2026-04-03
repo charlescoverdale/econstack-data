@@ -1,0 +1,22 @@
+{
+  "name": "West Northamptonshire",
+  "onsCode": "E06000062",
+  "totalEmployment": 216170,
+  "claimantRate": 3.4,
+  "medianEarnings": 33059,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.4,
+      "rank": 201,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33059,
+      "rank": 154,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

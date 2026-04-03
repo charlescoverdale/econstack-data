@@ -1,0 +1,22 @@
+{
+  "name": "Fenland",
+  "onsCode": "E07000010",
+  "totalEmployment": 38505,
+  "claimantRate": 3.9,
+  "medianEarnings": 30125,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.9,
+      "rank": 249,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30125,
+      "rank": 261,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

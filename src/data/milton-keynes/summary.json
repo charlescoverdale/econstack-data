@@ -1,0 +1,22 @@
+{
+  "name": "Milton Keynes",
+  "onsCode": "E06000042",
+  "totalEmployment": 190910,
+  "claimantRate": 4.2,
+  "medianEarnings": 36061,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.2,
+      "rank": 263,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36061,
+      "rank": 79,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

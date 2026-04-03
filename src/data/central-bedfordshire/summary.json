@@ -1,0 +1,22 @@
+{
+  "name": "Central Bedfordshire",
+  "onsCode": "E06000056",
+  "totalEmployment": 112450,
+  "claimantRate": 2.7,
+  "medianEarnings": 36622,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 116,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36622,
+      "rank": 66,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

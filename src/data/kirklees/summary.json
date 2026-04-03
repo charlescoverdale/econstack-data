@@ -1,0 +1,22 @@
+{
+  "name": "Kirklees",
+  "onsCode": "E08000034",
+  "totalEmployment": 160300,
+  "claimantRate": 4.7,
+  "medianEarnings": 30238,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.7,
+      "rank": 292,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30238,
+      "rank": 254,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

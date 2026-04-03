@@ -1,0 +1,22 @@
+{
+  "name": "Sefton",
+  "onsCode": "E08000014",
+  "totalEmployment": 88910,
+  "claimantRate": 3.8,
+  "medianEarnings": 29335,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 233,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29335,
+      "rank": 298,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

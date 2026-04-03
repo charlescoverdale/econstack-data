@@ -1,0 +1,22 @@
+{
+  "name": "Scottish Borders",
+  "onsCode": "S12000026",
+  "totalEmployment": 43090,
+  "claimantRate": 2.9,
+  "medianEarnings": 28796,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.9,
+      "rank": 144,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28796,
+      "rank": 314,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

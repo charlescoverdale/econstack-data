@@ -1,0 +1,22 @@
+{
+  "name": "Rugby",
+  "onsCode": "E07000220",
+  "totalEmployment": 53770,
+  "claimantRate": 2.8,
+  "medianEarnings": 41814,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.8,
+      "rank": 132,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 41814,
+      "rank": 24,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

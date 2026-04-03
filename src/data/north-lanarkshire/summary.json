@@ -1,0 +1,22 @@
+{
+  "name": "North Lanarkshire",
+  "onsCode": "S12000050",
+  "totalEmployment": 130055,
+  "claimantRate": 3,
+  "medianEarnings": 34105,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 157,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34105,
+      "rank": 119,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

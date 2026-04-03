@@ -1,0 +1,22 @@
+{
+  "name": "Enfield",
+  "onsCode": "E09000010",
+  "totalEmployment": 109815,
+  "claimantRate": 7.1,
+  "medianEarnings": 34962,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 7.1,
+      "rank": 345,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34962,
+      "rank": 105,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

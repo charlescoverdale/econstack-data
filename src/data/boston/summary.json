@@ -1,0 +1,22 @@
+{
+  "name": "Boston",
+  "onsCode": "E07000136",
+  "totalEmployment": 30705,
+  "claimantRate": 5,
+  "medianEarnings": 27729,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5,
+      "rank": 303,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 27729,
+      "rank": 335,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

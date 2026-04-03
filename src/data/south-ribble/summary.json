@@ -1,0 +1,22 @@
+{
+  "name": "South Ribble",
+  "onsCode": "E07000126",
+  "totalEmployment": 52445,
+  "claimantRate": 2.5,
+  "medianEarnings": 32740,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 84,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32740,
+      "rank": 168,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

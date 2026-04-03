@@ -1,0 +1,22 @@
+{
+  "name": "Warrington",
+  "onsCode": "E06000007",
+  "totalEmployment": 153510,
+  "claimantRate": 2.7,
+  "medianEarnings": 34144,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 111,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34144,
+      "rank": 117,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

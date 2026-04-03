@@ -1,0 +1,22 @@
+{
+  "name": "Lichfield",
+  "onsCode": "E07000194",
+  "totalEmployment": 50215,
+  "claimantRate": 2.3,
+  "medianEarnings": 33763,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 50,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33763,
+      "rank": 129,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

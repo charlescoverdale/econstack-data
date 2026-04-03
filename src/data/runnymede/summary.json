@@ -1,0 +1,22 @@
+{
+  "name": "Runnymede",
+  "onsCode": "E07000212",
+  "totalEmployment": 56495,
+  "claimantRate": 2.6,
+  "medianEarnings": 42203,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.6,
+      "rank": 103,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 42203,
+      "rank": 22,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

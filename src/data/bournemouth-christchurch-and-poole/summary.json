@@ -1,0 +1,22 @@
+{
+  "name": "Bournemouth, Christchurch and Poole",
+  "onsCode": "E06000058",
+  "totalEmployment": 185205,
+  "claimantRate": 3.5,
+  "medianEarnings": 31848,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 215,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31848,
+      "rank": 192,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

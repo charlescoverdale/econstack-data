@@ -1,0 +1,22 @@
+{
+  "name": "Stockport",
+  "onsCode": "E08000007",
+  "totalEmployment": 136810,
+  "claimantRate": 3.1,
+  "medianEarnings": 33565,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.1,
+      "rank": 159,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33565,
+      "rank": 136,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

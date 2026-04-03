@@ -1,0 +1,22 @@
+{
+  "name": "North Kesteven",
+  "onsCode": "E07000139",
+  "totalEmployment": 43735,
+  "claimantRate": 2.2,
+  "medianEarnings": 30585,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.2,
+      "rank": 41,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30585,
+      "rank": 241,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

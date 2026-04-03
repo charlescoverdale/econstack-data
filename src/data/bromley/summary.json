@@ -1,0 +1,22 @@
+{
+  "name": "Bromley",
+  "onsCode": "E09000006",
+  "totalEmployment": 104930,
+  "claimantRate": 3.5,
+  "medianEarnings": 43981,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 209,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 43981,
+      "rank": 10,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

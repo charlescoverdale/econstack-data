@@ -1,0 +1,22 @@
+{
+  "name": "Barnsley",
+  "onsCode": "E08000016",
+  "totalEmployment": 83565,
+  "claimantRate": 3.3,
+  "medianEarnings": 31359,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.3,
+      "rank": 179,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31359,
+      "rank": 214,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

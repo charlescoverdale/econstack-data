@@ -1,0 +1,22 @@
+{
+  "name": "Wrexham",
+  "onsCode": "W06000006",
+  "totalEmployment": 59285,
+  "claimantRate": 3,
+  "medianEarnings": 29752,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 156,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29752,
+      "rank": 280,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

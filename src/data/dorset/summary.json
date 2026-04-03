@@ -1,0 +1,22 @@
+{
+  "name": "Dorset",
+  "onsCode": "E06000059",
+  "totalEmployment": 150330,
+  "claimantRate": 2.4,
+  "medianEarnings": 31444,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 83,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31444,
+      "rank": 210,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

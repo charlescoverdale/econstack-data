@@ -1,0 +1,22 @@
+{
+  "name": "Somerset",
+  "onsCode": "E06000066",
+  "totalEmployment": 245145,
+  "claimantRate": 2.6,
+  "medianEarnings": 29908,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.6,
+      "rank": 108,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29908,
+      "rank": 270,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

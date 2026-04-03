@@ -1,0 +1,22 @@
+{
+  "name": "Ealing",
+  "onsCode": "E09000009",
+  "totalEmployment": 128230,
+  "claimantRate": 6.5,
+  "medianEarnings": 35665,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.5,
+      "rank": 335,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35665,
+      "rank": 89,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

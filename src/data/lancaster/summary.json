@@ -1,0 +1,22 @@
+{
+  "name": "Lancaster",
+  "onsCode": "E07000121",
+  "totalEmployment": 58495,
+  "claimantRate": 3,
+  "medianEarnings": 29651,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 146,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29651,
+      "rank": 287,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

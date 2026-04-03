@@ -1,0 +1,22 @@
+{
+  "name": "Welwyn Hatfield",
+  "onsCode": "E07000241",
+  "totalEmployment": 79840,
+  "claimantRate": 3,
+  "medianEarnings": 37805,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 153,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 37805,
+      "rank": 54,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "North Tyneside",
+  "onsCode": "E08000022",
+  "totalEmployment": 86500,
+  "claimantRate": 3.4,
+  "medianEarnings": 31106,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.4,
+      "rank": 191,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31106,
+      "rank": 220,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

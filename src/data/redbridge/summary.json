@@ -1,0 +1,22 @@
+{
+  "name": "Redbridge",
+  "onsCode": "E09000026",
+  "totalEmployment": 81820,
+  "claimantRate": 6,
+  "medianEarnings": 37190,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6,
+      "rank": 330,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 37190,
+      "rank": 61,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Leicester",
+  "onsCode": "E06000016",
+  "totalEmployment": 171995,
+  "claimantRate": 5.5,
+  "medianEarnings": 27858,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.5,
+      "rank": 316,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 27858,
+      "rank": 333,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

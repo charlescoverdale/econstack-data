@@ -1,0 +1,22 @@
+{
+  "name": "North Hertfordshire",
+  "onsCode": "E07000099",
+  "totalEmployment": 48510,
+  "claimantRate": 2.3,
+  "medianEarnings": 42703,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 53,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 42703,
+      "rank": 18,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

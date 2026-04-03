@@ -1,0 +1,22 @@
+{
+  "name": "Rochdale",
+  "onsCode": "E08000005",
+  "totalEmployment": 89130,
+  "claimantRate": 6,
+  "medianEarnings": 29535,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6,
+      "rank": 329,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29535,
+      "rank": 292,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

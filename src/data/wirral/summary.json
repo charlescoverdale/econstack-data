@@ -1,0 +1,22 @@
+{
+  "name": "Wirral",
+  "onsCode": "E08000015",
+  "totalEmployment": 103950,
+  "claimantRate": 3.5,
+  "medianEarnings": 32959,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 202,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32959,
+      "rank": 159,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

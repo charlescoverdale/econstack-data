@@ -1,0 +1,22 @@
+{
+  "name": "Broxbourne",
+  "onsCode": "E07000095",
+  "totalEmployment": 35315,
+  "claimantRate": 3.5,
+  "medianEarnings": 37283,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 205,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 37283,
+      "rank": 60,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

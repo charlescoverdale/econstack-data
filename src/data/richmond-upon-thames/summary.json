@@ -1,0 +1,22 @@
+{
+  "name": "Richmond upon Thames",
+  "onsCode": "E09000027",
+  "totalEmployment": 80850,
+  "claimantRate": 2.5,
+  "medianEarnings": 46594,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 90,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 46594,
+      "rank": 4,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

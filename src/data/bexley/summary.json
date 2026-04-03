@@ -1,0 +1,22 @@
+{
+  "name": "Bexley",
+  "onsCode": "E09000004",
+  "totalEmployment": 72405,
+  "claimantRate": 3.4,
+  "medianEarnings": 36883,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.4,
+      "rank": 195,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36883,
+      "rank": 63,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

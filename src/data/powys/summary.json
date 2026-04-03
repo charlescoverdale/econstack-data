@@ -1,0 +1,22 @@
+{
+  "name": "Powys",
+  "onsCode": "W06000023",
+  "totalEmployment": 49000,
+  "claimantRate": 2.7,
+  "medianEarnings": 30275,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 124,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30275,
+      "rank": 251,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

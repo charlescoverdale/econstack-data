@@ -1,0 +1,22 @@
+{
+  "name": "Southend-on-Sea",
+  "onsCode": "E06000033",
+  "totalEmployment": 65655,
+  "claimantRate": 4.4,
+  "medianEarnings": 33594,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.4,
+      "rank": 277,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33594,
+      "rank": 135,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

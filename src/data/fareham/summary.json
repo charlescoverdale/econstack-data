@@ -1,0 +1,22 @@
+{
+  "name": "Fareham",
+  "onsCode": "E07000087",
+  "totalEmployment": 49120,
+  "claimantRate": 2.1,
+  "medianEarnings": 38851,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.1,
+      "rank": 32,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 38851,
+      "rank": 42,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

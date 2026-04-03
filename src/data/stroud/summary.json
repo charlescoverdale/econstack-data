@@ -1,0 +1,22 @@
+{
+  "name": "Stroud",
+  "onsCode": "E07000082",
+  "totalEmployment": 50810,
+  "claimantRate": 2.2,
+  "medianEarnings": 33495,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.2,
+      "rank": 49,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33495,
+      "rank": 139,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

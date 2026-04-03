@@ -1,0 +1,22 @@
+{
+  "name": "Bury",
+  "onsCode": "E08000002",
+  "totalEmployment": 73460,
+  "claimantRate": 4.4,
+  "medianEarnings": 31687,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.4,
+      "rank": 275,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31687,
+      "rank": 197,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Blackpool",
+  "onsCode": "E06000009",
+  "totalEmployment": 64440,
+  "claimantRate": 6,
+  "medianEarnings": 27979,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6,
+      "rank": 327,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 27979,
+      "rank": 332,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

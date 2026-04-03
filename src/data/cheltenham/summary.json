@@ -1,0 +1,22 @@
+{
+  "name": "Cheltenham",
+  "onsCode": "E07000078",
+  "totalEmployment": 65375,
+  "claimantRate": 2.8,
+  "medianEarnings": 36014,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.8,
+      "rank": 133,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36014,
+      "rank": 81,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

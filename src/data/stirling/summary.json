@@ -1,0 +1,22 @@
+{
+  "name": "Stirling",
+  "onsCode": "S12000030",
+  "totalEmployment": 46160,
+  "claimantRate": 2.3,
+  "medianEarnings": 33832,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 60,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33832,
+      "rank": 127,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

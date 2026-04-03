@@ -1,0 +1,22 @@
+{
+  "name": "Ipswich",
+  "onsCode": "E07000202",
+  "totalEmployment": 72905,
+  "claimantRate": 4.6,
+  "medianEarnings": 30928,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.6,
+      "rank": 289,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30928,
+      "rank": 226,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

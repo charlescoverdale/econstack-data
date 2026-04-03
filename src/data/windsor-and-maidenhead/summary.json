@@ -1,0 +1,22 @@
+{
+  "name": "Windsor and Maidenhead",
+  "onsCode": "E06000040",
+  "totalEmployment": 102170,
+  "claimantRate": 2.6,
+  "medianEarnings": 37653,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.6,
+      "rank": 101,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 37653,
+      "rank": 57,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

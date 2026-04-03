@@ -1,0 +1,22 @@
+{
+  "name": "Pembrokeshire",
+  "onsCode": "W06000009",
+  "totalEmployment": 45115,
+  "claimantRate": 3.6,
+  "medianEarnings": 27243,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.6,
+      "rank": 225,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 27243,
+      "rank": 339,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

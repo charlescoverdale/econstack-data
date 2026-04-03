@@ -1,0 +1,22 @@
+{
+  "name": "Midlothian",
+  "onsCode": "S12000019",
+  "totalEmployment": 33180,
+  "claimantRate": 2.4,
+  "medianEarnings": 31856,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 81,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31856,
+      "rank": 190,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Portsmouth",
+  "onsCode": "E06000044",
+  "totalEmployment": 105270,
+  "claimantRate": 4.6,
+  "medianEarnings": 30962,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.6,
+      "rank": 291,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30962,
+      "rank": 223,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

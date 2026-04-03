@@ -1,0 +1,22 @@
+{
+  "name": "Elmbridge",
+  "onsCode": "E07000207",
+  "totalEmployment": 64185,
+  "claimantRate": 2.4,
+  "medianEarnings": 42607,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 76,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 42607,
+      "rank": 20,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

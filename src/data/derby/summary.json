@@ -1,0 +1,22 @@
+{
+  "name": "Derby",
+  "onsCode": "E06000015",
+  "totalEmployment": 137715,
+  "claimantRate": 5.1,
+  "medianEarnings": 30467,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.1,
+      "rank": 306,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30467,
+      "rank": 246,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

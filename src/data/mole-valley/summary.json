@@ -1,0 +1,22 @@
+{
+  "name": "Mole Valley",
+  "onsCode": "E07000210",
+  "totalEmployment": 45615,
+  "claimantRate": 1.9,
+  "medianEarnings": 35341,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 1.9,
+      "rank": 11,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35341,
+      "rank": 95,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

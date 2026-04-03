@@ -1,0 +1,22 @@
+{
+  "name": "Three Rivers",
+  "onsCode": "E07000102",
+  "totalEmployment": 42800,
+  "claimantRate": 2.7,
+  "medianEarnings": 39615,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 119,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 39615,
+      "rank": 35,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

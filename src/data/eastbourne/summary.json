@@ -1,0 +1,22 @@
+{
+  "name": "Eastbourne",
+  "onsCode": "E07000061",
+  "totalEmployment": 37960,
+  "claimantRate": 4.9,
+  "medianEarnings": 31199,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.9,
+      "rank": 301,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31199,
+      "rank": 218,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

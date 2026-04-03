@@ -1,0 +1,22 @@
+{
+  "name": "Hackney",
+  "onsCode": "E09000012",
+  "totalEmployment": 169530,
+  "claimantRate": 7,
+  "medianEarnings": 40237,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 7,
+      "rank": 344,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 40237,
+      "rank": 27,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

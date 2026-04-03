@@ -1,0 +1,22 @@
+{
+  "name": "Newham",
+  "onsCode": "E09000025",
+  "totalEmployment": 136830,
+  "claimantRate": 7.7,
+  "medianEarnings": 36080,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 7.7,
+      "rank": 349,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36080,
+      "rank": 77,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

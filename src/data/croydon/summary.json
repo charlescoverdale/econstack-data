@@ -1,0 +1,22 @@
+{
+  "name": "Croydon",
+  "onsCode": "E09000008",
+  "totalEmployment": 120510,
+  "claimantRate": 6.4,
+  "medianEarnings": 38080,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.4,
+      "rank": 334,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 38080,
+      "rank": 50,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

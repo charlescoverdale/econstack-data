@@ -1,0 +1,22 @@
+{
+  "name": "Swansea",
+  "onsCode": "W06000011",
+  "totalEmployment": 107830,
+  "claimantRate": 3.3,
+  "medianEarnings": 32091,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.3,
+      "rank": 186,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32091,
+      "rank": 182,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

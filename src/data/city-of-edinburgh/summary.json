@@ -1,0 +1,22 @@
+{
+  "name": "City of Edinburgh",
+  "onsCode": "S12000036",
+  "totalEmployment": 367555,
+  "claimantRate": 2.7,
+  "medianEarnings": 37380,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 127,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 37380,
+      "rank": 59,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Wokingham",
+  "onsCode": "E06000041",
+  "totalEmployment": 92165,
+  "claimantRate": 2,
+  "medianEarnings": 43538,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2,
+      "rank": 20,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 43538,
+      "rank": 12,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Hillingdon",
+  "onsCode": "E09000017",
+  "totalEmployment": 192335,
+  "claimantRate": 5,
+  "medianEarnings": 36429,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5,
+      "rank": 304,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36429,
+      "rank": 72,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

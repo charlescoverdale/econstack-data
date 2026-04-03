@@ -1,0 +1,22 @@
+{
+  "name": "Denbighshire",
+  "onsCode": "W06000004",
+  "totalEmployment": 43090,
+  "claimantRate": 3.6,
+  "medianEarnings": 26812,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.6,
+      "rank": 224,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 26812,
+      "rank": 341,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

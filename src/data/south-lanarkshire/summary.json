@@ -1,0 +1,22 @@
+{
+  "name": "South Lanarkshire",
+  "onsCode": "S12000029",
+  "totalEmployment": 116565,
+  "claimantRate": 2.6,
+  "medianEarnings": 34293,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.6,
+      "rank": 105,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34293,
+      "rank": 113,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

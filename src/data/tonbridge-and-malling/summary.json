@@ -1,0 +1,22 @@
+{
+  "name": "Tonbridge and Malling",
+  "onsCode": "E07000115",
+  "totalEmployment": 66075,
+  "claimantRate": 2.5,
+  "medianEarnings": 35106,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 93,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35106,
+      "rank": 99,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

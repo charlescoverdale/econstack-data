@@ -1,0 +1,22 @@
+{
+  "name": "East Ayrshire",
+  "onsCode": "S12000008",
+  "totalEmployment": 40410,
+  "claimantRate": 3.7,
+  "medianEarnings": 33117,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.7,
+      "rank": 229,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33117,
+      "rank": 151,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

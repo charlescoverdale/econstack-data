@@ -1,0 +1,22 @@
+{
+  "name": "Hertsmere",
+  "onsCode": "E07000098",
+  "totalEmployment": 57565,
+  "claimantRate": 3.5,
+  "medianEarnings": 36159,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 206,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36159,
+      "rank": 76,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

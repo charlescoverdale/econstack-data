@@ -1,0 +1,22 @@
+{
+  "name": "Tamworth",
+  "onsCode": "E07000199",
+  "totalEmployment": 29435,
+  "claimantRate": 3.4,
+  "medianEarnings": 33167,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.4,
+      "rank": 194,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33167,
+      "rank": 149,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

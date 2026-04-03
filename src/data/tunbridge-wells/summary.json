@@ -1,0 +1,22 @@
+{
+  "name": "Tunbridge Wells",
+  "onsCode": "E07000116",
+  "totalEmployment": 51025,
+  "claimantRate": 2.5,
+  "medianEarnings": 35319,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 94,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35319,
+      "rank": 96,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

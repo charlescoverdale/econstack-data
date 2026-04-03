@@ -1,0 +1,22 @@
+{
+  "name": "Basildon",
+  "onsCode": "E07000066",
+  "totalEmployment": 88070,
+  "claimantRate": 3.9,
+  "medianEarnings": 34133,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.9,
+      "rank": 250,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34133,
+      "rank": 118,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

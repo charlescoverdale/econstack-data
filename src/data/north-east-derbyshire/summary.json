@@ -1,0 +1,22 @@
+{
+  "name": "North East Derbyshire",
+  "onsCode": "E07000038",
+  "totalEmployment": 29645,
+  "claimantRate": 2.4,
+  "medianEarnings": 30931,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 65,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30931,
+      "rank": 225,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

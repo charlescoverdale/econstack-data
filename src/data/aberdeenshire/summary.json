@@ -1,0 +1,22 @@
+{
+  "name": "Aberdeenshire",
+  "onsCode": "S12000034",
+  "totalEmployment": 101745,
+  "claimantRate": 2,
+  "medianEarnings": 33799,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2,
+      "rank": 26,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33799,
+      "rank": 128,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Coventry",
+  "onsCode": "E08000026",
+  "totalEmployment": 161165,
+  "claimantRate": 5.7,
+  "medianEarnings": 33063,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.7,
+      "rank": 321,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33063,
+      "rank": 153,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

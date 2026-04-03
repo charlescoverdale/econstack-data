@@ -1,0 +1,22 @@
+{
+  "name": "Crawley",
+  "onsCode": "E07000226",
+  "totalEmployment": 89620,
+  "claimantRate": 4.7,
+  "medianEarnings": 34225,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.7,
+      "rank": 295,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34225,
+      "rank": 115,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

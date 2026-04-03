@@ -1,0 +1,22 @@
+{
+  "name": "Nottingham",
+  "onsCode": "E06000018",
+  "totalEmployment": 209665,
+  "claimantRate": 6.1,
+  "medianEarnings": 26512,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.1,
+      "rank": 332,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 26512,
+      "rank": 347,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

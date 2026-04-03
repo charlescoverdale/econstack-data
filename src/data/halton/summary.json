@@ -1,0 +1,22 @@
+{
+  "name": "Halton",
+  "onsCode": "E06000006",
+  "totalEmployment": 64765,
+  "claimantRate": 4.3,
+  "medianEarnings": 29819,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 4.3,
+      "rank": 265,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29819,
+      "rank": 275,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

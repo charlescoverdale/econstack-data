@@ -1,0 +1,22 @@
+{
+  "name": "Worthing",
+  "onsCode": "E07000229",
+  "totalEmployment": 47005,
+  "claimantRate": 3.3,
+  "medianEarnings": 32823,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.3,
+      "rank": 185,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32823,
+      "rank": 166,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

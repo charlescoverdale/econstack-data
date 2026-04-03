@@ -1,0 +1,39 @@
+{
+  "england": {
+    "medianEarnings": 32909,
+    "medianHousePrice": 274076,
+    "claimantRate": 3.6,
+    "gvaPerJob": 61178,
+    "workingAgePct": 62.1,
+    "populationChange": 11.5,
+    "laCount": 294
+  },
+  "scotland": {
+    "medianEarnings": 32365,
+    "medianHousePrice": 269541,
+    "claimantRate": 2.8,
+    "gvaPerJob": 61363,
+    "workingAgePct": 61.4,
+    "populationChange": 4,
+    "laCount": 32
+  },
+  "wales": {
+    "medianEarnings": 30754,
+    "medianHousePrice": 256129,
+    "claimantRate": 3.4,
+    "gvaPerJob": 60032,
+    "workingAgePct": 60.2,
+    "populationChange": 3.4,
+    "laCount": 22
+  },
+  "gb": {
+    "medianEarnings": 32401,
+    "medianHousePrice": 269841,
+    "claimantRate": 3.5,
+    "gvaPerJob": 61125,
+    "workingAgePct": 61.9,
+    "populationChange": 10.3,
+    "laCount": 348
+  },
+  "generatedAt": "2026-04-02"
+}

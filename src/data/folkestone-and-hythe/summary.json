@@ -1,0 +1,22 @@
+{
+  "name": "Folkestone and Hythe",
+  "onsCode": "E07000112",
+  "totalEmployment": 34400,
+  "claimantRate": 3.9,
+  "medianEarnings": 33355,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.9,
+      "rank": 251,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33355,
+      "rank": 143,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "South Cambridgeshire",
+  "onsCode": "E07000012",
+  "totalEmployment": 86990,
+  "claimantRate": 2,
+  "medianEarnings": 42690,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2,
+      "rank": 16,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 42690,
+      "rank": 19,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

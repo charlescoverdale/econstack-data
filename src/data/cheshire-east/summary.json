@@ -1,0 +1,22 @@
+{
+  "name": "Cheshire East",
+  "onsCode": "E06000049",
+  "totalEmployment": 209830,
+  "claimantRate": 2.4,
+  "medianEarnings": 33221,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 61,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33221,
+      "rank": 147,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

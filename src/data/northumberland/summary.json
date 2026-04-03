@@ -1,0 +1,22 @@
+{
+  "name": "Northumberland",
+  "onsCode": "E06000057",
+  "totalEmployment": 111430,
+  "claimantRate": 3,
+  "medianEarnings": 30456,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 145,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30456,
+      "rank": 247,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

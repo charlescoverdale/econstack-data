@@ -1,0 +1,22 @@
+{
+  "name": "North Northamptonshire",
+  "onsCode": "E06000061",
+  "totalEmployment": 149695,
+  "claimantRate": 3.4,
+  "medianEarnings": 32882,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.4,
+      "rank": 200,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32882,
+      "rank": 164,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

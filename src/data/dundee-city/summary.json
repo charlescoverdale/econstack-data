@@ -1,0 +1,22 @@
+{
+  "name": "Dundee City",
+  "onsCode": "S12000042",
+  "totalEmployment": 79600,
+  "claimantRate": 3.9,
+  "medianEarnings": 30523,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.9,
+      "rank": 254,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30523,
+      "rank": 243,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

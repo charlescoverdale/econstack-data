@@ -1,0 +1,22 @@
+{
+  "name": "Harborough",
+  "onsCode": "E07000131",
+  "totalEmployment": 40310,
+  "claimantRate": 1.9,
+  "medianEarnings": 34321,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 1.9,
+      "rank": 9,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34321,
+      "rank": 111,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

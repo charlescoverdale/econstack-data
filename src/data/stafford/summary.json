@@ -1,0 +1,22 @@
+{
+  "name": "Stafford",
+  "onsCode": "E07000197",
+  "totalEmployment": 63515,
+  "claimantRate": 2.5,
+  "medianEarnings": 33872,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 87,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33872,
+      "rank": 124,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

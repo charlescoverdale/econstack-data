@@ -1,0 +1,22 @@
+{
+  "name": "East Riding of Yorkshire",
+  "onsCode": "E06000011",
+  "totalEmployment": 130950,
+  "claimantRate": 2.4,
+  "medianEarnings": 31881,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 63,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31881,
+      "rank": 188,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

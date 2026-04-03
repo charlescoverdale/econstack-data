@@ -1,0 +1,22 @@
+{
+  "name": "Bradford",
+  "onsCode": "E08000032",
+  "totalEmployment": 198645,
+  "claimantRate": 6.9,
+  "medianEarnings": 28424,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 6.9,
+      "rank": 341,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 28424,
+      "rank": 321,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

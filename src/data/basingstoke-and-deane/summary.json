@@ -1,0 +1,22 @@
+{
+  "name": "Basingstoke and Deane",
+  "onsCode": "E07000084",
+  "totalEmployment": 84860,
+  "claimantRate": 2.7,
+  "medianEarnings": 39279,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 121,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 39279,
+      "rank": 39,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

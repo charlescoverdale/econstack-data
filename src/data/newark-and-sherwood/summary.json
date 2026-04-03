@@ -1,0 +1,22 @@
+{
+  "name": "Newark and Sherwood",
+  "onsCode": "E07000175",
+  "totalEmployment": 53005,
+  "claimantRate": 3,
+  "medianEarnings": 29806,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 150,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29806,
+      "rank": 278,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "East Renfrewshire",
+  "onsCode": "S12000011",
+  "totalEmployment": 21425,
+  "claimantRate": 1.7,
+  "medianEarnings": 39965,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 1.7,
+      "rank": 4,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 39965,
+      "rank": 31,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

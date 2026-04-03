@@ -1,0 +1,22 @@
+{
+  "name": "West Oxfordshire",
+  "onsCode": "E07000181",
+  "totalEmployment": 48240,
+  "claimantRate": 1.9,
+  "medianEarnings": 35388,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 1.9,
+      "rank": 10,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35388,
+      "rank": 94,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

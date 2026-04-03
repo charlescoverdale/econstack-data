@@ -1,0 +1,22 @@
+{
+  "name": "Barnet",
+  "onsCode": "E09000003",
+  "totalEmployment": 135310,
+  "claimantRate": 5.1,
+  "medianEarnings": 39239,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.1,
+      "rank": 307,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 39239,
+      "rank": 40,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

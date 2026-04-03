@@ -1,0 +1,77 @@
+{
+  "midYearEstimate": 122819,
+  "year": "2024",
+  "malePopulation": 60717,
+  "femalePopulation": 62102,
+  "populationTrend": [
+    {
+      "year": "2010",
+      "population": 109630
+    },
+    {
+      "year": "2011",
+      "population": 110727
+    },
+    {
+      "year": "2012",
+      "population": 110684
+    },
+    {
+      "year": "2013",
+      "population": 111990
+    },
+    {
+      "year": "2014",
+      "population": 112166
+    },
+    {
+      "year": "2015",
+      "population": 113972
+    },
+    {
+      "year": "2016",
+      "population": 116637
+    },
+    {
+      "year": "2017",
+      "population": 117617
+    },
+    {
+      "year": "2018",
+      "population": 118365
+    },
+    {
+      "year": "2019",
+      "population": 119180
+    },
+    {
+      "year": "2020",
+      "population": 119806
+    },
+    {
+      "year": "2021",
+      "population": 119747
+    },
+    {
+      "year": "2022",
+      "population": 120308
+    },
+    {
+      "year": "2023",
+      "population": 121668
+    },
+    {
+      "year": "2024",
+      "population": 122819
+    }
+  ],
+  "populationChange": 12,
+  "ageProfile": {
+    "under16": 18.7,
+    "working16to64": 65.1,
+    "over65": 16.2
+  },
+  "englandPopulation": 58620101,
+  "englandPopulationChange": 11.4,
+  "englandWorkingAgePct": 62.9
+}

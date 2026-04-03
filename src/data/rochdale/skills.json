@@ -1,0 +1,125 @@
+{
+  "occupations": [
+    {
+      "group": "Managers, directors and senior officials",
+      "local": 9745,
+      "localPct": 10.3,
+      "england": 3403916,
+      "englandPct": 12.9
+    },
+    {
+      "group": "Professional occupations",
+      "local": 15229,
+      "localPct": 16.1,
+      "england": 5356649,
+      "englandPct": 20.3
+    },
+    {
+      "group": "Associate professional and technical occupations",
+      "local": 10969,
+      "localPct": 11.6,
+      "england": 3499749,
+      "englandPct": 13.3
+    },
+    {
+      "group": "Administrative and secretarial occupations",
+      "local": 9242,
+      "localPct": 9.8,
+      "england": 2446565,
+      "englandPct": 9.3
+    },
+    {
+      "group": "Skilled trades occupations",
+      "local": 10016,
+      "localPct": 10.6,
+      "england": 2683139,
+      "englandPct": 10.2
+    },
+    {
+      "group": "Caring, leisure and other service occupations",
+      "local": 10293,
+      "localPct": 10.9,
+      "england": 2447148,
+      "englandPct": 9.3
+    },
+    {
+      "group": "Sales and customer service occupations",
+      "local": 7893,
+      "localPct": 8.4,
+      "england": 1972553,
+      "englandPct": 7.5
+    },
+    {
+      "group": "Process, plant and machine operatives",
+      "local": 8665,
+      "localPct": 9.2,
+      "england": 1832666,
+      "englandPct": 6.9
+    },
+    {
+      "group": "Elementary occupations",
+      "local": 12407,
+      "localPct": 13.1,
+      "england": 2762829,
+      "englandPct": 10.5
+    }
+  ],
+  "qualifications": [
+    {
+      "level": "Total: All usual residents aged 16 years and over",
+      "local": 174947,
+      "localPct": 50,
+      "england": 46006955,
+      "englandPct": 50
+    },
+    {
+      "level": "No qualifications",
+      "local": 40649,
+      "localPct": 11.6,
+      "england": 8317789,
+      "englandPct": 9
+    },
+    {
+      "level": "Level 1 and entry level qualifications",
+      "local": 18414,
+      "localPct": 5.3,
+      "england": 4456198,
+      "englandPct": 4.8
+    },
+    {
+      "level": "Level 2 qualifications",
+      "local": 24559,
+      "localPct": 7,
+      "england": 6126130,
+      "englandPct": 6.7
+    },
+    {
+      "level": "Apprenticeship",
+      "local": 10564,
+      "localPct": 3,
+      "england": 2446935,
+      "englandPct": 2.7
+    },
+    {
+      "level": "Level 3 qualifications",
+      "local": 29467,
+      "localPct": 8.4,
+      "england": 7784977,
+      "englandPct": 8.5
+    },
+    {
+      "level": "Level 4 qualifications or above",
+      "local": 46238,
+      "localPct": 13.2,
+      "england": 15606458,
+      "englandPct": 17
+    },
+    {
+      "level": "Other qualifications",
+      "local": 5056,
+      "localPct": 1.4,
+      "england": 1268468,
+      "englandPct": 1.4
+    }
+  ]
+}

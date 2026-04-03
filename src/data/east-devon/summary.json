@@ -1,0 +1,22 @@
+{
+  "name": "East Devon",
+  "onsCode": "E07000040",
+  "totalEmployment": 53600,
+  "claimantRate": 2.2,
+  "medianEarnings": 32154,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.2,
+      "rank": 46,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32154,
+      "rank": 180,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

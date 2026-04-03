@@ -1,0 +1,22 @@
+{
+  "name": "Greenwich",
+  "onsCode": "E09000011",
+  "totalEmployment": 91770,
+  "claimantRate": 5.8,
+  "medianEarnings": 39984,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.8,
+      "rank": 326,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 39984,
+      "rank": 30,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

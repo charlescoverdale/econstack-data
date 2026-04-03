@@ -1,0 +1,22 @@
+{
+  "name": "South Holland",
+  "onsCode": "E07000140",
+  "totalEmployment": 34545,
+  "claimantRate": 3.1,
+  "medianEarnings": 30196,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.1,
+      "rank": 161,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30196,
+      "rank": 256,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "East Lothian",
+  "onsCode": "S12000010",
+  "totalEmployment": 32990,
+  "claimantRate": 2.4,
+  "medianEarnings": 33737,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 79,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33737,
+      "rank": 130,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

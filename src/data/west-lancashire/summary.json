@@ -1,0 +1,22 @@
+{
+  "name": "West Lancashire",
+  "onsCode": "E07000127",
+  "totalEmployment": 50200,
+  "claimantRate": 2.8,
+  "medianEarnings": 31884,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.8,
+      "rank": 129,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31884,
+      "rank": 187,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

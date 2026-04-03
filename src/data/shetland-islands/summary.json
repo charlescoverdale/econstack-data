@@ -1,0 +1,22 @@
+{
+  "name": "Shetland Islands",
+  "onsCode": "S12000027",
+  "totalEmployment": 13155,
+  "claimantRate": 1.5,
+  "medianEarnings": 35716,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 1.5,
+      "rank": 2,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 35716,
+      "rank": 88,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

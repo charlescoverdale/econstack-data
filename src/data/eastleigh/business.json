@@ -1,0 +1,64 @@
+{
+  "totalEnterprises": 5320,
+  "englandTotal": 2376615,
+  "enterprisesPerCapita": 0,
+  "sizeBands": [
+    {
+      "band": "0 to 4",
+      "local": 4155,
+      "localPct": 78.3,
+      "englandPct": 78.6
+    },
+    {
+      "band": "5 to 9",
+      "local": 565,
+      "localPct": 10.7,
+      "englandPct": 10.8
+    },
+    {
+      "band": "10 to 19",
+      "local": 295,
+      "localPct": 5.6,
+      "englandPct": 5.6
+    },
+    {
+      "band": "20 to 49",
+      "local": 185,
+      "localPct": 3.5,
+      "englandPct": 3.1
+    },
+    {
+      "band": "50 to 99",
+      "local": 60,
+      "localPct": 1.1,
+      "englandPct": 1.1
+    },
+    {
+      "band": "100 to 249",
+      "local": 30,
+      "localPct": 0.6,
+      "englandPct": 0.5
+    },
+    {
+      "band": "250 to 499",
+      "local": 15,
+      "localPct": 0.3,
+      "englandPct": 0.2
+    }
+  ],
+  "trend": [
+    {
+      "year": "2023",
+      "count": 5240
+    },
+    {
+      "year": "2024",
+      "count": 5305
+    },
+    {
+      "year": "2025",
+      "count": 5320
+    }
+  ],
+  "growthRate": 1.5
+}

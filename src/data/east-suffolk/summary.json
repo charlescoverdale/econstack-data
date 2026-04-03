@@ -1,0 +1,22 @@
+{
+  "name": "East Suffolk",
+  "onsCode": "E07000244",
+  "totalEmployment": 93330,
+  "claimantRate": 3,
+  "medianEarnings": 30261,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3,
+      "rank": 158,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 30261,
+      "rank": 252,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

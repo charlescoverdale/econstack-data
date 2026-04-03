@@ -1,0 +1,22 @@
+{
+  "name": "Kensington and Chelsea",
+  "onsCode": "E09000020",
+  "totalEmployment": 122775,
+  "claimantRate": 3.5,
+  "medianEarnings": 46690,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.5,
+      "rank": 208,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 46690,
+      "rank": 3,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

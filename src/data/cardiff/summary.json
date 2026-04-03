@@ -1,0 +1,22 @@
+{
+  "name": "Cardiff",
+  "onsCode": "W06000015",
+  "totalEmployment": 226320,
+  "claimantRate": 3.9,
+  "medianEarnings": 32756,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.9,
+      "rank": 253,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32756,
+      "rank": 167,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

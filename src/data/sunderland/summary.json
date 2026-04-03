@@ -1,0 +1,22 @@
+{
+  "name": "Sunderland",
+  "onsCode": "E08000024",
+  "totalEmployment": 117940,
+  "claimantRate": 3.8,
+  "medianEarnings": 27989,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 3.8,
+      "rank": 232,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 27989,
+      "rank": 331,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Sevenoaks",
+  "onsCode": "E07000111",
+  "totalEmployment": 47705,
+  "claimantRate": 2.3,
+  "medianEarnings": 34969,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 54,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 34969,
+      "rank": 104,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

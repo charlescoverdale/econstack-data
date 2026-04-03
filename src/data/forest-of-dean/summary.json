@@ -1,0 +1,22 @@
+{
+  "name": "Forest of Dean",
+  "onsCode": "E07000080",
+  "totalEmployment": 24050,
+  "claimantRate": 2.7,
+  "medianEarnings": 36589,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.7,
+      "rank": 123,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 36589,
+      "rank": 67,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Walsall",
+  "onsCode": "E08000030",
+  "totalEmployment": 98315,
+  "claimantRate": 5.8,
+  "medianEarnings": 29112,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 5.8,
+      "rank": 325,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 29112,
+      "rank": 303,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

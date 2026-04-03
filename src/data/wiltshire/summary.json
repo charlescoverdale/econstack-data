@@ -1,0 +1,22 @@
+{
+  "name": "Wiltshire",
+  "onsCode": "E06000054",
+  "totalEmployment": 212575,
+  "claimantRate": 2.3,
+  "medianEarnings": 31873,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.3,
+      "rank": 56,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 31873,
+      "rank": 189,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

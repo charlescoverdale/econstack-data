@@ -1,0 +1,22 @@
+{
+  "name": "Huntingdonshire",
+  "onsCode": "E07000011",
+  "totalEmployment": 82505,
+  "claimantRate": 2.4,
+  "medianEarnings": 33375,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.4,
+      "rank": 70,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 33375,
+      "rank": 142,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}

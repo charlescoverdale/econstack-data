@@ -1,0 +1,369 @@
+{
+  "sectors": [
+    {
+      "sector": "Agriculture, forestry & fishing",
+      "sicSection": "A",
+      "employment": 80,
+      "localShare": 0.0013,
+      "nationalShare": 0.0052,
+      "lq": 0.24,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Mining & quarrying",
+      "sicSection": "B",
+      "employment": 0,
+      "localShare": 0,
+      "nationalShare": 0.0007,
+      "lq": 0,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Manufacturing",
+      "sicSection": "C",
+      "employment": 4980,
+      "localShare": 0.0782,
+      "nationalShare": 0.0713,
+      "lq": 1.1,
+      "classification": "Average"
+    },
+    {
+      "sector": "Electricity, gas & air conditioning",
+      "sicSection": "D",
+      "employment": 50,
+      "localShare": 0.0008,
+      "nationalShare": 0.0036,
+      "lq": 0.22,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Water supply & waste management",
+      "sicSection": "E",
+      "employment": 510,
+      "localShare": 0.008,
+      "nationalShare": 0.0071,
+      "lq": 1.13,
+      "classification": "Average"
+    },
+    {
+      "sector": "Construction",
+      "sicSection": "F",
+      "employment": 4300,
+      "localShare": 0.0675,
+      "nationalShare": 0.0489,
+      "lq": 1.38,
+      "classification": "Specialised"
+    },
+    {
+      "sector": "Wholesale & retail trade",
+      "sicSection": "G",
+      "employment": 9750,
+      "localShare": 0.153,
+      "nationalShare": 0.1372,
+      "lq": 1.12,
+      "classification": "Average"
+    },
+    {
+      "sector": "Transport & storage",
+      "sicSection": "H",
+      "employment": 5400,
+      "localShare": 0.0847,
+      "nationalShare": 0.0508,
+      "lq": 1.67,
+      "classification": "Highly specialised"
+    },
+    {
+      "sector": "Accommodation & food service",
+      "sicSection": "I",
+      "employment": 3900,
+      "localShare": 0.0612,
+      "nationalShare": 0.0769,
+      "lq": 0.8,
+      "classification": "Average"
+    },
+    {
+      "sector": "Information & communication",
+      "sicSection": "J",
+      "employment": 535,
+      "localShare": 0.0084,
+      "nationalShare": 0.0478,
+      "lq": 0.18,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Financial & insurance",
+      "sicSection": "K",
+      "employment": 350,
+      "localShare": 0.0055,
+      "nationalShare": 0.0341,
+      "lq": 0.16,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Real estate",
+      "sicSection": "L",
+      "employment": 900,
+      "localShare": 0.0141,
+      "nationalShare": 0.0193,
+      "lq": 0.73,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Professional, scientific & technical",
+      "sicSection": "M",
+      "employment": 3925,
+      "localShare": 0.0616,
+      "nationalShare": 0.0963,
+      "lq": 0.64,
+      "classification": "Under-represented"
+    },
+    {
+      "sector": "Administrative & support services",
+      "sicSection": "N",
+      "employment": 10325,
+      "localShare": 0.162,
+      "nationalShare": 0.0884,
+      "lq": 1.83,
+      "classification": "Highly specialised"
+    },
+    {
+      "sector": "Public administration & defence",
+      "sicSection": "O",
+      "employment": 2500,
+      "localShare": 0.0392,
+      "nationalShare": 0.0452,
+      "lq": 0.87,
+      "classification": "Average"
+    },
+    {
+      "sector": "Education",
+      "sicSection": "P",
+      "employment": 6000,
+      "localShare": 0.0942,
+      "nationalShare": 0.0857,
+      "lq": 1.1,
+      "classification": "Average"
+    },
+    {
+      "sector": "Human health & social work",
+      "sicSection": "Q",
+      "employment": 8000,
+      "localShare": 0.1255,
+      "nationalShare": 0.1375,
+      "lq": 0.91,
+      "classification": "Average"
+    },
+    {
+      "sector": "Arts, entertainment & recreation",
+      "sicSection": "R",
+      "employment": 1315,
+      "localShare": 0.0206,
+      "nationalShare": 0.0242,
+      "lq": 0.85,
+      "classification": "Average"
+    },
+    {
+      "sector": "Other service activities",
+      "sicSection": "S",
+      "employment": 900,
+      "localShare": 0.0141,
+      "nationalShare": 0.0197,
+      "lq": 0.72,
+      "classification": "Under-represented"
+    }
+  ],
+  "shiftShare": [
+    {
+      "sector": "Agriculture, forestry & fishing",
+      "sicSection": "A",
+      "startEmployment": 135,
+      "endEmployment": 80,
+      "actualChange": -55,
+      "nationalShare": 10,
+      "industryMix": -32,
+      "localCompetitiveness": -33
+    },
+    {
+      "sector": "Mining & quarrying",
+      "sicSection": "B",
+      "startEmployment": 0,
+      "endEmployment": 0,
+      "actualChange": 0,
+      "nationalShare": 0,
+      "industryMix": 0,
+      "localCompetitiveness": 0
+    },
+    {
+      "sector": "Manufacturing",
+      "sicSection": "C",
+      "startEmployment": 5125,
+      "endEmployment": 4980,
+      "actualChange": -145,
+      "nationalShare": 366,
+      "industryMix": -442,
+      "localCompetitiveness": -68
+    },
+    {
+      "sector": "Electricity, gas & air conditioning",
+      "sicSection": "D",
+      "startEmployment": 30,
+      "endEmployment": 50,
+      "actualChange": 20,
+      "nationalShare": 2,
+      "industryMix": -4,
+      "localCompetitiveness": 22
+    },
+    {
+      "sector": "Water supply & waste management",
+      "sicSection": "E",
+      "startEmployment": 485,
+      "endEmployment": 510,
+      "actualChange": 25,
+      "nationalShare": 35,
+      "industryMix": 24,
+      "localCompetitiveness": -34
+    },
+    {
+      "sector": "Construction",
+      "sicSection": "F",
+      "startEmployment": 2750,
+      "endEmployment": 4300,
+      "actualChange": 1550,
+      "nationalShare": 196,
+      "industryMix": 114,
+      "localCompetitiveness": 1240
+    },
+    {
+      "sector": "Wholesale & retail trade",
+      "sicSection": "G",
+      "startEmployment": 10500,
+      "endEmployment": 9750,
+      "actualChange": -750,
+      "nationalShare": 749,
+      "industryMix": -926,
+      "localCompetitiveness": -573
+    },
+    {
+      "sector": "Transport & storage",
+      "sicSection": "H",
+      "startEmployment": 6400,
+      "endEmployment": 5400,
+      "actualChange": -1000,
+      "nationalShare": 456,
+      "industryMix": -151,
+      "localCompetitiveness": -1306
+    },
+    {
+      "sector": "Accommodation & food service",
+      "sicSection": "I",
+      "startEmployment": 4350,
+      "endEmployment": 3900,
+      "actualChange": -450,
+      "nationalShare": 310,
+      "industryMix": 355,
+      "localCompetitiveness": -1115
+    },
+    {
+      "sector": "Information & communication",
+      "sicSection": "J",
+      "startEmployment": 785,
+      "endEmployment": 535,
+      "actualChange": -250,
+      "nationalShare": 56,
+      "industryMix": 26,
+      "localCompetitiveness": -332
+    },
+    {
+      "sector": "Financial & insurance",
+      "sicSection": "K",
+      "startEmployment": 500,
+      "endEmployment": 350,
+      "actualChange": -150,
+      "nationalShare": 36,
+      "industryMix": -20,
+      "localCompetitiveness": -165
+    },
+    {
+      "sector": "Real estate",
+      "sicSection": "L",
+      "startEmployment": 800,
+      "endEmployment": 900,
+      "actualChange": 100,
+      "nationalShare": 57,
+      "industryMix": 44,
+      "localCompetitiveness": -1
+    },
+    {
+      "sector": "Professional, scientific & technical",
+      "sicSection": "M",
+      "startEmployment": 3410,
+      "endEmployment": 3925,
+      "actualChange": 515,
+      "nationalShare": 243,
+      "industryMix": 251,
+      "localCompetitiveness": 21
+    },
+    {
+      "sector": "Administrative & support services",
+      "sicSection": "N",
+      "startEmployment": 5575,
+      "endEmployment": 10325,
+      "actualChange": 4750,
+      "nationalShare": 398,
+      "industryMix": -49,
+      "localCompetitiveness": 4401
+    },
+    {
+      "sector": "Public administration & defence",
+      "sicSection": "O",
+      "startEmployment": 2500,
+      "endEmployment": 2500,
+      "actualChange": 0,
+      "nationalShare": 178,
+      "industryMix": 213,
+      "localCompetitiveness": -391
+    },
+    {
+      "sector": "Education",
+      "sicSection": "P",
+      "startEmployment": 5000,
+      "endEmployment": 6000,
+      "actualChange": 1000,
+      "nationalShare": 357,
+      "industryMix": -213,
+      "localCompetitiveness": 857
+    },
+    {
+      "sector": "Human health & social work",
+      "sicSection": "Q",
+      "startEmployment": 7750,
+      "endEmployment": 8000,
+      "actualChange": 250,
+      "nationalShare": 553,
+      "industryMix": 374,
+      "localCompetitiveness": -677
+    },
+    {
+      "sector": "Arts, entertainment & recreation",
+      "sicSection": "R",
+      "startEmployment": 1375,
+      "endEmployment": 1315,
+      "actualChange": -60,
+      "nationalShare": 98,
+      "industryMix": 124,
+      "localCompetitiveness": -282
+    },
+    {
+      "sector": "Other service activities",
+      "sicSection": "S",
+      "startEmployment": 1040,
+      "endEmployment": 900,
+      "actualChange": -140,
+      "nationalShare": 74,
+      "industryMix": 6,
+      "localCompetitiveness": -220
+    }
+  ],
+  "startYear": "2020",
+  "endYear": "2024"
+}

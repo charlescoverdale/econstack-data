@@ -1,0 +1,22 @@
+{
+  "name": "North Somerset",
+  "onsCode": "E06000024",
+  "totalEmployment": 91070,
+  "claimantRate": 2.5,
+  "medianEarnings": 32996,
+  "rankings": [
+    {
+      "metric": "Claimant rate",
+      "localValue": 2.5,
+      "rank": 96,
+      "total": 350
+    },
+    {
+      "metric": "Median earnings",
+      "localValue": 32996,
+      "rank": 156,
+      "total": 348
+    }
+  ],
+  "lastUpdated": "2026-03-28"
+}
