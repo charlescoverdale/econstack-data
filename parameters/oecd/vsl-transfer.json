@@ -1,0 +1,135 @@
+{
+  "parameter": "vsl_transfer",
+  "jurisdiction": "oecd",
+  "label": "Cross-country VSL benefit transfer methodology",
+  "category": "health_and_safety",
+  "description": "Enables computation of approximate VSL for any OECD or G20 country using the income-elasticity benefit transfer method. Based on the OECD 2025 meta-analysis of 277 studies and 4,000+ VSL estimates.",
+  "base_values": {
+    "oecd_average": {
+      "vsl_usd_ppp": 7100000,
+      "price_base_year": 2022,
+      "label": "OECD population-weighted average VSL"
+    },
+    "us": {
+      "vsl_usd_ppp": 8500000,
+      "price_base_year": 2022,
+      "label": "United States (most studied jurisdiction)"
+    },
+    "eu_average": {
+      "vsl_usd_ppp": 8400000,
+      "price_base_year": 2022,
+      "label": "EU population-weighted average"
+    }
+  },
+  "transfer_method": {
+    "formula": "VSL_target = VSL_base * (GDP_pc_target / GDP_pc_base) ^ elasticity",
+    "elasticity": {
+      "central": 1.0,
+      "low": 0.8,
+      "high": 1.2,
+      "note": "Income elasticity of VSL. Central = 1.0 (unit elastic). Range from meta-analysis. Higher elasticity = VSL scales more steeply with income."
+    },
+    "gdp_measure": "GDP per capita at PPP (current international dollars)",
+    "gdp_source": "World Bank World Development Indicators (NY.GDP.PCAP.PP.CD)"
+  },
+  "reference_gdp_per_capita_ppp_2023": {
+    "description": "GDP per capita (PPP, current international $) for selected countries. Used as denominators in the transfer formula.",
+    "united_states": 80035,
+    "united_kingdom": 56471,
+    "germany": 66038,
+    "france": 58765,
+    "australia": 65210,
+    "canada": 57827,
+    "japan": 49045,
+    "south_korea": 53051,
+    "italy": 51865,
+    "spain": 46413,
+    "netherlands": 70208,
+    "sweden": 63651,
+    "switzerland": 84658,
+    "ireland": 114580,
+    "new_zealand": 48801,
+    "poland": 43344,
+    "czech_republic": 49274,
+    "portugal": 40805,
+    "greece": 37932,
+    "hungary": 40164,
+    "romania": 38631,
+    "india": 9183,
+    "china": 23382,
+    "brazil": 18688,
+    "south_africa": 16091,
+    "mexico": 22417,
+    "indonesia": 15588,
+    "turkey": 38299,
+    "oecd_average": 55000
+  },
+  "precomputed_vsl": {
+    "description": "Precomputed VSL for selected countries using OECD average as base, elasticity = 1.0. All values in local currency, 2023 prices. These are approximate, indicative values.",
+    "united_states": {
+      "vsl_local": 10300000,
+      "currency": "USD"
+    },
+    "united_kingdom": {
+      "vsl_local": 5900000,
+      "currency": "GBP"
+    },
+    "germany": {
+      "vsl_local": 8000000,
+      "currency": "EUR"
+    },
+    "france": {
+      "vsl_local": 7000000,
+      "currency": "EUR"
+    },
+    "australia": {
+      "vsl_local": 9800000,
+      "currency": "AUD"
+    },
+    "japan": {
+      "vsl_local": 940000000,
+      "currency": "JPY"
+    },
+    "south_korea": {
+      "vsl_local": 7900000000,
+      "currency": "KRW"
+    },
+    "spain": {
+      "vsl_local": 5700000,
+      "currency": "EUR"
+    },
+    "poland": {
+      "vsl_local": 22000000,
+      "currency": "PLN"
+    },
+    "india": {
+      "vsl_local": 14000000,
+      "currency": "INR"
+    },
+    "china": {
+      "vsl_local": 21000000,
+      "currency": "CNY"
+    },
+    "brazil": {
+      "vsl_local": 1900000,
+      "currency": "BRL"
+    },
+    "note": "Computed as: VSL_base * (GDP_pc_country / GDP_pc_OECD) * PPP_exchange_rate. Rounded. Use the transfer formula for precise values."
+  },
+  "source": {
+    "publication": "Mortality Risk Valuation in Policy Assessment (2025); Environmental Policy Working Paper on VSL",
+    "publisher": "OECD",
+    "url": "https://www.oecd.org/en/publications/2025/10/mortality-risk-valuation-in-policy-assessment_733b9d66.html",
+    "date": "2025-10",
+    "update_frequency": "major edition approximately every 10 years"
+  },
+  "caveats": [
+    "Benefit transfer is an approximation. Country-specific studies are always preferred.",
+    "Unit elasticity (1.0) is a simplification. True elasticity varies by risk type and study design.",
+    "GDP per capita at PPP is an imperfect proxy for the income of affected populations.",
+    "Precomputed values use approximate PPP exchange rates and should be verified for precise analysis.",
+    "For developing countries with GDP per capita < USD 10,000, consider using a lower elasticity (0.8) to avoid implausibly low VSL values."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2035-01"
+}

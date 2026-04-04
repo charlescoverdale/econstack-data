@@ -18,11 +18,26 @@
     "elasticity": 1.0,
     "reference_gdp_per_capita_eur": 35000,
     "example_adjustments": {
-      "germany": { "gdp_ratio": 1.31, "adjusted_vsl": 4716000 },
-      "france": { "gdp_ratio": 1.14, "adjusted_vsl": 4104000 },
-      "spain": { "gdp_ratio": 0.83, "adjusted_vsl": 2988000 },
-      "poland": { "gdp_ratio": 0.57, "adjusted_vsl": 2052000 },
-      "romania": { "gdp_ratio": 0.43, "adjusted_vsl": 1548000 }
+      "germany": {
+        "gdp_ratio": 1.31,
+        "adjusted_vsl": 4716000
+      },
+      "france": {
+        "gdp_ratio": 1.14,
+        "adjusted_vsl": 4104000
+      },
+      "spain": {
+        "gdp_ratio": 0.83,
+        "adjusted_vsl": 2988000
+      },
+      "poland": {
+        "gdp_ratio": 0.57,
+        "adjusted_vsl": 2052000
+      },
+      "romania": {
+        "gdp_ratio": 0.43,
+        "adjusted_vsl": 1548000
+      }
     }
   },
   "source": {
@@ -38,5 +53,6 @@
     "Some member states publish their own VSL (e.g. France, Sweden). Use national values where available.",
     "The EC CBA Guide does not mandate a single VSL value."
   ],
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

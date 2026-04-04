@@ -9,7 +9,7 @@
     "cars": {
       "petrol": 0.41,
       "diesel": 0.37,
-      "hybrid": 0.10,
+      "hybrid": 0.1,
       "phev": 0.05,
       "bev": 0.07,
       "note": "BEV share growing rapidly. TAG projections show ~30% BEV by 2030."
@@ -17,7 +17,7 @@
     "lgv": {
       "diesel": 0.85,
       "petrol": 0.05,
-      "bev": 0.10
+      "bev": 0.1
     },
     "hgv": {
       "diesel": 0.97,
@@ -48,8 +48,8 @@
   },
   "fuel_prices": {
     "petrol_per_litre": 1.45,
-    "diesel_per_litre": 1.50,
-    "electricity_per_kwh": 0.30,
+    "diesel_per_litre": 1.5,
+    "electricity_per_kwh": 0.3,
     "price_base_year": 2024,
     "note": "Retail prices including duty and VAT. TAG provides duty-exclusive and resource cost variants."
   },
@@ -65,5 +65,6 @@
     "These are snapshot values. TAG Data Book provides year-by-year projections to 2060",
     "Emission factors are tailpipe only unless stated otherwise"
   ],
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
 }

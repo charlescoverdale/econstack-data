@@ -19,7 +19,7 @@
   "example_weights": {
     "income_15000": 3.01,
     "income_25000": 1.65,
-    "income_35000": 1.00,
+    "income_35000": 1.0,
     "income_50000": 0.62,
     "income_75000": 0.36,
     "income_100000": 0.24
@@ -31,5 +31,6 @@
     "date": "2026",
     "update_frequency": "periodic"
   },
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

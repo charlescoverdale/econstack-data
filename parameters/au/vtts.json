@@ -8,7 +8,7 @@
   "description": "Australian VTTS is derived as a percentage of Average Weekly Earnings (AWE), not from stated preference surveys as in the UK. Values update automatically as AWE changes.",
   "formulas": {
     "private_travel": {
-      "proportion_of_awe": 0.40,
+      "proportion_of_awe": 0.4,
       "label": "Private (non-business) travel time",
       "note": "40% of AWE per hour. Covers commuting and leisure."
     },
@@ -59,5 +59,6 @@
     "Formula-based approach means no stated preference uncertainty, but assumes a fixed relationship between earnings and time value.",
     "Walking/waiting multiplier of 2x is an assumption, not empirically derived for Australia."
   ],
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

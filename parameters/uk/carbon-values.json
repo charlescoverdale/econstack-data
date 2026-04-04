@@ -9,13 +9,48 @@
   "non_traded": {
     "description": "For emissions not covered by the UK ETS. Target-consistent approach aligned with net zero by 2050.",
     "schedule": [
-      { "year": 2020, "low": 121, "central": 241, "high": 362 },
-      { "year": 2025, "low": 127, "central": 254, "high": 381 },
-      { "year": 2030, "low": 139, "central": 278, "high": 417 },
-      { "year": 2035, "low": 149, "central": 298, "high": 447 },
-      { "year": 2040, "low": 158, "central": 316, "high": 474 },
-      { "year": 2045, "low": 168, "central": 336, "high": 504 },
-      { "year": 2050, "low": 189, "central": 378, "high": 567 }
+      {
+        "year": 2020,
+        "low": 121,
+        "central": 241,
+        "high": 362
+      },
+      {
+        "year": 2025,
+        "low": 127,
+        "central": 254,
+        "high": 381
+      },
+      {
+        "year": 2030,
+        "low": 139,
+        "central": 278,
+        "high": 417
+      },
+      {
+        "year": 2035,
+        "low": 149,
+        "central": 298,
+        "high": 447
+      },
+      {
+        "year": 2040,
+        "low": 158,
+        "central": 316,
+        "high": 474
+      },
+      {
+        "year": 2045,
+        "low": 168,
+        "central": 336,
+        "high": 504
+      },
+      {
+        "year": 2050,
+        "low": 189,
+        "central": 378,
+        "high": 567
+      }
     ],
     "interpolation": "linear",
     "extrapolation": "1.5% real annual growth post-2050",
@@ -24,12 +59,42 @@
   "traded": {
     "description": "For emissions covered by the UK ETS. Based on modelled UK ETS price scenarios.",
     "schedule": [
-      { "year": 2025, "low": 40, "central": 127, "high": 254 },
-      { "year": 2030, "low": 50, "central": 139, "high": 278 },
-      { "year": 2035, "low": 65, "central": 149, "high": 298 },
-      { "year": 2040, "low": 80, "central": 158, "high": 316 },
-      { "year": 2045, "low": 100, "central": 168, "high": 336 },
-      { "year": 2050, "low": 127, "central": 189, "high": 378 }
+      {
+        "year": 2025,
+        "low": 40,
+        "central": 127,
+        "high": 254
+      },
+      {
+        "year": 2030,
+        "low": 50,
+        "central": 139,
+        "high": 278
+      },
+      {
+        "year": 2035,
+        "low": 65,
+        "central": 149,
+        "high": 298
+      },
+      {
+        "year": 2040,
+        "low": 80,
+        "central": 158,
+        "high": 316
+      },
+      {
+        "year": 2045,
+        "low": 100,
+        "central": 168,
+        "high": 336
+      },
+      {
+        "year": 2050,
+        "low": 127,
+        "central": 189,
+        "high": 378
+      }
     ],
     "interpolation": "linear",
     "extrapolation": "converges to non-traded values post-2050"
@@ -47,5 +112,6 @@
     "Low/high scenarios reflect uncertainty in abatement pathways, not climate damages",
     "Traded values may diverge from actual UK ETS market prices"
   ],
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
 }

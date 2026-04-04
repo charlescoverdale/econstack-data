@@ -5,7 +5,10 @@
   "category": "appraisal",
   "standard_conversion_factor": {
     "description": "Converts market prices to economic (shadow) prices by adjusting for trade distortions (tariffs, subsidies, indirect taxes). For EU member states with low trade distortions, SCF is close to 1.0.",
-    "typical_range": { "low": 0.96, "high": 1.00 },
+    "typical_range": {
+      "low": 0.96,
+      "high": 1.0
+    },
     "formula": "SCF = 1 / (1 + weighted_average_tariff_rate)",
     "note": "For most EU member states, SCF = 0.96-1.00. For IPA/candidate countries with higher trade barriers, SCF may be lower (0.85-0.95)."
   },
@@ -19,7 +22,7 @@
     },
     "reference_values": {
       "low_unemployment": {
-        "swrf": 0.90,
+        "swrf": 0.9,
         "label": "Shadow wage rate factor when regional unemployment < 5%"
       },
       "medium_unemployment": {
@@ -27,7 +30,7 @@
         "label": "Shadow wage rate factor when regional unemployment 5-15%"
       },
       "high_unemployment": {
-        "swrf": 0.60,
+        "swrf": 0.6,
         "label": "Shadow wage rate factor when regional unemployment > 15%"
       }
     },
@@ -36,7 +39,7 @@
   "sector_conversion_factors": {
     "description": "Sector-specific factors for converting financial costs to economic costs.",
     "construction": {
-      "factor": 0.90,
+      "factor": 0.9,
       "note": "Construction costs often include indirect taxes and monopoly rents. Factor < 1.0."
     },
     "energy": {
@@ -59,5 +62,6 @@
     "Country-specific conversion factors should be calculated based on national trade statistics and tax structures.",
     "These reference values are starting points. JASPERS or national appraisal bodies may publish country-specific factors."
   ],
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

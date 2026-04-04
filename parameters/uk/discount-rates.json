@@ -4,18 +4,42 @@
   "label": "Social Time Preference Rate (STPR) declining schedule",
   "category": "appraisal",
   "schedule": [
-    { "years_from": 0,   "years_to": 30,  "rate": 0.035 },
-    { "years_from": 31,  "years_to": 75,  "rate": 0.030 },
-    { "years_from": 76,  "years_to": 125, "rate": 0.025 },
-    { "years_from": 126, "years_to": 200, "rate": 0.020 },
-    { "years_from": 201, "years_to": 300, "rate": 0.015 },
-    { "years_from": 301, "years_to": null, "rate": 0.010 }
+    {
+      "years_from": 0,
+      "years_to": 30,
+      "rate": 0.035
+    },
+    {
+      "years_from": 31,
+      "years_to": 75,
+      "rate": 0.03
+    },
+    {
+      "years_from": 76,
+      "years_to": 125,
+      "rate": 0.025
+    },
+    {
+      "years_from": 126,
+      "years_to": 200,
+      "rate": 0.02
+    },
+    {
+      "years_from": 201,
+      "years_to": 300,
+      "rate": 0.015
+    },
+    {
+      "years_from": 301,
+      "years_to": null,
+      "rate": 0.01
+    }
   ],
   "components": {
     "pure_time_preference": 0.005,
-    "catastrophe_risk": 0.010,
+    "catastrophe_risk": 0.01,
     "elasticity_marginal_utility": 1.0,
-    "per_capita_growth": 0.020
+    "per_capita_growth": 0.02
   },
   "notes": "Discount factors must be computed cumulatively. The lower rate for years 31+ does NOT apply from year 0. Each segment uses its own rate for that segment only.",
   "source": {
@@ -25,5 +49,6 @@
     "date": "2026",
     "update_frequency": "periodic (independent review commissioned Dec 2025, reporting Jun 2026)"
   },
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

@@ -7,35 +7,51 @@
   "scenarios": {
     "standard": {
       "label": "Standard (HM Treasury median defaults)",
-      "deadweight": 0.20,
+      "deadweight": 0.2,
       "displacement": 0.25,
-      "leakage": 0.10,
-      "substitution": 0.00,
+      "leakage": 0.1,
+      "substitution": 0.0,
       "net_factor": 0.54
     },
     "conservative": {
       "label": "Conservative (higher adjustments)",
       "deadweight": 0.35,
-      "displacement": 0.40,
-      "leakage": 0.20,
+      "displacement": 0.4,
+      "leakage": 0.2,
       "substitution": 0.05,
-      "net_factor": 0.285
+      "net_factor": 0.296
     },
     "optimistic": {
       "label": "Optimistic (lower adjustments)",
-      "deadweight": 0.10,
-      "displacement": 0.10,
+      "deadweight": 0.1,
+      "displacement": 0.1,
       "leakage": 0.05,
-      "substitution": 0.00,
+      "substitution": 0.0,
       "net_factor": 0.769
     }
   },
   "formula": "net_factor = (1 - deadweight) * (1 - displacement) * (1 - leakage) * (1 - substitution)",
   "guidance_ranges": {
-    "deadweight": { "low": 0.00, "high": 0.40, "note": "Varies by intervention type" },
-    "displacement": { "low": 0.00, "high": 0.75, "note": "Higher for retail/leisure (40-75%), lower for export-oriented manufacturing (10-15%)" },
-    "leakage": { "low": 0.05, "high": 0.50, "note": "Depends on area openness and commuting patterns" },
-    "substitution": { "low": 0.00, "high": 0.10, "note": "Typically low for investment interventions" }
+    "deadweight": {
+      "low": 0.0,
+      "high": 0.4,
+      "note": "Varies by intervention type"
+    },
+    "displacement": {
+      "low": 0.0,
+      "high": 0.75,
+      "note": "Higher for retail/leisure (40-75%), lower for export-oriented manufacturing (10-15%)"
+    },
+    "leakage": {
+      "low": 0.05,
+      "high": 0.5,
+      "note": "Depends on area openness and commuting patterns"
+    },
+    "substitution": {
+      "low": 0.0,
+      "high": 0.1,
+      "note": "Typically low for investment interventions"
+    }
   },
   "source": {
     "publication": "Additionality Guide, 4th edition; The Appraisal Guide, 3rd edition",
@@ -44,5 +60,6 @@
     "date": "2014; 2025",
     "update_frequency": "periodic"
   },
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

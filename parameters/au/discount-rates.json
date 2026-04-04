@@ -13,7 +13,7 @@
       "label": "Sensitivity test (low)"
     },
     "high": {
-      "rate": 0.10,
+      "rate": 0.1,
       "label": "Sensitivity test (high)"
     }
   },
@@ -25,5 +25,6 @@
     "date": "2024",
     "update_frequency": "periodic"
   },
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

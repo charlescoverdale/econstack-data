@@ -7,33 +7,81 @@
   "matrix": {
     "standard_buildings": {
       "label": "Standard buildings",
-      "capex": { "soc": 0.24, "obc": 0.04, "fbc": 0.02 },
-      "duration": { "soc": 0.04, "obc": 0.02, "fbc": 0.01 }
+      "capex": {
+        "soc": 0.24,
+        "obc": 0.04,
+        "fbc": 0.02
+      },
+      "duration": {
+        "soc": 0.04,
+        "obc": 0.02,
+        "fbc": 0.01
+      }
     },
     "non_standard_buildings": {
       "label": "Non-standard buildings",
-      "capex": { "soc": 0.51, "obc": 0.18, "fbc": 0.04 },
-      "duration": { "soc": 0.39, "obc": 0.16, "fbc": 0.04 }
+      "capex": {
+        "soc": 0.51,
+        "obc": 0.18,
+        "fbc": 0.04
+      },
+      "duration": {
+        "soc": 0.39,
+        "obc": 0.16,
+        "fbc": 0.04
+      }
     },
     "standard_civil_engineering": {
       "label": "Standard civil engineering",
-      "capex": { "soc": 0.44, "obc": 0.20, "fbc": 0.06 },
-      "duration": { "soc": 0.20, "obc": 0.08, "fbc": 0.02 }
+      "capex": {
+        "soc": 0.44,
+        "obc": 0.2,
+        "fbc": 0.06
+      },
+      "duration": {
+        "soc": 0.2,
+        "obc": 0.08,
+        "fbc": 0.02
+      }
     },
     "non_standard_civil_engineering": {
       "label": "Non-standard civil engineering",
-      "capex": { "soc": 0.66, "obc": 0.34, "fbc": 0.06 },
-      "duration": { "soc": 0.25, "obc": 0.10, "fbc": 0.03 }
+      "capex": {
+        "soc": 0.66,
+        "obc": 0.34,
+        "fbc": 0.06
+      },
+      "duration": {
+        "soc": 0.25,
+        "obc": 0.1,
+        "fbc": 0.03
+      }
     },
     "equipment_development": {
       "label": "Equipment / development",
-      "capex": { "soc": 2.00, "obc": 0.54, "fbc": 0.10 },
-      "duration": { "soc": null, "obc": null, "fbc": null }
+      "capex": {
+        "soc": 2.0,
+        "obc": 0.54,
+        "fbc": 0.1
+      },
+      "duration": {
+        "soc": null,
+        "obc": null,
+        "fbc": null
+      }
     },
     "outsourced_it": {
       "label": "Outsourced IT projects",
-      "capex": { "soc": 2.00, "obc": 0.38, "fbc": 0.10 },
-      "duration": { "soc": null, "obc": null, "fbc": null }
+      "capex": {
+        "soc": 2.0,
+        "obc": 0.38,
+        "fbc": 0.1
+      },
+      "duration": {
+        "soc": null,
+        "obc": null,
+        "fbc": null
+      }
     }
   },
   "stages": {
@@ -49,5 +97,6 @@
     "update_frequency": "per Green Book edition"
   },
   "methodology": "Derived from Reference Class Forecasting (Flyvbjerg). Upper bound adjustments applied to capex and duration. Should be reduced as project progresses through business case stages based on risk management evidence.",
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
 }

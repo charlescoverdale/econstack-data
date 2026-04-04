@@ -7,9 +7,18 @@
   "currency": "GBP",
   "income_tax": {
     "personal_allowance": 12570,
-    "basic_rate": { "rate": 0.20, "threshold": 50270 },
-    "higher_rate": { "rate": 0.40, "threshold": 125140 },
-    "additional_rate": { "rate": 0.45, "threshold": null }
+    "basic_rate": {
+      "rate": 0.2,
+      "threshold": 50270
+    },
+    "higher_rate": {
+      "rate": 0.4,
+      "threshold": 125140
+    },
+    "additional_rate": {
+      "rate": 0.45,
+      "threshold": null
+    }
   },
   "national_insurance": {
     "employee": {
@@ -24,12 +33,12 @@
     }
   },
   "vat": {
-    "standard_rate": 0.20,
+    "standard_rate": 0.2,
     "reduced_rate": 0.05
   },
   "modelling_assumptions": {
-    "local_spending_from_wages": 0.60,
-    "vatable_spending_proportion": 0.50,
+    "local_spending_from_wages": 0.6,
+    "vatable_spending_proportion": 0.5,
     "note": "Used in io-report VAT revenue estimates. 60% of net earnings spent locally, 50% of spending is VATable."
   },
   "source": {
@@ -44,5 +53,6 @@
     "Does not account for pension contributions, marriage allowance, or other reliefs",
     "Scottish income tax rates differ (not covered here)"
   ],
-  "last_verified": "2026-04-04"
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
 }
