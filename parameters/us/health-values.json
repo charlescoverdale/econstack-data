@@ -20,10 +20,11 @@
       "context": "Treated symmetrically with QALY for CBA purposes"
     },
     "fda_threshold": {
-      "value": 150000,
+      "low": 100000,
+      "high": 150000,
       "price_base_year": 2024,
-      "label": "FDA implicit cost-effectiveness threshold",
-      "context": "Used in FDA regulatory impact analyses. Lower than the QALY range because it reflects willingness-to-pay for health interventions, not the full VSL-derived QALY."
+      "label": "FDA implicit cost-effectiveness threshold range",
+      "context": "Inferred from FDA regulatory impact analyses. The $100K-$150K range is widely cited in cost-effectiveness literature. FDA does not publish an explicit threshold. Lower than the VSL-derived QALY range because it reflects willingness-to-pay for health interventions."
     },
     "vsly": {
       "value": 550000,

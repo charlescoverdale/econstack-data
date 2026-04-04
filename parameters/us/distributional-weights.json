@@ -11,21 +11,21 @@
       "note": "The revised A-4 (2023) formally endorses income-based distributional weights. Elasticity of 1.4 is slightly higher than the UK Green Book (1.3), reflecting the wider US income distribution."
     },
     "median_household_income": {
-      "value": 75000,
+      "value": 80000,
       "price_base_year": 2023,
-      "label": "US median household income (approximate)",
-      "source_detail": "Census Bureau, American Community Survey"
+      "label": "US median household income (rounded from Census $80,610)",
+      "source_detail": "Census Bureau, Current Population Survey, 2023"
     }
   },
   "formula": "weight(income) = (median_income / income) ^ 1.4",
   "example_weights": {
-    "income_25000": 4.19,
-    "income_40000": 2.24,
-    "income_55000": 1.46,
-    "income_75000": 1.00,
-    "income_100000": 0.70,
-    "income_150000": 0.42,
-    "income_200000": 0.29
+    "income_25000": 5.10,
+    "income_40000": 2.64,
+    "income_55000": 1.69,
+    "income_80000": 1.00,
+    "income_100000": 0.73,
+    "income_150000": 0.41,
+    "income_200000": 0.28
   },
   "status": "The revised A-4 makes distributional analysis a formal expectation for significant regulatory actions (>$100M annual impact). This is a major change from the pre-2023 A-4 which treated distributional analysis as optional.",
   "source": {
