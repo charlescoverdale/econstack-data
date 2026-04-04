@@ -1,0 +1,64 @@
+{
+  "parameter": "carbon_benchmarks",
+  "jurisdiction": "oecd",
+  "label": "OECD Effective Carbon Rate benchmarks",
+  "category": "environment",
+  "price_base_year": 2023,
+  "currency": "EUR",
+  "unit": "per_tCO2",
+  "description": "The OECD tracks carbon pricing across 79 countries by combining emissions trading system prices, carbon taxes, and fuel excise taxes into a single effective carbon rate (EUR/tCO2). These benchmarks represent the carbon price levels consistent with different decarbonisation pathways.",
+  "benchmarks": {
+    "slow_decarbonisation": {
+      "2025": 30,
+      "2030": 60,
+      "label": "Slow decarbonisation pathway",
+      "description": "Minimum pricing consistent with gradual emissions reduction. Many OECD countries are below this for non-road sectors."
+    },
+    "net_zero_mid_century": {
+      "2025": 60,
+      "2030": 120,
+      "label": "Net zero by mid-century pathway",
+      "description": "Carbon price consistent with Paris Agreement goals. Only a handful of countries price carbon this high across all sectors."
+    }
+  },
+  "actual_averages_2023": {
+    "description": "Average effective carbon rates across OECD countries by source (2023 data).",
+    "diesel_road": { "value": 77, "note": "Road diesel (mostly fuel excise)" },
+    "gasoline_road": { "value": 99, "note": "Road gasoline (mostly fuel excise)" },
+    "carbon_taxes": { "value": 15, "note": "Explicit carbon taxes where they exist" },
+    "ets_permits": { "value": 20, "note": "Emissions trading system permit prices" },
+    "fuel_excise": { "value": 55, "note": "Fuel excise duties (largest component)" }
+  },
+  "country_examples": {
+    "description": "Effective carbon rates for selected countries (all sectors average, EUR/tCO2, 2023).",
+    "switzerland": 120,
+    "norway": 95,
+    "france": 75,
+    "germany": 65,
+    "united_kingdom": 60,
+    "canada": 50,
+    "japan": 40,
+    "united_states": 25,
+    "australia": 20,
+    "china": 10,
+    "india": 5,
+    "note": "These are approximate all-sector averages. Road transport rates are typically 3-5x higher than industry or electricity due to fuel excise. Country values rounded from OECD Effective Carbon Rates 2025."
+  },
+  "usage_in_cba": "When appraising a project with carbon impacts, compare the carbon value used in your CBA against the OECD benchmarks. If your appraisal uses a carbon price below EUR 60/tCO2, note that this is below the OECD net-zero pathway benchmark. If above EUR 120/tCO2 (like the UK DESNZ or EIB shadow prices), note that this exceeds the OECD benchmark, reflecting a more ambitious decarbonisation trajectory.",
+  "source": {
+    "publication": "Effective Carbon Rates 2025: Pricing Greenhouse Gas Emissions through Taxes and Emissions Trading",
+    "publisher": "OECD",
+    "url": "https://www.oecd.org/en/publications/effective-carbon-rates-2025_a5a5d71f-en.html",
+    "database": "https://stats.oecd.org/Index.aspx?DataSetCode=ECR",
+    "date": "2025",
+    "update_frequency": "biennial (every 2 years)"
+  },
+  "caveats": [
+    "Effective carbon rates combine ETS prices, carbon taxes, and fuel excise. Fuel excise is the largest component for most countries, but it is not set as climate policy.",
+    "All-sector averages mask large variation: road transport is priced much higher than industry or electricity in most countries.",
+    "Country examples are approximate averages. The OECD database has detailed sector-by-sector rates.",
+    "The benchmarks (EUR 60/120) are OECD staff estimates of price levels consistent with decarbonisation pathways, not binding policy targets."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}
