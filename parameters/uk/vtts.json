@@ -1,0 +1,43 @@
+{
+  "parameter": "vtts",
+  "jurisdiction": "uk",
+  "label": "Value of Travel Time Savings",
+  "category": "transport",
+  "price_base_year": 2022,
+  "currency": "GBP",
+  "unit": "per_person_hour",
+  "values": {
+    "working_time": {
+      "value": 19.61,
+      "label": "Working (employers' business) time"
+    },
+    "commuting_time": {
+      "value": 7.63,
+      "label": "Commuting time"
+    },
+    "leisure_time": {
+      "value": 6.56,
+      "label": "Other non-working (leisure) time"
+    }
+  },
+  "vehicle_operating_costs": {
+    "car_per_km": {
+      "value": 0.14,
+      "unit": "GBP_per_km",
+      "label": "Average vehicle operating cost (car)"
+    }
+  },
+  "source": {
+    "publication": "TAG Data Book v2.02, Tables A1.3.1-A1.3.3",
+    "publisher": "Department for Transport",
+    "url": "https://www.gov.uk/government/publications/tag-data-book",
+    "date": "2025-12",
+    "update_frequency": "annual (updated with ASHE earnings data)"
+  },
+  "methodology": "Working time: based on gross earnings plus non-wage labour costs. Non-working time: stated preference studies (Arup/ITS Leeds).",
+  "caveats": [
+    "Values are averages across all income groups. TAG provides distributional breakdowns in the Data Book.",
+    "Freight VTTS being updated based on 2023 Arup/ITS Leeds study, going definitive May 2026"
+  ],
+  "last_verified": "2026-04-04"
+}

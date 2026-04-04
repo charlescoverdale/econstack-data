@@ -1,0 +1,32 @@
+{
+  "parameter": "vsl",
+  "jurisdiction": "au",
+  "label": "Value of Statistical Life and Value of Statistical Life Year",
+  "category": "health_and_safety",
+  "price_base_year": 2025,
+  "currency": "AUD",
+  "values": {
+    "vsl": {
+      "value": 5870000,
+      "label": "Value of Statistical Life"
+    },
+    "vsly": {
+      "value": 253000,
+      "label": "Value of Statistical Life Year"
+    }
+  },
+  "methodology": "Based on Abelson (2007) willingness-to-pay estimates, updated annually using ABS Wage Price Index. Some academic reviews suggest AUD 7.0M may be more appropriate based on more recent stated preference studies.",
+  "source": {
+    "publication": "Best Practice Regulation Guidance Note: Value of Statistical Life",
+    "publisher": "Office of Impact Analysis (OIA), Department of the Prime Minister and Cabinet",
+    "url": "https://oia.pmc.gov.au/resources/guidance-assessing-impacts/value-statistical-life",
+    "date": "2025",
+    "update_frequency": "annual (WPI adjustment)"
+  },
+  "caveats": [
+    "OIA central estimate; ATAP may use slightly different values for transport-specific analysis",
+    "Based on Abelson (2007) which is now nearly 20 years old; newer studies suggest higher values",
+    "Does not vary by age, income, or cause of death"
+  ],
+  "last_verified": "2026-04-04"
+}

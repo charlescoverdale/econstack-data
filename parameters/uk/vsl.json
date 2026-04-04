@@ -1,0 +1,37 @@
+{
+  "parameter": "vsl",
+  "jurisdiction": "uk",
+  "label": "Value of a Prevented Fatality and casualty costs",
+  "category": "health_and_safety",
+  "price_base_year": 2022,
+  "currency": "GBP",
+  "values": {
+    "vpf": {
+      "value": 2350000,
+      "label": "Value of a Prevented Fatality",
+      "includes": "Human costs (pain, grief, suffering) + direct economic costs (lost output, medical, police, insurance admin)"
+    },
+    "serious_injury": {
+      "value": 264500,
+      "label": "Average cost per serious casualty prevented"
+    },
+    "slight_injury": {
+      "value": 20400,
+      "label": "Average cost per slight casualty prevented"
+    }
+  },
+  "source": {
+    "publication": "TAG Data Book v2.02, Table A4.1.1",
+    "publisher": "Department for Transport",
+    "url": "https://www.gov.uk/government/publications/tag-data-book",
+    "date": "2025-12",
+    "update_frequency": "annual"
+  },
+  "methodology": "Willingness-to-pay from stated preference surveys, plus direct economic cost components.",
+  "caveats": [
+    "Value applies to a 'statistical' life (small risk reductions across a population), not a specific individual",
+    "Based on average population preferences; does not vary by age or income",
+    "Includes human costs and direct economic costs but not wider economic impacts"
+  ],
+  "last_verified": "2026-04-04"
+}

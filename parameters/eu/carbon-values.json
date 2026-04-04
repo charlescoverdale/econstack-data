@@ -1,0 +1,41 @@
+{
+  "parameter": "carbon_values",
+  "jurisdiction": "eu",
+  "label": "Shadow carbon prices for EU/EIB project appraisal",
+  "category": "environment",
+  "price_base_year": 2020,
+  "currency": "EUR",
+  "unit": "per_tCO2",
+  "eib_shadow_price": {
+    "description": "EIB shadow carbon price schedule aligned with 1.5C IPCC pathway. The most aggressive carbon price schedule among multilateral development banks.",
+    "schedule": [
+      { "year": 2020, "low": 50, "central": 80, "high": 120 },
+      { "year": 2025, "low": 80, "central": 130, "high": 190 },
+      { "year": 2030, "low": 130, "central": 250, "high": 380 },
+      { "year": 2035, "low": 200, "central": 400, "high": 550 },
+      { "year": 2040, "low": 280, "central": 520, "high": 680 },
+      { "year": 2045, "low": 370, "central": 650, "high": 750 },
+      { "year": 2050, "low": 450, "central": 800, "high": 900 }
+    ],
+    "interpolation": "linear",
+    "threshold": "Applied to projects emitting > 20 ktCO2/year. Scope 3 included selectively for energy, transport, and industry.",
+    "source_detail": "EIB Climate Bank Roadmap 2021-2025"
+  },
+  "eu_ets_reference": {
+    "description": "EU ETS market price reference. Actual market prices fluctuate; these are scenario-based reference values for appraisal.",
+    "note": "For EU Cohesion Policy CBA, use the higher of ETS market price or DG CLIMA shadow price for non-ETS sectors."
+  },
+  "source": {
+    "publication": "EIB Project Carbon Footprint Methodologies; Economic Appraisal of Investment Projects at the EIB",
+    "publisher": "European Investment Bank",
+    "url": "https://www.eib.org/en/publications/20260011-eib-project-carbon-footprint-methodologies",
+    "date": "2023",
+    "update_frequency": "aligned with Climate Bank Roadmap (~5 years)"
+  },
+  "caveats": [
+    "EIB schedule is significantly higher than UK DESNZ or US EPA values",
+    "EU ETS market prices may diverge substantially from these shadow values",
+    "Schedule assumes 1.5C alignment; less ambitious pathways would yield lower values"
+  ],
+  "last_verified": "2026-04-04"
+}

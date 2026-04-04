@@ -1,0 +1,44 @@
+{
+  "parameter": "health_values",
+  "jurisdiction": "uk",
+  "label": "Health outcome valuations for policy appraisal",
+  "category": "health",
+  "currency": "GBP",
+  "values": {
+    "qaly": {
+      "value": 70000,
+      "price_base_year": 2020,
+      "label": "Value of a Quality-Adjusted Life Year",
+      "context": "Green Book / DHSC recommended value for cross-government appraisal",
+      "source_detail": "Green Book 2026"
+    },
+    "nice_threshold_low": {
+      "value": 20000,
+      "price_base_year": 2024,
+      "label": "NICE cost-effectiveness threshold (lower bound)",
+      "context": "For NHS resource allocation decisions. Different purpose from Green Book QALY.",
+      "source_detail": "NICE Methods Guide"
+    },
+    "nice_threshold_high": {
+      "value": 30000,
+      "price_base_year": 2024,
+      "label": "NICE cost-effectiveness threshold (upper bound)",
+      "context": "Rising to GBP 25,000-35,000 from April 2026 (first increase since 1999)",
+      "source_detail": "NICE Methods Guide"
+    },
+    "daly": {
+      "value": 70000,
+      "price_base_year": 2020,
+      "label": "Value of a Disability-Adjusted Life Year averted",
+      "context": "Treated symmetrically with QALY for CBA purposes (1 DALY averted ~ 1 QALY gained), though conceptually different"
+    }
+  },
+  "source": {
+    "publication": "The Green Book 2026; NICE Methods Guide",
+    "publisher": "HM Treasury; National Institute for Health and Care Excellence",
+    "url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government",
+    "date": "2026",
+    "update_frequency": "periodic"
+  },
+  "last_verified": "2026-04-04"
+}

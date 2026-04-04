@@ -1,0 +1,31 @@
+{
+  "parameter": "discount_rates",
+  "jurisdiction": "eu",
+  "label": "Social discount rates for EU Cohesion Policy CBA",
+  "category": "appraisal",
+  "values": {
+    "standard": {
+      "rate": 0.03,
+      "label": "Standard social discount rate for EU member states",
+      "applies_to": "Western and Northern EU member states (non-convergence)"
+    },
+    "cohesion": {
+      "rate": 0.05,
+      "label": "Social discount rate for Cohesion/convergence regions",
+      "applies_to": "Central and Eastern EU member states, IPA countries, regions with GDP < 75% of EU average"
+    },
+    "financial_benchmark": {
+      "rate": 0.04,
+      "label": "Financial discount rate benchmark for 2021-2027 programming period"
+    }
+  },
+  "member_state_overrides": "Member States may set country-specific rates. Check national CBA guidelines for deviations from the EU benchmark.",
+  "source": {
+    "publication": "Guide to Cost-Benefit Analysis of Investment Projects for Cohesion Policy 2014-2020; Economic Appraisal Vademecum 2021-2027",
+    "publisher": "European Commission, DG Regional and Urban Policy",
+    "url": "https://ec.europa.eu/regional_policy/en/information/publications/guides/2014/guide-to-cost-benefit-analysis-of-investment-projects-for-cohesion-policy-2014-2020",
+    "date": "2014; 2021",
+    "update_frequency": "per programming period (~7 years)"
+  },
+  "last_verified": "2026-04-04"
+}

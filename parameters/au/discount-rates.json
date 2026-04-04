@@ -1,0 +1,29 @@
+{
+  "parameter": "discount_rates",
+  "jurisdiction": "au",
+  "label": "Social discount rates for Australian project appraisal",
+  "category": "appraisal",
+  "values": {
+    "central": {
+      "rate": 0.07,
+      "label": "Central discount rate"
+    },
+    "low": {
+      "rate": 0.04,
+      "label": "Sensitivity test (low)"
+    },
+    "high": {
+      "rate": 0.10,
+      "label": "Sensitivity test (high)"
+    }
+  },
+  "notes": "Australian practice uses a higher central rate than UK (3.5%) or EU (3-5%), reflecting the estimated social opportunity cost of capital. Both ATAP and Infrastructure Australia recommend the 7% central rate with 4% and 10% sensitivity tests.",
+  "source": {
+    "publication": "Australian Transport Assessment and Planning (ATAP) Guidelines; Infrastructure Australia Assessment Framework",
+    "publisher": "Austroads; Infrastructure Australia; Office of Impact Analysis",
+    "url": "https://www.atap.gov.au/parameter-values/index",
+    "date": "2024",
+    "update_frequency": "periodic"
+  },
+  "last_verified": "2026-04-04"
+}

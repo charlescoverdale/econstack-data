@@ -1,0 +1,48 @@
+{
+  "parameter": "tax_parameters",
+  "jurisdiction": "uk",
+  "label": "UK tax rates and thresholds for economic impact modelling",
+  "category": "fiscal",
+  "tax_year": "2024/25",
+  "currency": "GBP",
+  "income_tax": {
+    "personal_allowance": 12570,
+    "basic_rate": { "rate": 0.20, "threshold": 50270 },
+    "higher_rate": { "rate": 0.40, "threshold": 125140 },
+    "additional_rate": { "rate": 0.45, "threshold": null }
+  },
+  "national_insurance": {
+    "employee": {
+      "rate": 0.08,
+      "threshold": 12570,
+      "label": "Employee NICs (Class 1 primary)"
+    },
+    "employer": {
+      "rate": 0.138,
+      "threshold": 9100,
+      "label": "Employer NICs (Class 1 secondary)"
+    }
+  },
+  "vat": {
+    "standard_rate": 0.20,
+    "reduced_rate": 0.05
+  },
+  "modelling_assumptions": {
+    "local_spending_from_wages": 0.60,
+    "vatable_spending_proportion": 0.50,
+    "note": "Used in io-report VAT revenue estimates. 60% of net earnings spent locally, 50% of spending is VATable."
+  },
+  "source": {
+    "publication": "Income Tax rates and allowances 2024/25",
+    "publisher": "HMRC",
+    "url": "https://www.gov.uk/government/publications/rates-and-allowances-income-tax",
+    "date": "2024-04",
+    "update_frequency": "annual (Budget/Autumn Statement)"
+  },
+  "caveats": [
+    "Simplified effective rates for economic impact modelling, not individual tax advice",
+    "Does not account for pension contributions, marriage allowance, or other reliefs",
+    "Scottish income tax rates differ (not covered here)"
+  ],
+  "last_verified": "2026-04-04"
+}
