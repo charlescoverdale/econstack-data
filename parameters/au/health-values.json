@@ -1,0 +1,42 @@
+{
+  "parameter": "health_values",
+  "jurisdiction": "au",
+  "label": "Health outcome valuations for Australian project appraisal",
+  "category": "health",
+  "currency": "AUD",
+  "values": {
+    "qaly": {
+      "low": 50000,
+      "high": 70000,
+      "price_base_year": 2024,
+      "label": "Value of a Quality-Adjusted Life Year",
+      "context": "Australia has no official QALY value for CBA. The range reflects the implicit PBAC (Pharmaceutical Benefits Advisory Committee) threshold for PBS listing decisions. PBAC has never published an explicit threshold."
+    },
+    "daly": {
+      "low": 50000,
+      "high": 70000,
+      "price_base_year": 2024,
+      "label": "Value of a Disability-Adjusted Life Year averted",
+      "context": "Treated symmetrically with QALY for CBA purposes"
+    },
+    "vsly": {
+      "value": 253000,
+      "price_base_year": 2025,
+      "label": "Value of a Statistical Life Year",
+      "context": "Derived from VSL using standard life expectancy decomposition. Published by OIA."
+    }
+  },
+  "source": {
+    "publication": "Best Practice Regulation Guidance Note: Value of Statistical Life; PBAC Guidelines",
+    "publisher": "Office of Impact Analysis; Pharmaceutical Benefits Advisory Committee",
+    "url": "https://oia.pmc.gov.au/resources/guidance-assessing-impacts/value-statistical-life",
+    "date": "2025",
+    "update_frequency": "VSL/VSLY annual (WPI-adjusted); QALY threshold implicit and rarely changes"
+  },
+  "caveats": [
+    "PBAC threshold is implicit and inferred from listing decisions. Not an official policy value.",
+    "For regulatory impact statements (RIS), use the OIA VSLY rather than the PBAC QALY range.",
+    "Academic literature suggests the implicit PBAC threshold may be higher (up to AUD 100,000) for severe conditions."
+  ],
+  "last_verified": "2026-04-04"
+}

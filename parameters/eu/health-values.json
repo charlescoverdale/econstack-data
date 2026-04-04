@@ -1,0 +1,42 @@
+{
+  "parameter": "health_values",
+  "jurisdiction": "eu",
+  "label": "Health outcome valuations for EU project appraisal",
+  "category": "health",
+  "currency": "EUR",
+  "values": {
+    "qaly": {
+      "low": 40000,
+      "high": 100000,
+      "price_base_year": 2022,
+      "label": "Value of a Quality-Adjusted Life Year",
+      "context": "No single EU-wide QALY value. Range reflects variation across member states. Lower bound typical of Central/Eastern Europe, upper bound typical of Nordic/Western Europe."
+    },
+    "daly": {
+      "low": 40000,
+      "high": 100000,
+      "price_base_year": 2022,
+      "label": "Value of a Disability-Adjusted Life Year averted",
+      "context": "Treated symmetrically with QALY for CBA purposes"
+    }
+  },
+  "member_state_examples": {
+    "description": "Some member states have implicit or explicit QALY thresholds from health technology assessment (HTA) bodies.",
+    "netherlands": { "qaly_threshold": 80000, "currency": "EUR", "body": "ZIN" },
+    "sweden": { "qaly_threshold": 70000, "currency": "EUR", "body": "TLV (approx, converted from SEK)" },
+    "poland": { "qaly_threshold": 40000, "currency": "PLN_equivalent_EUR", "body": "AOTMiT (approx)" },
+    "france": { "note": "No explicit threshold. HAS uses multi-criteria assessment." }
+  },
+  "source": {
+    "publication": "EC DG Regio CBA Guide; EUnetHTA; OECD Health Working Papers",
+    "publisher": "European Commission; various HTA bodies",
+    "date": "2014-2025",
+    "update_frequency": "periodic"
+  },
+  "caveats": [
+    "The EU does not mandate a single QALY value for CBA",
+    "Use the national HTA body threshold if available for the specific member state",
+    "For cross-country EU projects, use the midpoint of the range or a GDP-weighted average"
+  ],
+  "last_verified": "2026-04-04"
+}

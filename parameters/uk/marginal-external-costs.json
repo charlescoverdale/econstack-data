@@ -1,0 +1,80 @@
+{
+  "parameter": "marginal_external_costs",
+  "jurisdiction": "uk",
+  "label": "Marginal external costs of road transport",
+  "category": "transport",
+  "price_base_year": 2022,
+  "currency": "GBP",
+  "unit": "pence_per_vehicle_km",
+  "description": "External costs imposed on society by an additional vehicle-km of travel. Used to value changes in traffic levels. Values vary by vehicle type, road type, and congestion level. Simplified averages shown here; TAG Data Book A5.4 provides full disaggregation.",
+  "car_averages": {
+    "congestion": {
+      "urban_peak": 35.0,
+      "urban_offpeak": 5.0,
+      "rural": 0.5,
+      "motorway_peak": 8.0,
+      "motorway_offpeak": 0.3,
+      "note": "Highly variable. Congestion costs dominate in urban peak conditions."
+    },
+    "infrastructure_damage": {
+      "value": 0.2,
+      "note": "Minimal for cars. HGVs cause 10,000x more damage per axle-pass."
+    },
+    "accident_externality": {
+      "value": 1.5,
+      "note": "External component only (costs to third parties not borne by the driver)"
+    },
+    "noise": {
+      "urban": 0.8,
+      "rural": 0.1,
+      "note": "Per vehicle-km. Depends on speed, road surface, building proximity."
+    },
+    "air_quality": {
+      "urban": 1.2,
+      "rural": 0.3,
+      "note": "NOx and PM2.5 damage costs. Higher in urban areas with population exposure."
+    },
+    "greenhouse_gas": {
+      "value": 2.5,
+      "note": "Based on DESNZ non-traded carbon values applied to average CO2/km"
+    }
+  },
+  "hgv_averages": {
+    "congestion": {
+      "urban_peak": 55.0,
+      "motorway_peak": 12.0,
+      "note": "HGVs cause proportionally more delay due to speed differentials"
+    },
+    "infrastructure_damage": {
+      "value": 15.0,
+      "note": "Fourth-power law: road damage increases with the fourth power of axle weight"
+    },
+    "accident_externality": {
+      "value": 5.0
+    },
+    "noise": {
+      "urban": 3.5
+    },
+    "air_quality": {
+      "urban": 8.0,
+      "note": "Diesel particulates. Euro VI standards have significantly reduced this."
+    },
+    "greenhouse_gas": {
+      "value": 12.0
+    }
+  },
+  "source": {
+    "publication": "TAG Data Book v2.02, Section A5.4",
+    "publisher": "Department for Transport",
+    "url": "https://www.gov.uk/government/publications/tag-data-book",
+    "date": "2025-12",
+    "update_frequency": "annual"
+  },
+  "caveats": [
+    "These are simplified averages. The TAG Data Book provides values disaggregated by 10+ vehicle classes, 5 road types, and 4 congestion bands.",
+    "Congestion costs are the largest and most variable component. Use location-specific data where available.",
+    "Air quality damage costs depend on population exposure (number of people within breathing distance of the road).",
+    "Phase 2 of the parameter database will add the full disaggregated matrix from TAG A5.4."
+  ],
+  "last_verified": "2026-04-04"
+}

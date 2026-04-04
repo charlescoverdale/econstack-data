@@ -1,0 +1,56 @@
+{
+  "parameter": "accident_costs",
+  "jurisdiction": "au",
+  "label": "Road crash costs by severity (national and state)",
+  "category": "transport",
+  "price_base_year": 2022,
+  "currency": "AUD",
+  "national_average": {
+    "fatal": {
+      "value": 7500000,
+      "label": "Cost per fatal crash",
+      "note": "Includes VSL, property damage, emergency services, hospital, legal, insurance. Higher than VPF alone because it includes all crash costs."
+    },
+    "serious_injury": {
+      "value": 520000,
+      "label": "Cost per serious injury crash (hospitalisation)"
+    },
+    "minor_injury": {
+      "value": 25000,
+      "label": "Cost per minor injury crash"
+    },
+    "property_damage_only": {
+      "value": 12000,
+      "label": "Cost per property-damage-only crash"
+    }
+  },
+  "state_variations": {
+    "description": "State road agencies publish their own crash cost estimates. Values vary by 15-30% due to different methodologies and local cost structures.",
+    "nsw": {
+      "fatal": 8200000,
+      "source": "Transport for NSW Economic Parameter Values"
+    },
+    "victoria": {
+      "fatal": 7800000,
+      "source": "VicRoads / Department of Transport and Planning"
+    },
+    "queensland": {
+      "fatal": 7100000,
+      "source": "Department of Transport and Main Roads"
+    },
+    "note": "Use state-specific values when available. National averages for cross-state or national-level analysis."
+  },
+  "source": {
+    "publication": "ATAP PV2: Road Parameter Values; BITRE Road Crash Costs in Australia",
+    "publisher": "Austroads; Bureau of Infrastructure and Transport Research Economics",
+    "url": "https://www.atap.gov.au/parameter-values/road-transport/index",
+    "date": "2024",
+    "update_frequency": "periodic (BITRE major update every 5-7 years, state values updated more frequently)"
+  },
+  "caveats": [
+    "Crash costs include all components (human, property, emergency, legal, insurance). Not directly comparable with UK casualty-only costs.",
+    "State values differ due to methodology, not just cost differences. Compare with caution.",
+    "Under-reporting of minor crashes means the minor injury and PDO values may underestimate true costs."
+  ],
+  "last_verified": "2026-04-04"
+}

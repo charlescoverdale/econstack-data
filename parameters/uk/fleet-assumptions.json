@@ -1,0 +1,69 @@
+{
+  "parameter": "fleet_assumptions",
+  "jurisdiction": "uk",
+  "label": "Vehicle fleet composition and emission factors",
+  "category": "transport",
+  "reference_year": 2024,
+  "fleet_composition": {
+    "description": "Approximate UK vehicle fleet mix. TAG Data Book provides detailed year-by-year projections.",
+    "cars": {
+      "petrol": 0.41,
+      "diesel": 0.37,
+      "hybrid": 0.10,
+      "phev": 0.05,
+      "bev": 0.07,
+      "note": "BEV share growing rapidly. TAG projections show ~30% BEV by 2030."
+    },
+    "lgv": {
+      "diesel": 0.85,
+      "petrol": 0.05,
+      "bev": 0.10
+    },
+    "hgv": {
+      "diesel": 0.97,
+      "bev_hydrogen": 0.03,
+      "note": "Heavy vehicles decarbonising slower than cars"
+    }
+  },
+  "average_emissions": {
+    "car_gCO2_per_km": {
+      "petrol": 150,
+      "diesel": 135,
+      "hybrid": 95,
+      "phev": 50,
+      "bev": 0,
+      "fleet_average": 115,
+      "note": "Tailpipe only. Lifecycle/well-to-wheel adds ~20% for ICE, ~50gCO2/km for BEV (grid average)"
+    },
+    "lgv_gCO2_per_km": 200,
+    "hgv_gCO2_per_km": 700
+  },
+  "average_occupancy": {
+    "car": 1.55,
+    "bus": 12.0,
+    "rail": {
+      "national_rail": 0.35,
+      "note": "Load factor, not absolute count. Varies hugely by route and time."
+    }
+  },
+  "fuel_prices": {
+    "petrol_per_litre": 1.45,
+    "diesel_per_litre": 1.50,
+    "electricity_per_kwh": 0.30,
+    "price_base_year": 2024,
+    "note": "Retail prices including duty and VAT. TAG provides duty-exclusive and resource cost variants."
+  },
+  "source": {
+    "publication": "TAG Data Book v2.02, Sections A1.3 (fleet) and A3 (emissions)",
+    "publisher": "Department for Transport",
+    "url": "https://www.gov.uk/government/publications/tag-data-book",
+    "date": "2025-12",
+    "update_frequency": "annual"
+  },
+  "caveats": [
+    "Fleet composition changes rapidly due to ZEV mandate and EV uptake",
+    "These are snapshot values. TAG Data Book provides year-by-year projections to 2060",
+    "Emission factors are tailpipe only unless stated otherwise"
+  ],
+  "last_verified": "2026-04-04"
+}

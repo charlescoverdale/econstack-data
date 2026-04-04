@@ -1,0 +1,51 @@
+{
+  "parameter": "carbon_values",
+  "jurisdiction": "au",
+  "label": "Carbon values for Australian project appraisal",
+  "category": "environment",
+  "price_base_year": 2024,
+  "currency": "AUD",
+  "unit": "per_tCO2e",
+  "values": {
+    "description": "Australia does not publish an official social cost of carbon or shadow carbon price for CBA. The values below reflect the Australian Carbon Credit Unit (ACCU) market price and international reference points.",
+    "accu_market_price": {
+      "value": 35,
+      "label": "ACCU spot price (approximate, 2024)",
+      "note": "Market price fluctuates. Check Clean Energy Regulator for current prices."
+    },
+    "safeguard_mechanism_penalty": {
+      "value": 275,
+      "label": "Safeguard Mechanism shortfall charge (AUD per tCO2e)",
+      "note": "The effective ceiling price under the Safeguard Mechanism. Facilities exceeding baselines pay this if they cannot acquire ACCUs."
+    }
+  },
+  "recommended_approach": {
+    "description": "For CBA under ATAP or Infrastructure Australia guidelines, use a range:",
+    "low": 35,
+    "central": 100,
+    "high": 275,
+    "note": "Low = current ACCU market. Central = mid-range consistent with Paris Agreement pathways. High = Safeguard Mechanism ceiling. Always present as a sensitivity range, not a point estimate."
+  },
+  "international_reference": {
+    "iea_net_zero": {
+      "value_usd": 250,
+      "year": 2030,
+      "label": "IEA Net Zero Emissions scenario carbon price (advanced economies)"
+    },
+    "note": "For consistency with EIB or World Bank carbon schedules in international projects, convert using PPP exchange rates."
+  },
+  "source": {
+    "publication": "Clean Energy Regulator ACCU Market Reports; Safeguard Mechanism Reformed Baselines Rules; ATAP guidelines",
+    "publisher": "Clean Energy Regulator; Department of Climate Change, Energy, the Environment and Water",
+    "url": "https://www.cleanenergyregulator.gov.au",
+    "date": "2024",
+    "update_frequency": "ACCU prices: continuous market. Safeguard charge: annual review."
+  },
+  "caveats": [
+    "Australia does not have an equivalent to the UK DESNZ carbon valuation schedule or the US EPA social cost of carbon.",
+    "The ACCU market price reflects compliance demand, not the social cost of emissions.",
+    "For transport CBA, ATAP recommends sensitivity analysis across a carbon price range rather than a single value.",
+    "The Safeguard Mechanism applies to facilities emitting > 100 ktCO2e/year. Smaller projects may face no direct carbon cost."
+  ],
+  "last_verified": "2026-04-04"
+}

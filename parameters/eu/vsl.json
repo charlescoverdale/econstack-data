@@ -1,0 +1,42 @@
+{
+  "parameter": "vsl",
+  "jurisdiction": "eu",
+  "label": "Value of Statistical Life for EU project appraisal",
+  "category": "health_and_safety",
+  "price_base_year": 2022,
+  "currency": "EUR",
+  "values": {
+    "eu_average": {
+      "value": 3600000,
+      "label": "EU-27 average VSL",
+      "note": "Derived from OECD meta-analysis, income-adjusted to EU average GDP per capita"
+    }
+  },
+  "member_state_adjustment": {
+    "description": "No single EU-wide VSL exists. The EC CBA Guide recommends benefit transfer using income elasticity. Adjust the reference VSL by relative GDP per capita (PPP).",
+    "formula": "VSL_country = VSL_eu_avg * (GDP_per_capita_country / GDP_per_capita_eu_avg) ^ elasticity",
+    "elasticity": 1.0,
+    "reference_gdp_per_capita_eur": 35000,
+    "example_adjustments": {
+      "germany": { "gdp_ratio": 1.31, "adjusted_vsl": 4716000 },
+      "france": { "gdp_ratio": 1.14, "adjusted_vsl": 4104000 },
+      "spain": { "gdp_ratio": 0.83, "adjusted_vsl": 2988000 },
+      "poland": { "gdp_ratio": 0.57, "adjusted_vsl": 2052000 },
+      "romania": { "gdp_ratio": 0.43, "adjusted_vsl": 1548000 }
+    }
+  },
+  "source": {
+    "publication": "Guide to Cost-Benefit Analysis of Investment Projects for Cohesion Policy 2014-2020; OECD Mortality Risk Valuation (2025)",
+    "publisher": "European Commission DG Regio; OECD",
+    "url": "https://ec.europa.eu/regional_policy/en/information/publications/guides/2014/guide-to-cost-benefit-analysis-of-investment-projects-for-cohesion-policy-2014-2020",
+    "date": "2014; 2025",
+    "update_frequency": "per programming period (~7 years)"
+  },
+  "methodology": "Benefit transfer from OECD meta-analysis base VSL. Income elasticity of 1.0 for cross-country transfer within the EU. GDP per capita at PPP from Eurostat.",
+  "caveats": [
+    "EU average is illustrative. Always adjust for the specific member state.",
+    "Some member states publish their own VSL (e.g. France, Sweden). Use national values where available.",
+    "The EC CBA Guide does not mandate a single VSL value."
+  ],
+  "last_verified": "2026-04-04"
+}

@@ -1,0 +1,62 @@
+{
+  "parameter": "s_curve_profiles",
+  "jurisdiction": "uk",
+  "label": "Capital expenditure phasing profiles",
+  "category": "appraisal",
+  "description": "S-curve (bell-shaped) spending profiles for capital cost phasing. Weights represent the proportion of total capex spent in each year of the construction period. Weights sum to 1.0.",
+  "profiles": {
+    "2_year": {
+      "weights": [0.40, 0.60],
+      "label": "2-year build (front-loaded ramp to peak)"
+    },
+    "3_year": {
+      "weights": [0.20, 0.50, 0.30],
+      "label": "3-year build (peak in year 2)"
+    },
+    "5_year": {
+      "weights": [0.10, 0.20, 0.30, 0.25, 0.15],
+      "label": "5-year build (peak in year 3)"
+    },
+    "7_year": {
+      "weights": [0.05, 0.10, 0.20, 0.25, 0.20, 0.15, 0.05],
+      "label": "7-year build (symmetric peak in year 4)"
+    },
+    "10_year": {
+      "weights": [0.03, 0.05, 0.08, 0.12, 0.15, 0.15, 0.15, 0.12, 0.10, 0.05],
+      "label": "10-year build (broad plateau years 5-7)"
+    }
+  },
+  "benefit_ramp_up": {
+    "description": "Benefit ramp-up profiles for operational phase. First operational year = proportion of steady-state benefit.",
+    "default": {
+      "year_1": 0.50,
+      "year_2": 0.75,
+      "year_3_onwards": 1.00,
+      "label": "Standard 3-year ramp to full benefits"
+    },
+    "fast": {
+      "year_1": 0.75,
+      "year_2_onwards": 1.00,
+      "label": "Fast ramp (IT systems, policy changes)"
+    },
+    "slow": {
+      "year_1": 0.25,
+      "year_2": 0.50,
+      "year_3": 0.75,
+      "year_4_onwards": 1.00,
+      "label": "Slow ramp (regeneration, behaviour change)"
+    }
+  },
+  "source": {
+    "publication": "Green Book 2026 (general guidance); supplemented by HM Treasury Infrastructure UK benchmarks",
+    "publisher": "HM Treasury",
+    "url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government",
+    "date": "2026",
+    "update_frequency": "periodic"
+  },
+  "caveats": [
+    "These are generic profiles. Project-specific phasing from cost consultants is always preferred.",
+    "Large infrastructure projects often have more complex phasing with site preparation, procurement, and commissioning phases."
+  ],
+  "last_verified": "2026-04-04"
+}

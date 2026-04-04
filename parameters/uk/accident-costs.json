@@ -1,0 +1,52 @@
+{
+  "parameter": "accident_costs",
+  "jurisdiction": "uk",
+  "label": "Costs of road accidents by severity",
+  "category": "transport",
+  "price_base_year": 2022,
+  "currency": "GBP",
+  "casualty_costs": {
+    "fatal": {
+      "total": 2350000,
+      "human_costs": 1958000,
+      "lost_output": 283000,
+      "medical_and_ambulance": 1200,
+      "label": "Cost per fatality"
+    },
+    "serious": {
+      "total": 264500,
+      "human_costs": 218400,
+      "lost_output": 33400,
+      "medical_and_ambulance": 12700,
+      "label": "Cost per serious casualty"
+    },
+    "slight": {
+      "total": 20400,
+      "human_costs": 15500,
+      "lost_output": 2900,
+      "medical_and_ambulance": 2000,
+      "label": "Cost per slight casualty"
+    }
+  },
+  "accident_costs": {
+    "description": "Average cost per accident (includes all casualties plus property damage, police, and insurance admin). Use these when you have accident counts rather than casualty counts.",
+    "fatal_accident": 2250000,
+    "serious_accident": 310000,
+    "slight_accident": 27000,
+    "damage_only_accident": 3100
+  },
+  "cost_components": {
+    "property_damage": "Included in accident costs but not casualty costs. Covers vehicle damage, roadside infrastructure, third-party property.",
+    "police_costs": "Included in accident costs. Investigation, traffic management, reporting.",
+    "insurance_admin": "Included in accident costs. Claims processing overhead."
+  },
+  "source": {
+    "publication": "TAG Data Book v2.02, Table A4.1.1 and A4.1.3",
+    "publisher": "Department for Transport",
+    "url": "https://www.gov.uk/government/publications/tag-data-book",
+    "date": "2025-12",
+    "update_frequency": "annual"
+  },
+  "methodology": "Human costs from stated preference WTP studies. Lost output from labour market earnings. Medical costs from NHS Reference Costs. Property damage and police from insurance and police data.",
+  "last_verified": "2026-04-04"
+}

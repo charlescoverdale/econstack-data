@@ -1,0 +1,41 @@
+{
+  "parameter": "distributional_weights",
+  "jurisdiction": "eu",
+  "label": "Distributional analysis parameters for EU CBA",
+  "category": "appraisal",
+  "approach": "qualitative_with_quantitative_option",
+  "description": "The EC CBA Guide recommends distributional analysis but does not mandate quantitative welfare weights. The standard approach is to present the distribution of costs and benefits across income groups, regions, and social groups qualitatively. Quantitative weighting is optional.",
+  "quantitative_method": {
+    "formula": "weight(income) = (reference_income / income) ^ elasticity",
+    "elasticity": {
+      "recommended_range": { "low": 1.0, "high": 1.5 },
+      "central": 1.2,
+      "note": "No single EU-mandated value. Range reflects academic literature (Stern 2007, Layard et al. 2008)."
+    },
+    "reference_income": {
+      "description": "EU-27 median equivalised disposable income",
+      "value": 18000,
+      "price_base_year": 2022,
+      "currency": "EUR",
+      "source_detail": "Eurostat [ilc_di03]"
+    }
+  },
+  "qualitative_dimensions": {
+    "description": "At minimum, the EC CBA Guide requires analysis of distributional impacts across these dimensions:",
+    "dimensions": [
+      "Income groups (quintiles or deciles of affected population)",
+      "Geographic regions (convergence vs advanced; urban vs rural)",
+      "Gender",
+      "Age groups (particularly youth unemployment, pensioners)",
+      "Social groups (disabled, migrants, ethnic minorities)"
+    ]
+  },
+  "source": {
+    "publication": "Guide to Cost-Benefit Analysis of Investment Projects for Cohesion Policy 2014-2020, Section 2.9",
+    "publisher": "European Commission, DG Regional and Urban Policy",
+    "url": "https://ec.europa.eu/regional_policy/en/information/publications/guides/2014/guide-to-cost-benefit-analysis-of-investment-projects-for-cohesion-policy-2014-2020",
+    "date": "2014",
+    "update_frequency": "per programming period (~7 years)"
+  },
+  "last_verified": "2026-04-04"
+}

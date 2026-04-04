@@ -6,9 +6,9 @@ Structured CBA parameter database for the `/cost-benefit`, `/io-report`, and `/e
 
 | Jurisdiction | Files | Parameters |
 |---|---|---|
-| UK | 10 | Discount rates, carbon values, VSL, health (QALY), VTTS, optimism bias, additionality, tax, distributional weights, construction benchmarks |
-| EU | 2 | Discount rates, carbon values (EIB shadow price) |
-| AU | 2 | Discount rates, VSL/VSLY |
+| UK | 14 | Discount rates, carbon values, VSL, health (QALY), VTTS, optimism bias, additionality, tax, distributional weights, construction benchmarks, accident costs (expanded), marginal external costs, fleet assumptions, S-curve profiles |
+| EU | 6 | Discount rates, carbon values (EIB shadow price), VSL (with member state transfer method), health (QALY/DALY), conversion factors (SCF, shadow wages), distributional weights |
+| AU | 6 | Discount rates, VSL/VSLY, health (QALY/DALY), VTTS (formula-based from AWE), accident costs (national + state), carbon values (ACCU + Safeguard Mechanism) |
 
 ## Schema
 
@@ -57,6 +57,13 @@ Most parameters update annually. When a source publishes new values:
 
 For UK transport parameters, the TAG Data Book (.xlsm) is the primary source. Download from GOV.UK and cross-check against the JSON files.
 
+### Extraction scripts
+
+Two R scripts in `scripts/` help with updates:
+
+- `scripts/extract-tag-databook.R <file.xlsm>` : Reads a TAG Data Book and previews VTTS and accident cost sheets for manual extraction
+- `scripts/extract-desnz-carbon.R [file.xlsx]` : Reads DESNZ carbon values spreadsheet, or shows current values for manual update
+
 ## Sources
 
 | Parameter | Source | URL |
@@ -73,3 +80,15 @@ For UK transport parameters, the TAG Data Book (.xlsm) is the primary source. Do
 | EU carbon values | EIB Climate Bank Roadmap | eib.org |
 | AU discount rates | ATAP / Infrastructure Australia | atap.gov.au |
 | AU VSL | Office of Impact Analysis | oia.pmc.gov.au |
+| UK accident costs (expanded) | TAG Data Book A4.1 | gov.uk/government/publications/tag-data-book |
+| UK marginal external costs | TAG Data Book A5.4 | gov.uk/government/publications/tag-data-book |
+| UK fleet assumptions | TAG Data Book A1.3, A3 | gov.uk/government/publications/tag-data-book |
+| UK S-curve profiles | Green Book 2026 | gov.uk/government/publications/the-green-book |
+| EU VSL | EC CBA Guide + OECD 2025 | ec.europa.eu/regional_policy |
+| EU health values | EC CBA Guide + EUnetHTA | ec.europa.eu/regional_policy |
+| EU conversion factors | EC CBA Guide Ch. 2 | ec.europa.eu/regional_policy |
+| EU distributional weights | EC CBA Guide S. 2.9 | ec.europa.eu/regional_policy |
+| AU health values | PBAC / OIA | oia.pmc.gov.au |
+| AU VTTS | ATAP PV2 | atap.gov.au |
+| AU accident costs | ATAP PV2 / BITRE | atap.gov.au |
+| AU carbon values | Clean Energy Regulator | cleanenergyregulator.gov.au |

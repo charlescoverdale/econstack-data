@@ -1,0 +1,63 @@
+{
+  "parameter": "vtts",
+  "jurisdiction": "au",
+  "label": "Value of Travel Time Savings (ATAP methodology)",
+  "category": "transport",
+  "currency": "AUD",
+  "methodology": "formula_based",
+  "description": "Australian VTTS is derived as a percentage of Average Weekly Earnings (AWE), not from stated preference surveys as in the UK. Values update automatically as AWE changes.",
+  "formulas": {
+    "private_travel": {
+      "proportion_of_awe": 0.40,
+      "label": "Private (non-business) travel time",
+      "note": "40% of AWE per hour. Covers commuting and leisure."
+    },
+    "business_travel": {
+      "proportion_of_awe": 1.298,
+      "label": "Business travel time",
+      "note": "129.8% of AWE per hour. Includes employer on-costs (superannuation, workers comp, payroll tax)."
+    },
+    "walking_waiting": {
+      "multiplier": 2.0,
+      "base": "private_travel",
+      "label": "Walking and waiting time",
+      "note": "Valued at 2x the private travel rate (perceived as more onerous)"
+    }
+  },
+  "reference_awe": {
+    "value": 1923,
+    "period": "weekly",
+    "price_base": "Nov 2024",
+    "hourly_equivalent": 50.61,
+    "note": "ABS 6302.0 Average Weekly Earnings, full-time adult total earnings, seasonally adjusted. Hourly = AWE / 38.",
+    "source_detail": "ABS Cat. 6302.0"
+  },
+  "computed_vtts": {
+    "description": "Current VTTS based on reference AWE above",
+    "private_per_hour": 20.24,
+    "business_per_hour": 65.69,
+    "walking_waiting_per_hour": 40.49,
+    "price_base_year": 2024
+  },
+  "vehicle_operating_costs": {
+    "car_per_km": {
+      "value": 0.18,
+      "currency": "AUD",
+      "price_base_year": 2024,
+      "note": "ATAP PV2 average across vehicle classes. Includes fuel, tyres, maintenance, depreciation."
+    }
+  },
+  "source": {
+    "publication": "ATAP PV2: Road Parameter Values; ATAP T2: Travel Time",
+    "publisher": "Austroads / Transport and Infrastructure Council",
+    "url": "https://www.atap.gov.au/parameter-values/road-transport/index",
+    "date": "2024",
+    "update_frequency": "periodic (values update with AWE releases, twice yearly)"
+  },
+  "caveats": [
+    "VTTS updates automatically with AWE. Always use the latest ABS 6302.0 release.",
+    "Formula-based approach means no stated preference uncertainty, but assumes a fixed relationship between earnings and time value.",
+    "Walking/waiting multiplier of 2x is an assumption, not empirically derived for Australia."
+  ],
+  "last_verified": "2026-04-04"
+}

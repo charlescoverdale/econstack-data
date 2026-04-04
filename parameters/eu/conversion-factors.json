@@ -1,0 +1,63 @@
+{
+  "parameter": "conversion_factors",
+  "jurisdiction": "eu",
+  "label": "Economic conversion factors for EU Cohesion Policy CBA",
+  "category": "appraisal",
+  "standard_conversion_factor": {
+    "description": "Converts market prices to economic (shadow) prices by adjusting for trade distortions (tariffs, subsidies, indirect taxes). For EU member states with low trade distortions, SCF is close to 1.0.",
+    "typical_range": { "low": 0.96, "high": 1.00 },
+    "formula": "SCF = 1 / (1 + weighted_average_tariff_rate)",
+    "note": "For most EU member states, SCF = 0.96-1.00. For IPA/candidate countries with higher trade barriers, SCF may be lower (0.85-0.95)."
+  },
+  "shadow_wage_rate": {
+    "description": "The economic opportunity cost of labour, adjusted for unemployment and tax wedges. Lower than market wage in high-unemployment regions (labour has lower opportunity cost).",
+    "formula": "SWR = market_wage * (1 - u) * (1 - t) + reservation_wage * u",
+    "components": {
+      "u": "Regional unemployment rate",
+      "t": "Tax and social contribution wedge (typically 0.30-0.45 in EU)",
+      "reservation_wage": "Minimum income level (social benefits, subsistence). Typically 40-70% of market wage."
+    },
+    "reference_values": {
+      "low_unemployment": {
+        "swrf": 0.90,
+        "label": "Shadow wage rate factor when regional unemployment < 5%"
+      },
+      "medium_unemployment": {
+        "swrf": 0.75,
+        "label": "Shadow wage rate factor when regional unemployment 5-15%"
+      },
+      "high_unemployment": {
+        "swrf": 0.60,
+        "label": "Shadow wage rate factor when regional unemployment > 15%"
+      }
+    },
+    "note": "SWRF = shadow wage / market wage. Multiply market labour costs by SWRF to get economic cost of labour."
+  },
+  "sector_conversion_factors": {
+    "description": "Sector-specific factors for converting financial costs to economic costs.",
+    "construction": {
+      "factor": 0.90,
+      "note": "Construction costs often include indirect taxes and monopoly rents. Factor < 1.0."
+    },
+    "energy": {
+      "factor": 0.85,
+      "note": "Energy prices include significant taxes and levies. Economic cost is lower than financial cost."
+    },
+    "land": {
+      "note": "Land has no economic cost in CBA (transfer payment), but may have opportunity cost. Use agricultural output value or development value foregone."
+    }
+  },
+  "source": {
+    "publication": "Guide to Cost-Benefit Analysis of Investment Projects for Cohesion Policy 2014-2020, Chapter 2",
+    "publisher": "European Commission, DG Regional and Urban Policy",
+    "url": "https://ec.europa.eu/regional_policy/en/information/publications/guides/2014/guide-to-cost-benefit-analysis-of-investment-projects-for-cohesion-policy-2014-2020",
+    "date": "2014",
+    "update_frequency": "per programming period (~7 years)"
+  },
+  "caveats": [
+    "Shadow pricing adds complexity. For most EU CBAs, the adjustment from market to economic prices is small (within 5-10%).",
+    "Country-specific conversion factors should be calculated based on national trade statistics and tax structures.",
+    "These reference values are starting points. JASPERS or national appraisal bodies may publish country-specific factors."
+  ],
+  "last_verified": "2026-04-04"
+}
