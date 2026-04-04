@@ -1,0 +1,119 @@
+{
+  "parameter": "appraisal_parameters",
+  "jurisdiction": "wb",
+  "label": "World Bank project appraisal parameters (carbon, VSL, shadow pricing)",
+  "category": "appraisal",
+  "carbon_values": {
+    "description": "Shadow Price of Carbon for World Bank Group investment project financing. Mandatory for all IFC/IBRD projects since 2017.",
+    "currency": "USD",
+    "unit": "per_tCO2",
+    "price_base_year": 2017,
+    "schedule": [
+      { "year": 2020, "low": 40, "high": 80 },
+      { "year": 2025, "low": 45, "high": 90 },
+      { "year": 2030, "low": 50, "high": 100 },
+      { "year": 2035, "low": 55, "high": 110 },
+      { "year": 2040, "low": 60, "high": 120 },
+      { "year": 2050, "low": 80, "high": 160 }
+    ],
+    "interpolation": "linear",
+    "note": "Low/high range reflects uncertainty in damage estimates. The World Bank recommends using the high value for projects in carbon-intensive sectors and the low value as a minimum floor.",
+    "source_detail": "World Bank Guidance Note on Shadow Price of Carbon (2017, updated 2024)"
+  },
+  "vsl": {
+    "description": "Value of Statistical Life by World Bank country income group. Derived using income-elasticity benefit transfer from a US base VSL.",
+    "currency": "USD",
+    "price_base_year": 2022,
+    "by_income_group": {
+      "low_income": {
+        "vsl": 107000,
+        "gni_per_capita_range": "< $1,135",
+        "examples": "Ethiopia, Mozambique, Afghanistan"
+      },
+      "lower_middle_income": {
+        "vsl": 420000,
+        "gni_per_capita_range": "$1,136 - $4,465",
+        "examples": "India, Nigeria, Kenya, Bangladesh"
+      },
+      "upper_middle_income": {
+        "vsl": 1200000,
+        "gni_per_capita_range": "$4,466 - $13,845",
+        "examples": "Brazil, China, South Africa, Mexico"
+      },
+      "high_income": {
+        "vsl": 6400000,
+        "gni_per_capita_range": "> $13,845",
+        "examples": "US, UK, Germany, Australia"
+      }
+    },
+    "methodology": "Income-elasticity transfer: VSL_country = VSL_US * (GNI_country / GNI_US) ^ elasticity. Elasticity = 1.0 (unit elastic). GNI at Atlas method, not PPP.",
+    "note": "These are approximate group averages. For project-specific appraisal, compute VSL using the country's actual GNI per capita and the transfer formula."
+  },
+  "shadow_exchange_rate": {
+    "description": "Shadow Exchange Rate Factor (SERF) adjusts for trade distortions. Converts domestic prices to border (world) prices.",
+    "formula": "SERF = (M + X) / (M(1 + tm) + X(1 - tx))",
+    "components": {
+      "M": "Total imports (CIF)",
+      "X": "Total exports (FOB)",
+      "tm": "Weighted average import tariff rate",
+      "tx": "Weighted average export tax rate"
+    },
+    "typical_values": {
+      "low_distortion": { "serf": 1.0, "note": "Open economies with low tariffs (e.g., Singapore, Chile)" },
+      "moderate_distortion": { "serf": 1.1, "note": "Most middle-income countries with 5-15% average tariffs" },
+      "high_distortion": { "serf": 1.2, "note": "Countries with significant trade barriers (>15% average tariff)" }
+    },
+    "note": "SERF > 1.0 means the economic value of foreign exchange exceeds the market exchange rate. Apply SERF to all traded goods inputs/outputs in the economic analysis."
+  },
+  "standard_conversion_factor": {
+    "description": "Standard Conversion Factor (SCF) converts market prices of non-traded goods to economic prices.",
+    "formula": "SCF = 1 / SERF",
+    "typical_values": {
+      "low_distortion": 1.00,
+      "moderate_distortion": 0.91,
+      "high_distortion": 0.83
+    },
+    "note": "Apply SCF to non-traded goods (construction labour, local materials, land). Traded goods use border prices directly."
+  },
+  "shadow_wage_rate": {
+    "description": "Shadow Wage Rate Factor (SWRF) for unskilled labour in labour-surplus economies.",
+    "by_labour_market": {
+      "severe_surplus": {
+        "swrf": 0.25,
+        "note": "Very high unemployment/underemployment (>25%). Opportunity cost of labour is near zero. Examples: post-conflict, remote rural areas."
+      },
+      "moderate_surplus": {
+        "swrf": 0.50,
+        "note": "Significant underemployment (15-25%). Workers have some productive alternative (subsistence agriculture)."
+      },
+      "mild_surplus": {
+        "swrf": 0.75,
+        "note": "Moderate unemployment (5-15%). Workers have reasonable alternative employment."
+      },
+      "no_surplus": {
+        "swrf": 1.00,
+        "note": "Full employment or skilled labour. Opportunity cost equals market wage."
+      }
+    },
+    "skilled_labour": {
+      "swrf": 1.00,
+      "note": "Skilled and professional labour is always valued at market wage (SWRF = 1.0), regardless of country context."
+    },
+    "note": "SWRF = shadow wage / market wage. Multiply market labour costs by SWRF to get economic cost. Lower SWRF means the project creates more net economic value from employing idle labour."
+  },
+  "source": {
+    "publication": "Guidelines for the Economic Analysis of Projects (2017); Guidance Note on Shadow Price of Carbon (2017, updated 2024); World Bank Operational Manual",
+    "publisher": "World Bank Group",
+    "url": "https://www.worldbank.org/en/projects-operations/products-and-services/brief/economic-analysis-of-investment-operations",
+    "date": "2017-2024",
+    "update_frequency": "periodic"
+  },
+  "caveats": [
+    "World Bank appraisal uses ERR as the primary metric, not NPV/BCR. The discount rate is the hurdle rate, not an input to NPV computation.",
+    "Shadow pricing (SERF, SCF, SWRF) is essential for developing country CBAs. Market prices systematically misstate economic values due to trade barriers, taxes, and labour market distortions.",
+    "VSL by income group is approximate. Always compute country-specific VSL using the transfer formula for formal appraisals.",
+    "Carbon values are mandatory for IFC/IBRD projects but lower than UK DESNZ or EIB shadow prices."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
+}

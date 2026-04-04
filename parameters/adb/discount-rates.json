@@ -1,0 +1,34 @@
+{
+  "parameter": "discount_rates",
+  "jurisdiction": "adb",
+  "label": "Economic rate of return benchmarks for ADB project appraisal",
+  "category": "appraisal",
+  "values": {
+    "err_benchmark": {
+      "rate": 0.09,
+      "label": "Standard minimum economic rate of return (ERR) threshold",
+      "note": "ADB traditionally uses 9-12% as the ERR hurdle rate, reflecting the higher opportunity cost of capital in developing Asia."
+    },
+    "sensitivity": {
+      "low": 0.06,
+      "high": 0.12,
+      "note": "Lower-risk projects in advanced Asian economies (South Korea, Singapore) may use 6%. High-risk projects in LDCs may require 12%."
+    }
+  },
+  "country_guidance": {
+    "description": "ADB does not mandate a single discount rate. The ERR threshold depends on the borrowing country's opportunity cost of capital.",
+    "advanced_developing": { "typical_range": "6-9%", "examples": "China, Thailand, Malaysia" },
+    "standard_developing": { "typical_range": "9-12%", "examples": "India, Indonesia, Philippines, Vietnam" },
+    "least_developed": { "typical_range": "10-12%", "examples": "Cambodia, Myanmar, Laos, Pacific Islands" }
+  },
+  "notes": "Like the World Bank, ADB uses ERR as the primary project selection metric. A project is economically viable if ERR > opportunity cost of capital. ADB projects also require a financial internal rate of return (FIRR) analysis alongside the economic analysis.",
+  "source": {
+    "publication": "Guidelines for the Economic Analysis of Projects (2017)",
+    "publisher": "Asian Development Bank",
+    "url": "https://www.adb.org/documents/guidelines-economic-analysis-projects",
+    "date": "2017",
+    "update_frequency": "periodic (last major update 2017)"
+  },
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
+}

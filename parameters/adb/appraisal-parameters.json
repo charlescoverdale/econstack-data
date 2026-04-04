@@ -1,0 +1,92 @@
+{
+  "parameter": "appraisal_parameters",
+  "jurisdiction": "adb",
+  "label": "ADB project appraisal parameters (carbon, shadow pricing)",
+  "category": "appraisal",
+  "carbon_values": {
+    "description": "ADB adopted shadow carbon pricing aligned with the multilateral development bank (MDB) joint approach. Values are consistent with the World Bank schedule.",
+    "currency": "USD",
+    "unit": "per_tCO2",
+    "price_base_year": 2017,
+    "schedule": [
+      { "year": 2020, "low": 40, "high": 80 },
+      { "year": 2025, "low": 45, "high": 90 },
+      { "year": 2030, "low": 50, "high": 100 },
+      { "year": 2040, "low": 60, "high": 120 },
+      { "year": 2050, "low": 80, "high": 160 }
+    ],
+    "interpolation": "linear",
+    "note": "Same as World Bank schedule. Part of the MDB joint approach to carbon pricing adopted in 2017.",
+    "source_detail": "MDB Joint Approach to Paris Alignment and Shadow Carbon Pricing"
+  },
+  "shadow_exchange_rate": {
+    "description": "Shadow Exchange Rate Factor (SERF) for ADB Developing Member Countries. Same methodology as World Bank.",
+    "formula": "SERF = (M + X) / (M(1 + tm) + X(1 - tx))",
+    "typical_values": {
+      "open_economies": { "serf": 1.0, "examples": "Singapore, Hong Kong" },
+      "moderate_protection": { "serf": 1.05, "examples": "Thailand, Malaysia, Philippines" },
+      "significant_protection": { "serf": 1.15, "examples": "India, Bangladesh, Pakistan" },
+      "high_protection": { "serf": 1.25, "examples": "Some Pacific Island economies" }
+    },
+    "source_detail": "ADB Shadow Exchange Rates Technical Note (2015)"
+  },
+  "standard_conversion_factor": {
+    "description": "Standard Conversion Factor (SCF) = 1 / SERF. Applied to non-traded goods.",
+    "typical_values": {
+      "open_economies": 1.00,
+      "moderate_protection": 0.95,
+      "significant_protection": 0.87,
+      "high_protection": 0.80
+    }
+  },
+  "shadow_wage_rate": {
+    "description": "Shadow Wage Rate Factor for unskilled labour in ADB Developing Member Countries.",
+    "by_context": {
+      "urban_formal": {
+        "swrf": 0.75,
+        "note": "Urban areas with moderate unemployment. Workers have alternative informal sector employment."
+      },
+      "rural_agricultural": {
+        "swrf": 0.50,
+        "note": "Rural areas where displaced workers return to subsistence agriculture. Opportunity cost is the marginal product of agricultural labour."
+      },
+      "severe_underemployment": {
+        "swrf": 0.25,
+        "note": "Remote areas, post-disaster, or fragile states with severe labour surplus."
+      },
+      "skilled_labour": {
+        "swrf": 1.00,
+        "note": "Professional and skilled labour always valued at market wage."
+      }
+    },
+    "regional_examples": {
+      "india_rural": 0.50,
+      "philippines_urban": 0.75,
+      "cambodia_rural": 0.30,
+      "china_urban": 0.90,
+      "pacific_islands": 0.40
+    },
+    "note": "ADB recommends country-specific calculation based on local labour market conditions. These are indicative starting points."
+  },
+  "vsl": {
+    "description": "ADB does not publish a single VSL figure. Recommends the benefit-transfer method using World Bank income-group values or the OECD income-elasticity approach.",
+    "methodology": "VSL_country = VSL_base * (GNI_country / GNI_base) ^ elasticity",
+    "reference": "Use the World Bank income-group VSL values from wb/appraisal-parameters.json, or the OECD transfer method from oecd/vsl-transfer.json."
+  },
+  "source": {
+    "publication": "Guidelines for the Economic Analysis of Projects (2017); Shadow Exchange Rates Technical Note (2015); MDB Joint Carbon Pricing Approach",
+    "publisher": "Asian Development Bank",
+    "url": "https://www.adb.org/documents/guidelines-economic-analysis-projects",
+    "date": "2015-2017",
+    "update_frequency": "periodic"
+  },
+  "caveats": [
+    "ADB appraisal methodology is closely aligned with the World Bank. Many parameter values are shared.",
+    "Shadow pricing is critical for ADB projects. Market prices in developing Asia can significantly misstate economic values.",
+    "Country-specific SERF and SWRF should be calculated for each project. The typical values here are starting points.",
+    "ADB regional examples for SWRF are approximate and depend on local conditions.",
+    "The 2017 Guidelines are the latest comprehensive version. Supplementary notes have been published since."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
+}

@@ -1,0 +1,35 @@
+{
+  "parameter": "discount_rates",
+  "jurisdiction": "wb",
+  "label": "Economic rate of return benchmarks for World Bank project appraisal",
+  "category": "appraisal",
+  "values": {
+    "err_benchmark": {
+      "rate": 0.06,
+      "label": "Minimum economic rate of return (ERR) threshold",
+      "note": "Projects generally require ERR > 6% to be considered for financing. This is a hurdle rate, not a social discount rate in the Green Book sense."
+    },
+    "sensitivity": {
+      "low": 0.04,
+      "high": 0.10,
+      "note": "ERR threshold varies by country risk, sector, and project type. Low-risk infrastructure in stable MICs may use 4-6%. High-risk projects in fragile states may require 10%+."
+    }
+  },
+  "country_risk_adjustment": {
+    "description": "The World Bank does not prescribe a universal social discount rate. The ERR benchmark reflects the opportunity cost of capital in the borrowing country. Higher rates for countries with more productive alternative uses of capital.",
+    "low_income": { "typical_range": "8-12%", "note": "Higher opportunity cost of scarce capital" },
+    "lower_middle_income": { "typical_range": "6-10%" },
+    "upper_middle_income": { "typical_range": "4-8%" },
+    "high_income": { "typical_range": "3-6%", "note": "Closer to OECD practice" }
+  },
+  "notes": "The World Bank uses the Economic Rate of Return (ERR) as the primary project selection metric, not NPV or BCR. A project passes the ERR test if ERR > opportunity cost of capital. This is conceptually different from the UK/EU/US approach of discounting at a fixed social rate and computing NPV.",
+  "source": {
+    "publication": "Guidelines for the Economic Analysis of Projects (2017); World Bank Operational Policy OP 10.04",
+    "publisher": "World Bank Group",
+    "url": "https://www.worldbank.org/en/projects-operations/products-and-services/brief/economic-analysis-of-investment-operations",
+    "date": "2017",
+    "update_frequency": "periodic (last major update 2017)"
+  },
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
+}
