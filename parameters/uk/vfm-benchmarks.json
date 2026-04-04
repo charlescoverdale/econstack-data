@@ -1,0 +1,128 @@
+{
+  "parameter": "vfm_benchmarks",
+  "jurisdiction": "uk",
+  "label": "Value for Money classification thresholds and intervention benchmarks",
+  "category": "evaluation",
+  "currency": "GBP",
+  "bcr_categories": {
+    "description": "Standard BCR-based VfM categories used by DfT and adopted across UK government.",
+    "very_poor": { "max_exclusive": 0, "label": "Very poor value for money" },
+    "poor": { "min": 0, "max_exclusive": 1.0, "label": "Poor value for money" },
+    "low": { "min": 1.0, "max_exclusive": 1.5, "label": "Low value for money" },
+    "medium": { "min": 1.5, "max_exclusive": 2.0, "label": "Medium value for money" },
+    "high": { "min": 2.0, "max_exclusive": 4.0, "label": "High value for money" },
+    "very_high": { "min": 4.0, "label": "Very high value for money" },
+    "boundary_rule": "Boundary values go into the upper category. BCR of exactly 1.0 is Low, 1.5 is Medium, 2.0 is High, 4.0 is Very High. Per DfT VfM Supplementary Guidance on Categories (November 2024).",
+    "note": "BCR thresholds are indicative, not deterministic. The Green Book states that a BCR below 1 may still represent value for money if non-monetised benefits are sufficiently strong. Conversely, a high BCR with weak evidence (SMS Level 1) should be treated with caution.",
+    "source_detail": "DfT Value for Money Framework (May 2025); DfT VfM Supplementary Guidance on Categories (November 2024)"
+  },
+  "three_e_rating": {
+    "description": "RAG rating thresholds for the 3Es assessment (used in VfM dashboard).",
+    "economy": {
+      "green": "Cost per output at or below benchmark. Budget variance < 5%.",
+      "amber": "Cost per output 1-1.5x benchmark. Budget variance 5-20%.",
+      "red": "Cost per output > 1.5x benchmark. Budget variance > 20%."
+    },
+    "efficiency": {
+      "green": "Delivery rate > 90% of planned outputs.",
+      "amber": "Delivery rate 70-90% of planned outputs.",
+      "red": "Delivery rate < 70% of planned outputs."
+    },
+    "effectiveness": {
+      "green": "Positive BCR (> 1.0) with SMS Level 3+ evidence.",
+      "amber": "Positive BCR with SMS Level 1-2 evidence, OR BCR 0.8-1.0 with strong non-monetised benefits.",
+      "red": "BCR < 0.8, OR no evidence of positive outcomes."
+    }
+  },
+  "typical_bcrs_by_intervention": {
+    "description": "Indicative BCR ranges from published evaluations. These are rough benchmarks for comparing your programme against similar interventions. Wide ranges reflect variation in programme design and context.",
+    "employment_programmes": {
+      "range_low": 0.5,
+      "range_high": 3.0,
+      "typical": 1.5,
+      "note": "Active labour market programmes. DWP evaluations typically find BCRs of 1.0-2.0 for well-targeted programmes."
+    },
+    "skills_training": {
+      "range_low": 1.0,
+      "range_high": 5.0,
+      "typical": 2.5,
+      "note": "Higher returns for Level 2-3 qualifications in shortage occupations. Lower for generic short courses."
+    },
+    "transport_infrastructure": {
+      "range_low": 1.0,
+      "range_high": 8.0,
+      "typical": 2.5,
+      "note": "Wide range. Urban public transport and active travel tend to score higher than rural road schemes."
+    },
+    "housing_regeneration": {
+      "range_low": 0.8,
+      "range_high": 4.0,
+      "typical": 1.8,
+      "note": "BCR depends heavily on land value uplift and additionality assumptions."
+    },
+    "crime_prevention": {
+      "range_low": 1.5,
+      "range_high": 10.0,
+      "typical": 3.0,
+      "note": "High unit costs of crime mean even modest reductions generate large fiscal savings."
+    },
+    "health_prevention": {
+      "range_low": 1.0,
+      "range_high": 15.0,
+      "typical": 4.0,
+      "note": "Smoking cessation, physical activity, mental health early intervention. Highly cost-effective when targeted."
+    },
+    "early_years_children": {
+      "range_low": 2.0,
+      "range_high": 8.0,
+      "typical": 4.0,
+      "note": "Strong evidence base (Heckman). Long payback period means NPV is sensitive to discount rate."
+    },
+    "homelessness_prevention": {
+      "range_low": 1.5,
+      "range_high": 6.0,
+      "typical": 3.0,
+      "note": "High unit costs of homelessness and rough sleeping drive strong fiscal returns."
+    }
+  },
+  "toms_social_value_proxies": {
+    "description": "National TOMs (Themes, Outcomes and Measures) framework proxy values for social value quantification. 5 themes, selected core measures shown.",
+    "jobs": {
+      "ft_employment_created_local": { "value": 31340, "unit": "per FTE year", "label": "No. of local direct employees (FTE) hired" },
+      "employment_for_disadvantaged": { "value": 34080, "unit": "per FTE year", "label": "No. of employees from disadvantaged backgrounds" },
+      "apprenticeship_created": { "value": 23000, "unit": "per apprentice year", "label": "No. of apprenticeships created" }
+    },
+    "growth": {
+      "local_spend": { "value": 0.48, "unit": "per GBP spent", "label": "Total spend with local SMEs (social value multiplier)" },
+      "voluntary_hours": { "value": 17.38, "unit": "per hour", "label": "Staff volunteering hours in the community" }
+    },
+    "social": {
+      "work_placements": { "value": 1680, "unit": "per placement", "label": "No. of work placements for disadvantaged groups" },
+      "mentoring_hours": { "value": 17.38, "unit": "per hour", "label": "Mentoring hours for young people or NEETs" }
+    },
+    "environment": {
+      "carbon_reduction_tonnes": { "value": 70, "unit": "per tCO2e", "label": "Carbon emissions reduced or offset (tonnes CO2e)" },
+      "waste_diverted_tonnes": { "value": 95, "unit": "per tonne", "label": "Waste diverted from landfill (tonnes)" }
+    },
+    "innovation": {
+      "innovation_hours": { "value": 17.38, "unit": "per hour", "label": "Hours dedicated to innovation and knowledge transfer" }
+    },
+    "note": "TOMS proxy values are used for Social Value Act compliance in procurement. They provide a standardised way to monetise social outcomes. The proxy values are derived from 17 official government data sources. Use for social value reporting, not as a substitute for a full CBA.",
+    "source_detail": "Social Value Portal National TOMs Framework (2024)"
+  },
+  "source": {
+    "publication": "DfT Value for Money Framework (May 2025); What Works Centre Evidence Reviews; Social Value Portal National TOMs",
+    "publisher": "Department for Transport; What Works Centre for Local Economic Growth; Social Value Portal",
+    "url": "https://www.gov.uk/government/publications/dft-value-for-money-framework",
+    "date": "2024-2025",
+    "update_frequency": "DfT VfM framework periodic; TOMS annual; What Works evidence reviews ongoing"
+  },
+  "caveats": [
+    "BCR categories are indicative. Do not use BCR as the sole criterion for funding decisions.",
+    "Typical BCR ranges are from published evaluations with varying methodologies and contexts. They are benchmarks, not targets.",
+    "TOMS proxy values are designed for procurement social value, not programme evaluation. Use with caution outside procurement context.",
+    "The 3E RAG thresholds are econstack defaults based on common practice. Individual departments may use different thresholds."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}

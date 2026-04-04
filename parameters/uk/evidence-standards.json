@@ -1,0 +1,95 @@
+{
+  "parameter": "evidence_standards",
+  "jurisdiction": "uk",
+  "label": "Maryland Scientific Methods Scale (SMS) for evaluation evidence grading",
+  "category": "evaluation",
+  "description": "The Maryland SMS is the standard evidence grading scale used by the What Works Centre for Local Economic Growth and adopted across UK government for assessing the strength of causal evidence in impact evaluations.",
+  "levels": {
+    "5": {
+      "label": "Randomised Control Trial (RCT)",
+      "description": "Random assignment of participants to treatment and control groups. The gold standard for causal inference.",
+      "methods": ["RCT", "cluster RCT", "randomised encouragement design"],
+      "strengths": "Eliminates both observable and unobservable selection bias",
+      "limitations": "Expensive, slow, ethical constraints, may not generalise beyond trial context",
+      "typical_contexts": "Pilot programmes, DWP trials, EEF education trials, DFID/FCDO impact evaluations"
+    },
+    "4": {
+      "label": "Quasi-experimental (strong identification)",
+      "description": "Uses a credible identification strategy that approximates random assignment without actually randomising.",
+      "methods": ["Regression discontinuity design (RDD)", "instrumental variables (IV)", "controlled experiment with some limitations"],
+      "strengths": "Strong causal inference without randomisation. Exploits natural experiments or policy thresholds.",
+      "limitations": "Requires a credible instrument or threshold. Results may be local (apply only near the cutoff).",
+      "typical_contexts": "Policy evaluations exploiting eligibility thresholds, geographic boundaries, or policy changes"
+    },
+    "3": {
+      "label": "Difference-in-differences with comparison group",
+      "description": "Compares outcomes for treated and untreated groups before and after the intervention. The comparison group provides the counterfactual trajectory.",
+      "methods": ["Difference-in-differences (DiD)", "comparative interrupted time series", "synthetic control"],
+      "strengths": "Controls for time-invariant unobservable differences between groups and common time trends",
+      "limitations": "Requires parallel trends assumption (treated and control would have followed the same path absent treatment). Sensitive to group selection.",
+      "typical_contexts": "Most government programme evaluations with a comparison area or comparison cohort"
+    },
+    "2": {
+      "label": "Cross-sectional or before-after with adequate controls",
+      "description": "Compares treated and untreated groups at a point in time with statistical controls, or before-and-after for the same group with matching/regression adjustment.",
+      "methods": ["Propensity score matching (PSM)", "regression with controls", "multivariate analysis", "matched comparison"],
+      "strengths": "Can control for observable confounders. More feasible than experimental designs.",
+      "limitations": "Cannot control for unobservable selection bias. Results may reflect pre-existing differences, not programme impact.",
+      "typical_contexts": "Programme evaluations where no untreated comparison group is available, observational studies"
+    },
+    "1": {
+      "label": "Descriptive / before-after without control",
+      "description": "Simple pre-post comparison for programme participants only, or cross-sectional snapshot, or case study. No counterfactual.",
+      "methods": ["Before-after (no control group)", "simple cross-section", "case study", "monitoring data analysis"],
+      "strengths": "Easy to implement. Uses readily available monitoring data.",
+      "limitations": "No counterfactual. Cannot distinguish programme impact from external trends, maturation, or regression to the mean. Low credibility for causal claims.",
+      "typical_contexts": "Programme monitoring reports, annual reviews, process evaluations with outcome data"
+    }
+  },
+  "decision_tree": {
+    "description": "To assign an SMS level, walk through these questions in order:",
+    "q1": {
+      "question": "Was there random assignment of participants to treatment and control?",
+      "if_yes": "Level 5",
+      "if_no": "Go to Q2"
+    },
+    "q2": {
+      "question": "Is there a credible identification strategy exploiting a natural experiment, threshold, or instrument?",
+      "if_yes": "Level 4",
+      "if_no": "Go to Q3"
+    },
+    "q3": {
+      "question": "Is there a comparison group with before-and-after data for both groups?",
+      "if_yes": "Level 3",
+      "if_no": "Go to Q4"
+    },
+    "q4": {
+      "question": "Is there either (a) a comparison group at a single point in time with statistical controls, or (b) before-after data for participants with matching/regression adjustment?",
+      "if_yes": "Level 2",
+      "if_no": "Level 1"
+    }
+  },
+  "evidence_sufficiency": {
+    "description": "What Works Centre guidance on minimum evidence for different decisions:",
+    "strong_evidence": "SMS Level 3+ with multiple studies showing consistent positive effects",
+    "promising_evidence": "SMS Level 3 with at least one well-designed study",
+    "mixed_evidence": "SMS Level 2-3 with inconsistent results across studies",
+    "limited_evidence": "SMS Level 1-2 only, or very few studies",
+    "no_evidence": "No formal evaluation has been conducted"
+  },
+  "source": {
+    "publication": "Maryland Scientific Methods Scale Scoring Guide; What Works Centre for Local Economic Growth Evidence Reviews",
+    "publisher": "What Works Centre for Local Economic Growth (LSE, Centre for Cities, Arup)",
+    "url": "https://whatworksgrowth.org/resource-library/the-maryland-scientific-methods-scale-sms/",
+    "date": "2016 (scoring guide), ongoing (evidence reviews)",
+    "update_frequency": "stable (methodology does not change; evidence reviews updated periodically)"
+  },
+  "caveats": [
+    "The SMS grades the strength of causal identification, not the overall quality of the evaluation. A Level 5 study can still have poor implementation or external validity.",
+    "Higher SMS levels are not always feasible or appropriate. A well-designed Level 3 study may be more informative than a poorly implemented Level 5.",
+    "The SMS does not assess theory of change, process evaluation, or qualitative evidence. These are important complements to impact evidence.",
+    "For VfM evaluation, always present the SMS level alongside the BCR. A high BCR with Level 1 evidence is less credible than a moderate BCR with Level 3+ evidence."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2030-01"
+}

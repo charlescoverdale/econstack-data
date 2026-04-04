@@ -1,0 +1,236 @@
+{
+  "parameter": "unit_costs",
+  "jurisdiction": "uk",
+  "label": "Unit costs of public service outcomes for VfM evaluation",
+  "category": "evaluation",
+  "price_base_year": 2023,
+  "currency": "GBP",
+  "description": "Curated subset of the Greater Manchester Combined Authority (GMCA) Unit Cost Database, adopted as Green Book supplementary guidance in 2014. These unit costs represent the average fiscal and economic cost of outcomes across public services. Used to monetise the benefits of interventions that prevent negative outcomes or generate positive ones.",
+  "domains": {
+    "crime": {
+      "reoffending_event": {
+        "value": 18000,
+        "label": "Average cost per reoffending event",
+        "includes": "Police, courts, legal aid, probation, prison/community sentence, victim costs"
+      },
+      "domestic_violence_incident": {
+        "value": 34015,
+        "label": "Cost per domestic violence incident",
+        "includes": "Criminal justice, health, social services, housing, lost output, human costs"
+      },
+      "prison_place_per_year": {
+        "value": 51724,
+        "label": "Cost per prison place per year",
+        "source_detail": "HMPPS Costs per Place 2024-25"
+      },
+      "community_order": {
+        "value": 3800,
+        "label": "Cost per community order"
+      },
+      "anti_social_behaviour_incident": {
+        "value": 3400,
+        "label": "Cost per ASB incident to public services"
+      },
+      "youth_crime_incident": {
+        "value": 8000,
+        "label": "Average cost per youth crime incident",
+        "includes": "Youth justice, courts, custody/community"
+      },
+      "shoplifting_offence": {
+        "value": 1600,
+        "label": "Cost per shoplifting offence"
+      }
+    },
+    "employment": {
+      "fiscal_benefit_employment": {
+        "value": 7800,
+        "label": "Annual fiscal benefit of moving one person from unemployment to employment",
+        "includes": "Tax revenue gained, benefits no longer paid",
+        "note": "Based on median full-time earnings. Higher for higher-wage jobs."
+      },
+      "cost_of_unemployment_individual": {
+        "value": 13000,
+        "label": "Annual cost of unemployment per person (wider economic cost)",
+        "includes": "Lost output, benefit payments, health impacts, reduced wellbeing"
+      },
+      "jsa_uc_annual_cost": {
+        "value": 6100,
+        "label": "Annual cost of JSA/UC standard allowance per claimant"
+      },
+      "neet_cost_per_year": {
+        "value": 12500,
+        "label": "Annual cost per young person not in education, employment, or training (NEET)",
+        "includes": "Benefits, lost tax, health, crime"
+      },
+      "apprenticeship_fiscal_return": {
+        "value": 21000,
+        "label": "Estimated lifetime fiscal return per apprenticeship completion",
+        "note": "Varies significantly by level and sector"
+      }
+    },
+    "health": {
+      "ae_attendance": {
+        "value": 199,
+        "label": "Cost per A&E attendance",
+        "source_detail": "NHS National Cost Collection 2023-24"
+      },
+      "hospital_admission": {
+        "value": 5800,
+        "label": "Average cost per non-elective hospital admission",
+        "source_detail": "NHS National Cost Collection 2023-24"
+      },
+      "outpatient_attendance": {
+        "value": 145,
+        "label": "Cost per outpatient attendance"
+      },
+      "gp_consultation": {
+        "value": 49,
+        "label": "Cost per GP consultation",
+        "source_detail": "PSSRU Unit Costs of Health and Social Care 2024"
+      },
+      "mental_health_inpatient_day": {
+        "value": 415,
+        "label": "Cost per mental health inpatient bed day"
+      },
+      "substance_misuse_treatment": {
+        "value": 5000,
+        "label": "Average cost per substance misuse treatment episode"
+      },
+      "qaly": {
+        "value": 70000,
+        "label": "Value of a Quality-Adjusted Life Year",
+        "price_year": 2019,
+        "value_in_2023_prices": 81000,
+        "note": "Cross-referenced with uk/health-values.json. GBP 70,000 is the Green Book cross-government value (2019 prices). Distinct from NICE's clinical threshold of GBP 25,000-35,000/QALY. Uprate using GDP deflator for other price years."
+      },
+      "wellby": {
+        "value": 13000,
+        "label": "Value of a Wellbeing-Adjusted Life Year (WELLBY)",
+        "price_year": 2019,
+        "value_in_2023_prices": 15300,
+        "note": "Green Book supplementary guidance on wellbeing (2021). One WELLBY = one point on a 0-10 life satisfaction scale sustained for one year. Use for monetising subjective wellbeing impacts where QALY is not appropriate.",
+        "source_detail": "HM Treasury Wellbeing Guidance for Appraisal (2021)"
+      },
+      "smoking_cessation_qaly_gain": {
+        "value": 0.05,
+        "unit": "QALYs",
+        "label": "Average QALY gain per successful smoking cessation",
+        "note": "Multiply by QALY value for monetised benefit"
+      }
+    },
+    "education": {
+      "excluded_pupil_lifetime": {
+        "value": 45000,
+        "label": "Estimated lifetime cost per permanently excluded pupil",
+        "includes": "Alternative provision, NEET costs, reduced earnings, crime"
+      },
+      "level_2_qualification_lifetime": {
+        "value": 48000,
+        "label": "Lifetime value of achieving a Level 2 qualification (vs none)",
+        "includes": "Higher earnings, tax revenue, reduced benefit dependence"
+      },
+      "level_3_qualification_lifetime": {
+        "value": 82000,
+        "label": "Lifetime value of achieving a Level 3 qualification (vs Level 2)"
+      },
+      "degree_lifetime_premium": {
+        "value": 130000,
+        "label": "Estimated lifetime earnings premium of a degree (vs Level 3)",
+        "note": "Varies significantly by subject and institution"
+      },
+      "primary_per_pupil": {
+        "value": 4610,
+        "label": "Minimum per-pupil funding (primary) 2024-25",
+        "source_detail": "DfE School Funding Statistics"
+      },
+      "secondary_per_pupil": {
+        "value": 5995,
+        "label": "Minimum per-pupil funding (secondary) 2024-25",
+        "source_detail": "DfE School Funding Statistics"
+      },
+      "school_absence_day": {
+        "value": 52,
+        "label": "Estimated cost per day of school absence",
+        "note": "Economic cost (reduced attainment, supervision). Not direct fiscal cost."
+      }
+    },
+    "housing": {
+      "homelessness_per_year": {
+        "value": 26000,
+        "label": "Annual cost per homeless person to public services",
+        "includes": "Temporary accommodation, health, social services, criminal justice"
+      },
+      "rough_sleeping_per_year": {
+        "value": 36000,
+        "label": "Annual cost per rough sleeper to public services",
+        "note": "Higher than general homelessness due to acute health and policing costs"
+      },
+      "temporary_accommodation_per_year": {
+        "value": 18000,
+        "label": "Average cost of temporary accommodation per household per year"
+      },
+      "social_housing_tenancy_annual_saving": {
+        "value": 4800,
+        "label": "Annual fiscal saving from moving household from TA to social housing",
+        "note": "Difference in housing benefit costs + reduced churn costs"
+      },
+      "eviction_cost": {
+        "value": 7200,
+        "label": "Average cost of an eviction (all parties)",
+        "includes": "Legal, court, enforcement, temporary accommodation placement"
+      }
+    },
+    "social_services": {
+      "child_in_care_per_year": {
+        "value": 65520,
+        "label": "Average cost per looked-after child per year",
+        "includes": "Placement, social worker, education, health"
+      },
+      "child_protection_plan": {
+        "value": 6000,
+        "label": "Annual cost per child on a child protection plan"
+      },
+      "adult_social_care_residential": {
+        "value": 42000,
+        "label": "Annual cost per adult in residential care"
+      },
+      "adult_social_care_community": {
+        "value": 18000,
+        "label": "Annual cost per adult receiving community social care"
+      },
+      "troubled_families_programme": {
+        "value": 14000,
+        "label": "Average annual cost per family in the Supporting Families programme",
+        "note": "Cross-agency costs (not just LA expenditure)"
+      }
+    },
+    "fire": {
+      "fire_incident": {
+        "value": 33000,
+        "label": "Average cost per fire incident",
+        "includes": "Fire service response, property damage, injuries, fatalities (where applicable)"
+      },
+      "fire_false_alarm": {
+        "value": 2300,
+        "label": "Average cost per false alarm"
+      }
+    }
+  },
+  "usage_guidance": "These unit costs enable 'fiscal return' calculations in VfM evaluations. To estimate fiscal savings: count the number of negative outcomes avoided (e.g., 50 fewer reoffending events), multiply by the unit cost (50 x GBP 18,000 = GBP 900,000), and apply additionality adjustments. Compare the resulting fiscal saving to the programme cost to derive a fiscal BCR.",
+  "source": {
+    "publication": "Greater Manchester Combined Authority Unit Cost Database (November 2025); NHS National Cost Collection 2023-24; HMPPS Costs per Place 2024-25; PSSRU Unit Costs of Health and Social Care; DfE School Funding Statistics",
+    "publisher": "GMCA; NHS England; HMPPS; PSSRU; DfE",
+    "url": "https://golab.bsg.ox.ac.uk/knowledge-bank/resource-library/unit-cost-database/",
+    "date": "2023-2025",
+    "update_frequency": "GMCA database updated approximately annually. NHS costs updated annually. HMPPS costs updated annually."
+  },
+  "caveats": [
+    "Unit costs are national averages. Actual costs vary significantly by region, local service configuration, and individual circumstances.",
+    "Many costs are estimated using the 'cost of consequences' approach (what would it cost if the outcome occurred), not the 'cost of delivery' approach (what does the service cost to run).",
+    "Lifetime values (qualifications, employment) involve significant assumptions about persistence, discount rates, and counterfactual earnings.",
+    "Avoid double-counting: if a programme prevents homelessness AND reduces crime, check whether the homelessness unit cost already includes a crime component.",
+    "These are fiscal and economic costs. They do not capture the full social cost (wellbeing, pain, suffering) unless explicitly noted."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}
