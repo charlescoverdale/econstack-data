@@ -1,0 +1,82 @@
+{
+  "parameter": "carbon_values",
+  "jurisdiction": "us",
+  "label": "Social Cost of Greenhouse Gases (SC-GHG)",
+  "category": "environment",
+  "price_base_year": 2020,
+  "currency": "USD",
+  "unit": "per_tCO2",
+  "sc_co2": {
+    "description": "Social Cost of Carbon Dioxide. Represents the marginal damage from an additional tonne of CO2 emissions. EPA 2023 estimates using updated climate science and damage functions.",
+    "at_2_percent": {
+      "label": "Central estimate (2% near-term Ramsey discount rate)",
+      "schedule": [
+        { "year": 2020, "value": 190 },
+        { "year": 2025, "value": 210 },
+        { "year": 2030, "value": 230 },
+        { "year": 2035, "value": 255 },
+        { "year": 2040, "value": 280 },
+        { "year": 2045, "value": 310 },
+        { "year": 2050, "value": 340 },
+        { "year": 2060, "value": 400 },
+        { "year": 2070, "value": 460 },
+        { "year": 2080, "value": 520 }
+      ],
+      "interpolation": "linear"
+    },
+    "at_1_5_percent": {
+      "label": "Low discount rate sensitivity (1.5% near-term Ramsey)",
+      "schedule": [
+        { "year": 2020, "value": 340 },
+        { "year": 2030, "value": 380 },
+        { "year": 2040, "value": 430 },
+        { "year": 2050, "value": 490 }
+      ],
+      "interpolation": "linear"
+    },
+    "at_2_5_percent": {
+      "label": "High discount rate sensitivity (2.5% near-term Ramsey)",
+      "schedule": [
+        { "year": 2020, "value": 120 },
+        { "year": 2030, "value": 140 },
+        { "year": 2040, "value": 170 },
+        { "year": 2050, "value": 200 }
+      ],
+      "interpolation": "linear"
+    }
+  },
+  "sc_ch4": {
+    "description": "Social Cost of Methane. Per tonne CH4.",
+    "at_2_percent": {
+      "value_2020": 1600,
+      "value_2030": 1900,
+      "value_2050": 2600
+    }
+  },
+  "sc_n2o": {
+    "description": "Social Cost of Nitrous Oxide. Per tonne N2O.",
+    "at_2_percent": {
+      "value_2020": 54000,
+      "value_2030": 59000,
+      "value_2050": 69000
+    }
+  },
+  "recommended_usage": "Use sc_co2.at_2_percent as the central estimate, consistent with the revised A-4 discount rate. Present sensitivity at 1.5% and 2.5% rates. Always present all three discount rate scenarios.",
+  "current_status": "The Interagency Working Group (IWG) on SC-GHG was disbanded by executive order in January 2025. Agencies were directed to stop factoring SC-GHG into rulemaking except where statute requires. However, the EPA 2023 technical report remains the most recent peer-reviewed estimate. For CBA purposes, these values represent the best available science on climate damages.",
+  "source": {
+    "publication": "Report on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances",
+    "publisher": "US Environmental Protection Agency (EPA)",
+    "url": "https://www.epa.gov/environmental-economics/scghg",
+    "date": "2023-12",
+    "update_frequency": "periodic (no scheduled update due to IWG disbandment)"
+  },
+  "caveats": [
+    "SC-GHG values are damage-based (social cost), unlike UK DESNZ values which are target-consistent (abatement cost). Not directly comparable.",
+    "The 2023 EPA estimates are significantly higher than the 2016 IWG estimates (which used SC-CO2 ~$51/t at 3%).",
+    "IWG disbanded Jan 2025. Regulatory applicability depends on agency-specific statutory authority.",
+    "Values are global damages, not US-only. Some agencies may prefer domestic-only SC-CO2 (roughly 10-23% of global).",
+    "Monte Carlo uncertainty ranges are wide. The 95th percentile at 2% discount rate exceeds $500/tCO2 for 2020."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2028-01"
+}

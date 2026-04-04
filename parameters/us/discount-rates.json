@@ -1,0 +1,41 @@
+{
+  "parameter": "discount_rates",
+  "jurisdiction": "us",
+  "label": "Social discount rates for US federal regulatory analysis",
+  "category": "appraisal",
+  "revised_a4": {
+    "description": "OMB Circular A-4 (revised November 2023) replaced the legacy 3%/7% dual rates with a primary rate of 2% based on long-term real Treasury yields (TIPS). Declining for very long-horizon effects.",
+    "schedule": [
+      { "years_from": 0, "years_to": 56, "rate": 0.020 },
+      { "years_from": 57, "years_to": 115, "rate": 0.017 },
+      { "years_from": 116, "years_to": null, "rate": 0.011 }
+    ],
+    "sensitivity": {
+      "low": 0.015,
+      "high": 0.050,
+      "note": "A-4 recommends sensitivity at 1.5% and 5%"
+    },
+    "computation": "Cumulative (same as UK Green Book). df(t) = df(t-1) / (1 + r_t). Do NOT apply flat rate from year 0."
+  },
+  "legacy_a4": {
+    "description": "Pre-2023 OMB A-4 used dual rates of 3% (consumption rate) and 7% (opportunity cost of capital). Many agencies still reference these for consistency with prior analyses.",
+    "consumption_rate": 0.03,
+    "opportunity_cost": 0.07,
+    "note": "The 2023 revision formally replaces these. However, some agencies may still require analysis at legacy rates during the transition period. The Trump administration (Jan 2025) has sought to roll back some A-4 provisions; check current regulatory status."
+  },
+  "current_status": "The revised A-4 (2% primary) is the current OMB guidance as of November 2023. Regulatory status may be in flux due to executive order changes in 2025. When in doubt, present results at both 2% and 3%/7%.",
+  "source": {
+    "publication": "OMB Circular A-4: Regulatory Analysis (Revised November 2023); A-4 Appendix",
+    "publisher": "Office of Management and Budget, Executive Office of the President",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2023/11/CircularA-4.pdf",
+    "date": "2023-11",
+    "update_frequency": "A-4 Appendix every 3 years (next update 2026)"
+  },
+  "caveats": [
+    "The A-4 revision is subject to executive order changes. Verify current status before formal submissions.",
+    "Many existing regulatory impact analyses (RIAs) used the legacy 3%/7% rates. Retrospective comparisons should use matching rates.",
+    "DOT and EPA may publish agency-specific guidance that differs slightly from OMB."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}

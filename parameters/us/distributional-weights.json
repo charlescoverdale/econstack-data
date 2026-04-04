@@ -1,0 +1,46 @@
+{
+  "parameter": "distributional_weights",
+  "jurisdiction": "us",
+  "label": "Distributional welfare weighting parameters (OMB A-4 revised)",
+  "category": "appraisal",
+  "currency": "USD",
+  "values": {
+    "elasticity_marginal_utility": {
+      "value": 1.4,
+      "label": "Elasticity of marginal utility of income (e)",
+      "note": "The revised A-4 (2023) formally endorses income-based distributional weights. Elasticity of 1.4 is slightly higher than the UK Green Book (1.3), reflecting the wider US income distribution."
+    },
+    "median_household_income": {
+      "value": 75000,
+      "price_base_year": 2023,
+      "label": "US median household income (approximate)",
+      "source_detail": "Census Bureau, American Community Survey"
+    }
+  },
+  "formula": "weight(income) = (median_income / income) ^ 1.4",
+  "example_weights": {
+    "income_25000": 4.19,
+    "income_40000": 2.24,
+    "income_55000": 1.46,
+    "income_75000": 1.00,
+    "income_100000": 0.70,
+    "income_150000": 0.42,
+    "income_200000": 0.29
+  },
+  "status": "The revised A-4 makes distributional analysis a formal expectation for significant regulatory actions (>$100M annual impact). This is a major change from the pre-2023 A-4 which treated distributional analysis as optional.",
+  "source": {
+    "publication": "OMB Circular A-4: Regulatory Analysis (Revised November 2023), Section IV.D",
+    "publisher": "Office of Management and Budget",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2023/11/CircularA-4.pdf",
+    "date": "2023-11",
+    "update_frequency": "A-4 revisions are infrequent (last major revision before 2023 was 2003)"
+  },
+  "caveats": [
+    "Distributional analysis is supplementary. The unweighted NPV remains the primary metric.",
+    "The A-4 revision's distributional requirements may be subject to executive order changes.",
+    "Income data from ACS is lagged by 1-2 years. Use the most recent available.",
+    "The 1.4 elasticity is higher than most international estimates (UK 1.3, EU 1.0-1.2). This means US distributional weights give proportionally more weight to low-income groups."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}

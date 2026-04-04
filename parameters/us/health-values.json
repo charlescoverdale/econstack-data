@@ -1,0 +1,65 @@
+{
+  "parameter": "health_values",
+  "jurisdiction": "us",
+  "label": "Health outcome valuations for US regulatory analysis",
+  "category": "health",
+  "currency": "USD",
+  "values": {
+    "qaly": {
+      "low": 190000,
+      "high": 250000,
+      "price_base_year": 2024,
+      "label": "Value of a Quality-Adjusted Life Year",
+      "context": "Derived from VSL divided by discounted remaining QALYs. Range reflects different derivation methods and VSL base. No single official US QALY value exists."
+    },
+    "daly": {
+      "low": 190000,
+      "high": 250000,
+      "price_base_year": 2024,
+      "label": "Value of a Disability-Adjusted Life Year averted",
+      "context": "Treated symmetrically with QALY for CBA purposes"
+    },
+    "fda_threshold": {
+      "value": 150000,
+      "price_base_year": 2024,
+      "label": "FDA implicit cost-effectiveness threshold",
+      "context": "Used in FDA regulatory impact analyses. Lower than the QALY range because it reflects willingness-to-pay for health interventions, not the full VSL-derived QALY."
+    },
+    "vsly": {
+      "value": 550000,
+      "price_base_year": 2024,
+      "label": "Value of a Statistical Life Year",
+      "context": "Derived from DOT VSL assuming 40-year remaining life expectancy and 2% discount rate. Used less frequently than QALY in US practice."
+    }
+  },
+  "hhs_standard_values": {
+    "description": "HHS publishes annual 'Standard Values for Regulatory Analysis' with recommended values for common health outcomes.",
+    "hospitalization_avoided": {
+      "value": 65000,
+      "note": "Average cost of an avoided hospitalization (medical + productivity loss)"
+    },
+    "emergency_visit_avoided": {
+      "value": 5000,
+      "note": "Average cost of an avoided emergency department visit"
+    },
+    "work_days_lost": {
+      "value": 350,
+      "note": "Value per lost work day (wages + productivity)"
+    }
+  },
+  "source": {
+    "publication": "HHS Standard RIA Values 2025; FDA Regulatory Impact Analysis Guidance",
+    "publisher": "US Department of Health and Human Services; Food and Drug Administration",
+    "url": "https://aspe.hhs.gov/reports/standard-ria-values",
+    "date": "2025",
+    "update_frequency": "annual (HHS Standard Values)"
+  },
+  "caveats": [
+    "No single official US QALY value. The range ($190K-$250K) spans different derivation methods.",
+    "QALY values derived from VSL are higher than cost-effectiveness thresholds used by HTA bodies.",
+    "The FDA threshold ($150K) is for different purposes than the CBA QALY range.",
+    "HHS Standard Values are updated annually and are the most practical source for common health outcomes."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}

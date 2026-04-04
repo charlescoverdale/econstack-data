@@ -1,0 +1,70 @@
+{
+  "parameter": "vtts",
+  "jurisdiction": "us",
+  "label": "Value of Travel Time Savings (DOT guidance)",
+  "category": "transport",
+  "currency": "USD",
+  "methodology": "wage_percentage",
+  "description": "US DOT values travel time as a percentage of the prevailing wage rate, varying by trip purpose. Unlike UK TAG (fixed values per hour), the US approach scales automatically with wage levels.",
+  "percentages": {
+    "local_personal": {
+      "percent_of_wage": 50,
+      "label": "Local personal travel (commuting, errands, leisure)",
+      "note": "50% of hourly wage. Based on stated preference research showing personal time valued at roughly half the work rate."
+    },
+    "intercity_personal": {
+      "percent_of_wage": 70,
+      "label": "Intercity personal travel",
+      "note": "70% of hourly wage. Higher than local because intercity trips are less discretionary and travelers have higher willingness to pay."
+    },
+    "all_business": {
+      "percent_of_wage": 100,
+      "label": "Business/employers' business travel",
+      "note": "100% of hourly wage plus fringe benefits. Full cost to employer."
+    },
+    "walking_waiting_transfer": {
+      "percent_of_wage": 100,
+      "label": "Walking, waiting, and transfer time",
+      "note": "100% of the relevant category rate (personal or business). Perceived as more onerous than in-vehicle time."
+    }
+  },
+  "reference_wage": {
+    "median_hourly_wage": 23.11,
+    "mean_hourly_wage": 29.76,
+    "price_base_year": 2023,
+    "source_detail": "Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS), May 2023"
+  },
+  "computed_vtts": {
+    "description": "Current VTTS based on median hourly wage",
+    "local_personal_per_hour": 11.56,
+    "intercity_personal_per_hour": 16.18,
+    "business_per_hour": 29.76,
+    "note": "Business uses mean wage (employers pay average, not median). Personal uses median. These are national averages; use local wage data for project-specific analysis."
+  },
+  "vehicle_operating_costs": {
+    "car_per_mile": {
+      "value": 0.22,
+      "unit": "USD_per_mile",
+      "price_base_year": 2024,
+      "note": "AAA average for sedans (fuel, maintenance, tires). Does not include depreciation or insurance."
+    },
+    "car_per_km": {
+      "value": 0.14,
+      "unit": "USD_per_km"
+    }
+  },
+  "source": {
+    "publication": "Revised Departmental Guidance on Valuation of Travel Time in Economic Analysis; BCA Guidance for Discretionary Grant Programs 2025",
+    "publisher": "US Department of Transportation",
+    "url": "https://www.transportation.gov/office-policy/transportation-policy/revised-departmental-guidance-valuation-travel-time-economic",
+    "date": "2024",
+    "update_frequency": "annual (updated with BLS wage data)"
+  },
+  "caveats": [
+    "Percentage-of-wage approach means VTTS varies by region. Use local BLS wage data for project-specific analysis.",
+    "DOT also requires sensitivity analysis at 3% and 7% discount rates (legacy A-4) alongside the revised 2% rate.",
+    "Freight VTTS is separate and depends on commodity value, reliability, and logistics costs."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}

@@ -1,0 +1,60 @@
+{
+  "parameter": "vsl",
+  "jurisdiction": "us",
+  "label": "Value of a Statistical Life (US federal agencies)",
+  "category": "health_and_safety",
+  "currency": "USD",
+  "description": "Three US federal agencies publish independent VSL estimates using different base studies and update methods. DOT is most commonly used for transport CBA. EPA for environmental regulation. HHS for health regulation.",
+  "agencies": {
+    "dot": {
+      "value": 13700000,
+      "price_base_year": 2024,
+      "label": "Department of Transportation VSL",
+      "methodology": "Derived exclusively from wage-risk (hedonic) studies. Based on 2013 baseline, adjusted annually for CPI inflation and real income growth (income elasticity ~1.0).",
+      "update_method": "Annual memo from DOT Office of the Secretary",
+      "url": "https://www.transportation.gov/office-policy/transportation-policy/revised-departmental-guidance-on-valuation-of-a-statistical-life-in-economic-analysis"
+    },
+    "epa": {
+      "value": 12500000,
+      "price_base_year": 2024,
+      "label": "Environmental Protection Agency VSL (estimated, adjusted from 2006 base)",
+      "base_value": 7400000,
+      "base_year": 2006,
+      "methodology": "Based on a 2006 meta-analysis of 26 studies (mix of wage-risk and stated preference). Adjusted to current year using GDP deflator and income growth.",
+      "note": "EPA is transitioning terminology to Value of Mortality Risk (VMR). The base study is under review."
+    },
+    "hhs": {
+      "value": 13600000,
+      "price_base_year": 2024,
+      "low": 6300000,
+      "high": 20700000,
+      "label": "Department of Health and Human Services VSL",
+      "methodology": "Based on updated meta-analysis. Uniquely among US agencies, HHS publishes low/central/high range.",
+      "url": "https://aspe.hhs.gov/sites/default/files/documents/639756a60fbe7e51786bcec176ad52f1/Standard-RIA-Values-2025.pdf"
+    }
+  },
+  "injury_severity_fractions": {
+    "description": "DOT values injuries as fractions of VSL using the MAIS (Maximum Abbreviated Injury Scale).",
+    "mais_1": { "fraction": 0.003, "value": 41100, "label": "Minor (e.g. superficial laceration)" },
+    "mais_2": { "fraction": 0.047, "value": 643900, "label": "Moderate (e.g. fractured sternum)" },
+    "mais_3": { "fraction": 0.105, "value": 1438500, "label": "Serious (e.g. open fracture of humerus)" },
+    "mais_4": { "fraction": 0.266, "value": 3644200, "label": "Severe (e.g. partial spinal cord injury)" },
+    "mais_5": { "fraction": 0.593, "value": 8124100, "label": "Critical (e.g. complete spinal cord injury)" },
+    "note": "Fractions from DOT BCA Guidance 2024. Values = fraction * DOT VSL."
+  },
+  "recommended_usage": "For transport CBA, use DOT VSL. For environmental regulation, use EPA VSL. For health regulation, use HHS VSL. Always state which agency's value is used.",
+  "source": {
+    "publication": "DOT Revised Departmental Guidance on VSL; EPA Mortality Risk Valuation; HHS Standard RIA Values 2025",
+    "publisher": "US DOT; US EPA; US HHS",
+    "date": "2024-2025",
+    "update_frequency": "annual (DOT, HHS); periodic (EPA)"
+  },
+  "caveats": [
+    "Three agencies, three different values. Always specify which agency's VSL is used.",
+    "DOT and HHS are close ($13.6-13.7M). EPA is lower ($12.5M) due to an older base study.",
+    "US VSL is significantly higher than UK VPF (GBP 2.35M ~ $3M) due to different methodologies and income levels.",
+    "VSL does not vary by age in US federal practice (no 'senior discount'), though this is debated in the literature."
+  ],
+  "last_verified": "2026-04-04",
+  "expected_next_update": "2027-01"
+}

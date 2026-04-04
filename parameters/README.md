@@ -7,8 +7,10 @@ Structured CBA parameter database for the `/cost-benefit`, `/io-report`, and `/e
 | Jurisdiction | Files | Parameters |
 |---|---|---|
 | UK | 14 | Discount rates, carbon values, VSL, health (QALY), VTTS, optimism bias, additionality, tax, distributional weights, construction benchmarks, accident costs (expanded), marginal external costs, fleet assumptions, S-curve profiles |
+| US | 6 | Discount rates (OMB A-4 revised + legacy 3%/7%), carbon values (EPA SC-GHG at 3 discount rates), VSL (DOT/EPA/HHS + MAIS injury fractions), health (QALY, DALY, FDA threshold, HHS standard values), VTTS (DOT wage-% method), distributional weights (A-4 revised e=1.4) |
 | EU | 6 | Discount rates, carbon values (EIB shadow price), VSL (with member state transfer method), health (QALY/DALY), conversion factors (SCF, shadow wages), distributional weights |
 | AU | 6 | Discount rates, VSL/VSLY, health (QALY/DALY), VTTS (formula-based from AWE), accident costs (national + state), carbon values (ACCU + Safeguard Mechanism) |
+| OECD | 1 | Cross-country VSL transfer method (income elasticity, GDP per capita for 25+ countries) |
 
 ## Schema
 
