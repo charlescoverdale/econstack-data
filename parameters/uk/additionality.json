@@ -50,16 +50,48 @@
     "default": 1.0,
     "note": "Default multiplier of 1.0 (no multiplier effect) is conservative. Apply a multiplier > 1.0 only when you have evidence of supply chain or induced effects and when the evaluation scope warrants it. For programme-level VfM evaluation (as opposed to area-based impact assessment), a multiplier of 1.0 is often appropriate."
   },
+  "sector_defaults": {
+    "description": "Sector-specific additionality parameters derived from ranges in the Additionality Guide 4th Edition. Midpoints of published ranges. These are starting points, not definitive values.",
+    "employment_and_skills": {
+      "deadweight": 0.20, "displacement": 0.15, "leakage": 0.10, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.612
+    },
+    "crime_and_justice": {
+      "deadweight": 0.15, "displacement": 0.075, "leakage": 0.075, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.727
+    },
+    "health_and_wellbeing": {
+      "deadweight": 0.20, "displacement": 0.10, "leakage": 0.075, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.666
+    },
+    "education": {
+      "deadweight": 0.15, "displacement": 0.15, "leakage": 0.075, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.668
+    },
+    "housing_and_homelessness": {
+      "deadweight": 0.275, "displacement": 0.20, "leakage": 0.15, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.493
+    },
+    "regeneration_and_local_growth": {
+      "deadweight": 0.275, "displacement": 0.375, "leakage": 0.175, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.373,
+      "note": "Displacement is particularly high for regeneration because new activity often displaces existing local businesses."
+    },
+    "transport": {
+      "deadweight": 0.15, "displacement": 0.175, "leakage": 0.10, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.631
+    },
+    "environment_and_energy": {
+      "deadweight": 0.20, "displacement": 0.10, "leakage": 0.075, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.666
+    },
+    "international_development": {
+      "deadweight": 0.15, "displacement": 0.10, "leakage": 0.225, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.593,
+      "note": "Leakage is higher for international programmes due to cross-border benefit spillovers."
+    }
+  },
   "guidance_ranges": {
     "deadweight": {
       "low": 0.0,
       "high": 0.4,
-      "note": "Varies by intervention type"
+      "note": "Varies by intervention type. See sector_defaults for sector-specific central estimates."
     },
     "displacement": {
       "low": 0.0,
       "high": 0.75,
-      "note": "Higher for retail/leisure (40-75%), lower for export-oriented manufacturing (10-15%)"
+      "note": "Higher for retail/leisure (40-75%), lower for export-oriented manufacturing (10-15%). See sector_defaults."
     },
     "leakage": {
       "low": 0.05,
