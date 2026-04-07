@@ -1,0 +1,174 @@
+{
+  "sa4_code": "204",
+  "sa4_name": "Hume",
+  "state": "Victoria",
+  "source": "ABS IO Tables 2023-24 + Census 2021 Place of Work",
+  "method": "FLQ",
+  "delta": 0.3,
+  "lambda": 0.264181,
+  "total_employment": 82408.0,
+  "sectors": {
+    "A": {
+      "name": "Agriculture, forestry & fishing",
+      "regional_employment": 6204.0,
+      "employment_per_AUDm": 2.3301,
+      "output_multiplier_type1": 1.2672,
+      "employment_multiplier_type1": 1.2596,
+      "output_multiplier_type2": 1.7248,
+      "employment_multiplier_type2": 1.6461
+    },
+    "B": {
+      "name": "Mining",
+      "regional_employment": 386.0,
+      "employment_per_AUDm": 0.4551,
+      "output_multiplier_type1": 1.2371,
+      "employment_multiplier_type1": 1.899,
+      "output_multiplier_type2": 1.6837,
+      "employment_multiplier_type2": 3.8311
+    },
+    "C": {
+      "name": "Manufacturing",
+      "regional_employment": 7260.0,
+      "employment_per_AUDm": 1.5794,
+      "output_multiplier_type1": 1.2684,
+      "employment_multiplier_type1": 1.3219,
+      "output_multiplier_type2": 1.7263,
+      "employment_multiplier_type2": 1.8927
+    },
+    "D": {
+      "name": "Electricity, gas, water & waste services",
+      "regional_employment": 767.0,
+      "employment_per_AUDm": 0.7918,
+      "output_multiplier_type1": 1.3383,
+      "employment_multiplier_type1": 1.4636,
+      "output_multiplier_type2": 1.8214,
+      "employment_multiplier_type2": 2.665
+    },
+    "E": {
+      "name": "Construction",
+      "regional_employment": 8942.0,
+      "employment_per_AUDm": 1.5871,
+      "output_multiplier_type1": 1.5581,
+      "employment_multiplier_type1": 1.5815,
+      "output_multiplier_type2": 2.1207,
+      "employment_multiplier_type2": 2.2793
+    },
+    "F": {
+      "name": "Wholesale trade",
+      "regional_employment": 1722.0,
+      "employment_per_AUDm": 2.5816,
+      "output_multiplier_type1": 1.2037,
+      "employment_multiplier_type1": 1.1654,
+      "output_multiplier_type2": 1.6383,
+      "employment_multiplier_type2": 1.4968
+    },
+    "G": {
+      "name": "Retail trade",
+      "regional_employment": 7745.0,
+      "employment_per_AUDm": 3.8199,
+      "output_multiplier_type1": 1.0752,
+      "employment_multiplier_type1": 1.0485,
+      "output_multiplier_type2": 1.4634,
+      "employment_multiplier_type2": 1.2486
+    },
+    "H": {
+      "name": "Accommodation & food services",
+      "regional_employment": 6185.0,
+      "employment_per_AUDm": 3.5305,
+      "output_multiplier_type1": 1.0815,
+      "employment_multiplier_type1": 1.047,
+      "output_multiplier_type2": 1.472,
+      "employment_multiplier_type2": 1.2647
+    },
+    "I": {
+      "name": "Transport, postal & warehousing",
+      "regional_employment": 3690.0,
+      "employment_per_AUDm": 2.0226,
+      "output_multiplier_type1": 1.2235,
+      "employment_multiplier_type1": 1.2332,
+      "output_multiplier_type2": 1.6653,
+      "employment_multiplier_type2": 1.6632
+    },
+    "J": {
+      "name": "Information media & telecommunications",
+      "regional_employment": 520.0,
+      "employment_per_AUDm": 1.1464,
+      "output_multiplier_type1": 1.2597,
+      "employment_multiplier_type1": 1.4265,
+      "output_multiplier_type2": 1.7145,
+      "employment_multiplier_type2": 2.2075
+    },
+    "K": {
+      "name": "Financial & insurance services",
+      "regional_employment": 1194.0,
+      "employment_per_AUDm": 1.388,
+      "output_multiplier_type1": 1.1617,
+      "employment_multiplier_type1": 1.2684,
+      "output_multiplier_type2": 1.5811,
+      "employment_multiplier_type2": 1.8633
+    },
+    "L": {
+      "name": "Rental, hiring & real estate services",
+      "regional_employment": 807.0,
+      "employment_per_AUDm": 0.2077,
+      "output_multiplier_type1": 1.0324,
+      "employment_multiplier_type1": 1.2653,
+      "output_multiplier_type2": 1.4051,
+      "employment_multiplier_type2": 4.7983
+    },
+    "M": {
+      "name": "Professional, scientific & technical services",
+      "regional_employment": 3284.0,
+      "employment_per_AUDm": 2.3869,
+      "output_multiplier_type1": 1.2365,
+      "employment_multiplier_type1": 1.2183,
+      "output_multiplier_type2": 1.683,
+      "employment_multiplier_type2": 1.5865
+    },
+    "N": {
+      "name": "Administrative & support services",
+      "regional_employment": 2477.0,
+      "employment_per_AUDm": 4.4545,
+      "output_multiplier_type1": 1.1529,
+      "employment_multiplier_type1": 1.0838,
+      "output_multiplier_type2": 1.5692,
+      "employment_multiplier_type2": 1.2678
+    },
+    "O": {
+      "name": "Public administration & safety",
+      "regional_employment": 7291.0,
+      "employment_per_AUDm": 2.8975,
+      "output_multiplier_type1": 1.0945,
+      "employment_multiplier_type1": 1.0728,
+      "output_multiplier_type2": 1.4897,
+      "employment_multiplier_type2": 1.3413
+    },
+    "P": {
+      "name": "Education & training",
+      "regional_employment": 7163.0,
+      "employment_per_AUDm": 4.1711,
+      "output_multiplier_type1": 1.0522,
+      "employment_multiplier_type1": 1.0334,
+      "output_multiplier_type2": 1.432,
+      "employment_multiplier_type2": 1.2127
+    },
+    "Q": {
+      "name": "Health care & social assistance",
+      "regional_employment": 12623.0,
+      "employment_per_AUDm": 4.2426,
+      "output_multiplier_type1": 1.0586,
+      "employment_multiplier_type1": 1.0374,
+      "output_multiplier_type2": 1.4408,
+      "employment_multiplier_type2": 1.2147
+    },
+    "R": {
+      "name": "Arts & recreation services",
+      "regional_employment": 1151.0,
+      "employment_per_AUDm": 3.2405,
+      "output_multiplier_type1": 1.0942,
+      "employment_multiplier_type1": 1.0872,
+      "output_multiplier_type2": 1.4892,
+      "employment_multiplier_type2": 1.3272
+    }
+  }
+}
