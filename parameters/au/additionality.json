@@ -1,0 +1,76 @@
+{
+  "parameter": "additionality",
+  "jurisdiction": "au",
+  "label": "Additionality adjustment default rates (Australia)",
+  "category": "appraisal",
+  "unit": "proportion",
+  "note": "Australia has no single equivalent to the UK HMT Additionality Guide. These defaults are calibrated from Infrastructure Australia guidance, state treasury practices, and Australian evaluation literature. Adjust based on context.",
+  "scenarios": {
+    "standard": {
+      "label": "Standard (central estimates for Australian context)",
+      "deadweight": 0.20,
+      "displacement": 0.20,
+      "leakage": 0.15,
+      "substitution": 0.0,
+      "multiplier": 1.0,
+      "net_factor": 0.544,
+      "note": "Central estimates. Leakage is slightly higher than UK defaults due to more open regional economies (larger geographic distances, fewer contiguous labour markets)."
+    },
+    "conservative": {
+      "label": "Conservative (higher adjustments)",
+      "deadweight": 0.35,
+      "displacement": 0.35,
+      "leakage": 0.25,
+      "substitution": 0.05,
+      "multiplier": 1.0,
+      "net_factor": 0.285
+    },
+    "optimistic": {
+      "label": "Optimistic (lower adjustments)",
+      "deadweight": 0.10,
+      "displacement": 0.10,
+      "leakage": 0.10,
+      "substitution": 0.0,
+      "multiplier": 1.0,
+      "net_factor": 0.729
+    }
+  },
+  "formula": "net_additional = gross * (1 - deadweight) * (1 - displacement) * (1 - leakage) * (1 - substitution) * multiplier",
+  "sector_defaults": {
+    "description": "Sector-specific defaults estimated from Australian evaluation evidence and Infrastructure Australia practice.",
+    "mining": {
+      "deadweight": 0.10, "displacement": 0.10, "leakage": 0.25, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.608,
+      "note": "Low deadweight (projects typically would not proceed without intervention), but high leakage (FIFO workforce, imported equipment)."
+    },
+    "construction_infrastructure": {
+      "deadweight": 0.15, "displacement": 0.20, "leakage": 0.15, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.578
+    },
+    "retail_hospitality": {
+      "deadweight": 0.25, "displacement": 0.40, "leakage": 0.10, "substitution": 0.05, "multiplier": 1.0, "net_factor": 0.385,
+      "note": "High displacement: new retail/hospitality venues often take trade from existing businesses."
+    },
+    "agriculture": {
+      "deadweight": 0.20, "displacement": 0.15, "leakage": 0.20, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.544
+    },
+    "health_education": {
+      "deadweight": 0.15, "displacement": 0.10, "leakage": 0.10, "substitution": 0.0, "multiplier": 1.0, "net_factor": 0.689
+    },
+    "professional_services": {
+      "deadweight": 0.25, "displacement": 0.25, "leakage": 0.15, "substitution": 0.05, "multiplier": 1.0, "net_factor": 0.454
+    }
+  },
+  "guidance_ranges": {
+    "deadweight": {"low": 0.0, "high": 0.4},
+    "displacement": {"low": 0.0, "high": 0.60},
+    "leakage": {"low": 0.05, "high": 0.40, "note": "Australian regions are more geographically isolated than UK LAs, but FIFO/DIDO workforce patterns increase leakage in resource regions."},
+    "substitution": {"low": 0.0, "high": 0.10}
+  },
+  "source": {
+    "publication": "Derived from Infrastructure Australia Assessment Framework, state treasury guidance (VIC DTF, NSW TPG23-08), and Australian evaluation literature",
+    "publisher": "Various",
+    "date": "2025-2026",
+    "update_frequency": "periodic"
+  },
+  "last_verified": "2026-04-07",
+  "expected_next_update": "2027-06"
+}

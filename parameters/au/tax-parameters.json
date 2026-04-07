@@ -1,0 +1,68 @@
+{
+  "parameter": "tax-parameters",
+  "jurisdiction": "au",
+  "label": "Australian tax parameters for revenue estimation",
+  "category": "fiscal",
+  "financial_year": "2025-26",
+  "currency": "AUD",
+  "income_tax": {
+    "label": "Individual income tax brackets (residents, 2025-26)",
+    "brackets": [
+      {"min": 0, "max": 18200, "rate": 0.0},
+      {"min": 18201, "max": 45000, "rate": 0.16},
+      {"min": 45001, "max": 135000, "rate": 0.30},
+      {"min": 135001, "max": 190000, "rate": 0.37},
+      {"min": 190001, "max": null, "rate": 0.45}
+    ],
+    "medicare_levy": 0.02,
+    "note": "Stage 3 tax cuts effective 1 July 2024. Medicare levy of 2% applies on top. Low Income Tax Offset (LITO) not modelled."
+  },
+  "superannuation": {
+    "label": "Superannuation guarantee",
+    "rate": 0.12,
+    "note": "12% from 1 July 2025. Employer contribution on top of salary."
+  },
+  "gst": {
+    "label": "Goods and Services Tax",
+    "rate": 0.10,
+    "note": "10% flat rate on most goods and services. Fresh food, health, education exempt."
+  },
+  "payroll_tax": {
+    "label": "Payroll tax by state/territory",
+    "note": "Payroll tax is a state tax with different rates and thresholds. Rates and thresholds for 2025-26.",
+    "states": {
+      "NSW": {"rate": 0.0550, "threshold": 1200000, "note": "5.50% on wages above AUD 1.2m"},
+      "VIC": {"rate": 0.0485, "threshold": 900000, "note": "4.85% above AUD 900k. Mental health levy adds 0.5% above AUD 10m."},
+      "QLD": {"rate": 0.0475, "threshold": 1300000, "note": "4.75% above AUD 1.3m. Higher rate of 4.95% above AUD 6.5m."},
+      "WA": {"rate": 0.0550, "threshold": 1000000, "note": "5.50% above AUD 1m"},
+      "SA": {"rate": 0.0495, "threshold": 1500000, "note": "4.95% above AUD 1.5m"},
+      "TAS": {"rate": 0.0400, "threshold": 1250000, "note": "4% above AUD 1.25m. Higher rate 6.1% above AUD 2m."},
+      "ACT": {"rate": 0.0485, "threshold": 2000000, "note": "4.85% above AUD 2m. Higher rate 6.85% above AUD 5m."},
+      "NT": {"rate": 0.0550, "threshold": 1500000, "note": "5.50% above AUD 1.5m"}
+    }
+  },
+  "company_tax": {
+    "label": "Corporate tax rate",
+    "base_rate": 0.30,
+    "small_business_rate": 0.25,
+    "small_business_threshold": 50000000,
+    "note": "25% for base rate entities (aggregated turnover < AUD 50m). 30% for all others."
+  },
+  "effective_tax_wedge": {
+    "label": "Simplified effective tax rate for IO revenue estimation",
+    "description": "Approximate combined effective tax rate on additional employment income, for quick revenue estimation from IO impact results.",
+    "low_income": {"annual_salary": 50000, "effective_rate": 0.22, "note": "Income tax ~14% + Medicare 2% + Super 12% (employer cost, not employee tax, but represents fiscal flow)"},
+    "median_income": {"annual_salary": 75000, "effective_rate": 0.27, "note": "Income tax ~19% + Medicare 2% + employer super cost"},
+    "high_income": {"annual_salary": 120000, "effective_rate": 0.32, "note": "Income tax ~26% + Medicare 2%"},
+    "note": "These are rough estimates for IO revenue impact reporting. They include income tax and Medicare levy only (not super, which is an employer cost not a tax receipt in the traditional sense). For precise estimates, model each bracket."
+  },
+  "source": {
+    "publication": "Australian Taxation Office, State Revenue Offices",
+    "publisher": "ATO",
+    "url": "https://www.ato.gov.au/rates/individual-income-tax-rates/",
+    "date": "2025-26",
+    "update_frequency": "annual (July)"
+  },
+  "last_verified": "2026-04-07",
+  "expected_next_update": "2026-07"
+}

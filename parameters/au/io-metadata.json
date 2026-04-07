@@ -1,0 +1,100 @@
+{
+  "parameter": "io-metadata",
+  "jurisdiction": "au",
+  "label": "Australian IO model metadata and concordance",
+  "category": "io-model",
+  "national_io_tables": {
+    "source": "Australian Bureau of Statistics",
+    "publication": "Australian National Accounts: Input-Output Tables",
+    "reference_period": "2023-24",
+    "published": "2026-03-25",
+    "catalogue": "5209.0.55.001",
+    "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-input-output-tables/latest-release",
+    "tables_used": ["Table 5 (flow table)", "Table 6 (direct requirements)", "Table 20 (employment)"],
+    "industries": 109,
+    "aggregated_to": 19,
+    "classification": "ANZSIC 2006 (Revision 2.0)",
+    "price_base": "2023-24 AUD current prices",
+    "next_release": "2024-25 tables expected March 2027"
+  },
+  "regional_employment": {
+    "source": "Australian Bureau of Statistics",
+    "publication": "Census of Population and Housing 2021, Table G54",
+    "reference_date": "2021-08-10",
+    "variable": "Place of Work employment by ANZSIC division by SA4",
+    "api_endpoint": "https://data.api.abs.gov.au/rest/data/ABS,C21_G54_SA2,1.0.0/",
+    "regions": 88,
+    "geography": "SA4 (Statistical Area Level 4)",
+    "note": "Census data is point-in-time (August 2021). Next Census: 2026. SA4s with <1000 employed persons excluded."
+  },
+  "regionalisation": {
+    "method": "Flegg Location Quotient (FLQ)",
+    "delta": 0.3,
+    "delta_source": "Lenzen, M. et al. (2017). Economic Systems Research 29(2): 275-295. Calibrated for Australia.",
+    "delta_note": "Optimal range 0.2-0.3 per Flegg & Tohmo (2013). 0.3 used by Lenzen for Australian MRIO.",
+    "formula": "lambda = [log2(1 + RE/NE)]^delta; FLQ(i,j) = CILQ(i,j) * lambda for i!=j, SLQ(i) for i==j; A_reg(i,j) = A_nat(i,j) * min(FLQ(i,j), 1)"
+  },
+  "multiplier_types": {
+    "type_1": {
+      "label": "Type I (direct + indirect)",
+      "description": "Captures the initial expenditure plus supply chain purchases from local firms. Derived from column sums of the Leontief inverse L = (I - A_reg)^{-1}.",
+      "default": true
+    },
+    "type_2": {
+      "label": "Type II (direct + indirect + induced)",
+      "description": "Adds household consumption effects by augmenting the matrix with a household row/column. Assumes compensation of employees = 35% of output and marginal propensity to consume = 0.6.",
+      "default": false,
+      "note": "Type II multipliers are higher and less certain. Use Type I as default."
+    }
+  },
+  "anzsic_divisions": {
+    "A": "Agriculture, forestry & fishing",
+    "B": "Mining",
+    "C": "Manufacturing",
+    "D": "Electricity, gas, water & waste services",
+    "E": "Construction",
+    "F": "Wholesale trade",
+    "G": "Retail trade",
+    "H": "Accommodation & food services",
+    "I": "Transport, postal & warehousing",
+    "J": "Information media & telecommunications",
+    "K": "Financial & insurance services",
+    "L": "Rental, hiring & real estate services",
+    "M": "Professional, scientific & technical services",
+    "N": "Administrative & support services",
+    "O": "Public administration & safety",
+    "P": "Education & training",
+    "Q": "Health care & social assistance",
+    "R": "Arts & recreation services",
+    "S": "Other services"
+  },
+  "anzsic_to_sic_concordance": {
+    "description": "Approximate mapping from ANZSIC divisions to UK SIC sections for cross-country comparison",
+    "A": "A", "B": "B", "C": "C", "D": "D+E", "E": "F",
+    "F": "G", "G": "G", "H": "I", "I": "H", "J": "J",
+    "K": "K", "L": "L", "M": "M", "N": "N", "O": "O",
+    "P": "P", "Q": "Q", "R": "R", "S": "S"
+  },
+  "sa4_regions": 88,
+  "sa4_note": "SA4 (Statistical Area Level 4) is the ABS labour market region geography. 88 proper SA4s after filtering out 'no usual address', 'migratory', and 'other territories' categories.",
+  "limitations": [
+    "IO models assume fixed input proportions (no substitution or efficiency gains)",
+    "No price effects (large investments can push up local costs)",
+    "No supply constraints (spare capacity assumed)",
+    "Regional coefficients estimated from employment-based location quotients, not survey data",
+    "Census employment data is 2021 vintage; industry structure may have shifted",
+    "SA4 boundaries are statistical, not economic; impacts spill across boundaries",
+    "Cross-hauling (simultaneous import and export of the same commodity) is not captured",
+    "The ABS stopped publishing IO multipliers after 1998-99 specifically because of misuse concerns",
+    "Type II multipliers endogenise consumption, further inflating impacts",
+    "Results are indicative upper bounds, not predictions"
+  ],
+  "source": {
+    "publication": "econstack Australian IO Model",
+    "data_sources": ["ABS IO Tables 2023-24", "ABS Census 2021 Table G54"],
+    "methodology": ["Flegg et al. (1995, 2016)", "Lenzen et al. (2017)"],
+    "build_date": "2026-04-07"
+  },
+  "last_verified": "2026-04-07",
+  "expected_next_update": "2027-04"
+}
