@@ -39,27 +39,33 @@
   },
   "health": {
     "gp_consultation": {
-      "value": 42,
+      "value": 45,
       "unit": "GBP/consultation",
-      "description": "Average cost of a GP surgery consultation (including direct care staff costs and overheads). Duration ~9.2 minutes.",
-      "source": "PSSRU Unit Costs of Health and Social Care 2024"
+      "description": "Average cost of a GP surgery consultation (including direct care staff costs and overheads). Duration ~9.2 minutes. Range: GBP 42-49 depending on source.",
+      "source": "PSSRU Unit Costs of Health and Social Care 2024 (University of Kent/York)"
     },
     "ae_attendance": {
-      "value": 193,
+      "value": 210,
       "unit": "GBP/attendance",
-      "description": "Average cost of an A&E attendance (all types). Type 1 major A&E higher (~GBP 210).",
-      "source": "NHS National Tariff 2024-25, PSSRU 2024"
+      "description": "Average cost of an A&E attendance (Type 1 major department). All-type average lower (~GBP 199).",
+      "source": "NHS Reference Costs 2023-24, PSSRU 2024"
+    },
+    "outpatient_attendance": {
+      "value": 160,
+      "unit": "GBP/attendance",
+      "description": "Average cost of a consultant-led outpatient attendance. Range GBP 140-180.",
+      "source": "NHS Reference Costs 2023-24"
     },
     "hospital_inpatient_day": {
-      "value": 520,
+      "value": 575,
       "unit": "GBP/bed-day",
-      "description": "Average cost per inpatient bed-day (non-elective). Elective admissions lower (~GBP 430).",
+      "description": "Average cost per inpatient bed-day (non-elective). Range GBP 500-650 depending on specialty. Elective lower (~GBP 430).",
       "source": "NHS Reference Costs 2023-24"
     },
     "hospital_admission_non_elective": {
-      "value": 2100,
+      "value": 3500,
       "unit": "GBP/admission",
-      "description": "Average cost of a non-elective hospital admission (all specialties). Average length of stay ~4 days.",
+      "description": "Average cost of a non-elective hospital admission (all specialties). Range GBP 2,500-4,500 depending on HRG code. Average length of stay ~4 days.",
       "source": "NHS Reference Costs 2023-24"
     },
     "mental_health_episode": {

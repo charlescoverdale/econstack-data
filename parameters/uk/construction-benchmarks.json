@@ -7,26 +7,26 @@
   "caveat": "Indicative benchmarks for SOC/OBC-stage appraisal. NOT substitutes for quantity surveyor estimates. Regional variation is significant (apply location factors). Project-specific factors (site conditions, specification, procurement route) can cause costs to vary by 50%+ from these benchmarks.",
   "buildings": {
     "primary_school": {
-      "low": 1800, "mid": 2200, "high": 2600,
+      "low": 2500, "mid": 2640, "high": 2780,
       "unit": "GBP/sqm",
-      "source": "BCIS, DfE area cost allowances",
+      "source": "BCIS costmodelling.com (July 2025 base)",
       "typical_gifa_sqm": {"1FE": 1200, "2FE": 1800, "3FE": 2400}
     },
     "secondary_school": {
-      "low": 2200, "mid": 2600, "high": 3100,
+      "low": 2600, "mid": 2740, "high": 2880,
       "unit": "GBP/sqm",
-      "source": "BCIS, DfE area cost allowances",
+      "source": "BCIS costmodelling.com (July 2025 base)",
       "typical_gifa_sqm": {"6FE": 6000, "8FE": 8000, "10FE": 10000}
     },
     "hospital_acute": {
-      "low": 3200, "mid": 3800, "high": 4800,
+      "low": 4210, "mid": 4440, "high": 4670,
       "unit": "GBP/sqm",
-      "source": "BCIS, NHS Estates"
+      "source": "BCIS costmodelling.com (July 2025 base)"
     },
     "hospital_community": {
-      "low": 2400, "mid": 3000, "high": 3600,
+      "low": 3840, "mid": 4050, "high": 4260,
       "unit": "GBP/sqm",
-      "source": "BCIS"
+      "source": "BCIS costmodelling.com (July 2025 base)"
     },
     "office_grade_a": {
       "low": 2500, "mid": 3200, "high": 4000,
@@ -44,19 +44,29 @@
       "source": "BCIS"
     },
     "prison": {
-      "low": 2800, "mid": 3500, "high": 4500,
+      "low": 3370, "mid": 3550, "high": 3730,
       "unit": "GBP/sqm",
-      "source": "BCIS, MoJ"
+      "source": "BCIS costmodelling.com (July 2025 base)"
     },
     "leisure_centre": {
-      "low": 2200, "mid": 2800, "high": 3500,
+      "low": 2380, "mid": 2510, "high": 2640,
       "unit": "GBP/sqm",
-      "source": "BCIS, Sport England"
+      "source": "BCIS costmodelling.com (July 2025 base), community centre benchmark"
     },
     "warehouse_distribution": {
-      "low": 600, "mid": 900, "high": 1300,
+      "low": 540, "mid": 570, "high": 600,
       "unit": "GBP/sqm",
-      "source": "BCIS"
+      "source": "BCIS costmodelling.com (July 2025 base), distribution centres 10-15m eaves"
+    },
+    "nursing_home": {
+      "low": 2090, "mid": 2210, "high": 2330,
+      "unit": "GBP/sqm",
+      "source": "BCIS costmodelling.com (July 2025 base)"
+    },
+    "library": {
+      "low": 4220, "mid": 4450, "high": 4680,
+      "unit": "GBP/sqm",
+      "source": "BCIS costmodelling.com (July 2025 base)"
     }
   },
   "infrastructure": {
