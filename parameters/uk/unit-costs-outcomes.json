@@ -1,0 +1,237 @@
+{
+  "parameter": "unit-costs-outcomes",
+  "jurisdiction": "uk",
+  "label": "Unit costs for outcome monetisation in programme evaluation and CBA",
+  "category": "evaluation",
+  "price_base": "2024-25 GBP",
+  "note": "Values compiled from GMCA Unit Cost Database (Greater Manchester Combined Authority), PSSRU Unit Costs of Health and Social Care (University of Kent), Home Office Crime Cost estimates, DfE/IFS education returns, and DLUHC/MHCLG housing cost data. All values are indicative national averages. Regional and individual variation is significant. Always cite the source when using these values in reports.",
+  "employment": {
+    "fiscal_cost_of_unemployment_uc": {
+      "value": 8800,
+      "unit": "GBP/person/year",
+      "description": "Average Universal Credit standard allowance plus typical housing element for a single jobseeker. Does not include council tax support or other passported benefits.",
+      "source": "DWP Benefit Expenditure Tables, 2024-25 rates"
+    },
+    "fiscal_cost_of_unemployment_total": {
+      "value": 12500,
+      "unit": "GBP/person/year",
+      "description": "Total fiscal cost including benefits, lost tax/NIC revenue, and additional public service use (health, housing). GMCA/New Economy estimate.",
+      "source": "GMCA Unit Cost Database (2023 update)"
+    },
+    "value_of_sustained_employment": {
+      "value": 15200,
+      "unit": "GBP/person/year",
+      "description": "Fiscal and economic value of moving one person from unemployment to sustained employment (6+ months). Includes benefit savings, tax revenue, and reduced public service use.",
+      "source": "GMCA Unit Cost Database (2023 update)"
+    },
+    "neet_fiscal_cost_16_18": {
+      "value": 4800,
+      "unit": "GBP/person/year",
+      "description": "Annual fiscal cost of a 16-18 year old not in education, employment, or training.",
+      "source": "DfE/Audit Commission estimates (updated for inflation)"
+    },
+    "neet_lifetime_cost": {
+      "value": 56000,
+      "unit": "GBP/person/lifetime",
+      "description": "Estimated lifetime public finance cost of being NEET at age 16-18 (discounted).",
+      "source": "DfE/York University (Coles et al., updated)"
+    }
+  },
+  "health": {
+    "gp_consultation": {
+      "value": 42,
+      "unit": "GBP/consultation",
+      "description": "Average cost of a GP surgery consultation (including direct care staff costs and overheads). Duration ~9.2 minutes.",
+      "source": "PSSRU Unit Costs of Health and Social Care 2024"
+    },
+    "ae_attendance": {
+      "value": 193,
+      "unit": "GBP/attendance",
+      "description": "Average cost of an A&E attendance (all types). Type 1 major A&E higher (~GBP 210).",
+      "source": "NHS National Tariff 2024-25, PSSRU 2024"
+    },
+    "hospital_inpatient_day": {
+      "value": 520,
+      "unit": "GBP/bed-day",
+      "description": "Average cost per inpatient bed-day (non-elective). Elective admissions lower (~GBP 430).",
+      "source": "NHS Reference Costs 2023-24"
+    },
+    "hospital_admission_non_elective": {
+      "value": 2100,
+      "unit": "GBP/admission",
+      "description": "Average cost of a non-elective hospital admission (all specialties). Average length of stay ~4 days.",
+      "source": "NHS Reference Costs 2023-24"
+    },
+    "mental_health_episode": {
+      "value": 1750,
+      "unit": "GBP/episode",
+      "description": "Average cost of a community mental health episode (assessment, treatment, follow-up). Inpatient mental health significantly higher (~GBP 10k+).",
+      "source": "PSSRU 2024, GMCA Unit Cost Database"
+    },
+    "substance_misuse_treatment": {
+      "value": 4900,
+      "unit": "GBP/person/year",
+      "description": "Average cost of structured substance misuse treatment per year.",
+      "source": "PSSRU 2024, PHE Drug Treatment Expenditure"
+    },
+    "qaly": {
+      "value": 70000,
+      "unit": "GBP/QALY",
+      "description": "Value of a Quality Adjusted Life Year. Green Book supplementary guidance on health. Note: discount health/QALY benefits at 1.5% (not the standard 3.5%).",
+      "source": "Green Book Supplementary Guidance: Valuing Health (DHSC)"
+    },
+    "statistical_life": {
+      "value": 2350000,
+      "unit": "GBP/life",
+      "description": "Value of a Statistical Life (VSL) for use in CBA. Based on willingness-to-pay studies.",
+      "source": "DfT TAG, Green Book supplementary guidance"
+    }
+  },
+  "crime": {
+    "homicide": {
+      "value": 3200000,
+      "unit": "GBP/incident",
+      "description": "Total economic and social cost of a homicide. Includes: physical/emotional harm to victim, criminal justice costs, lost economic output.",
+      "source": "Home Office Research Report 99 (2018 update, inflated to 2024-25 prices)"
+    },
+    "serious_wounding_gbh": {
+      "value": 42000,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "other_wounding": {
+      "value": 12000,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "common_assault": {
+      "value": 2500,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "robbery": {
+      "value": 14000,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "burglary_dwelling": {
+      "value": 4200,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "vehicle_theft": {
+      "value": 5200,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "shoplifting": {
+      "value": 100,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "criminal_damage": {
+      "value": 1100,
+      "unit": "GBP/incident",
+      "source": "Home Office Research Report 99 (2018 update)"
+    },
+    "domestic_abuse": {
+      "value": 34000,
+      "unit": "GBP/incident",
+      "description": "Includes physical/emotional harm, lost economic output, health service use, criminal justice, social services, housing. Estimated from Oliver et al. (2019).",
+      "source": "Home Office/GMCA (Oliver et al. 2019, updated)"
+    },
+    "fraud": {
+      "value": 900,
+      "unit": "GBP/incident",
+      "description": "Average cost per fraud offence. Highly variable (from GBP 50 to millions).",
+      "source": "Home Office Research Report 99 (2018 update)"
+    }
+  },
+  "education": {
+    "gcse_5_a_to_c_equiv": {
+      "value": 87000,
+      "unit": "GBP/person/lifetime",
+      "description": "Estimated lifetime earnings uplift from achieving 5+ GCSEs at grades 9-4 (A*-C equivalent), compared to not achieving this threshold. Discounted present value.",
+      "source": "DfE Measuring the Net Present Value of Further Education in England (updated), IFS Returns to Education"
+    },
+    "level_2_qualification": {
+      "value": 63000,
+      "unit": "GBP/person/lifetime",
+      "description": "Lifetime earnings uplift from achieving a Level 2 qualification (equivalent to 5 GCSEs or Level 2 NVQ).",
+      "source": "DfE/IFS Returns to Education (2020, inflated)"
+    },
+    "level_3_qualification": {
+      "value": 94000,
+      "unit": "GBP/person/lifetime",
+      "description": "Lifetime earnings uplift from achieving a Level 3 qualification (A-levels or equivalent).",
+      "source": "DfE/IFS Returns to Education (2020, inflated)"
+    },
+    "degree_level_4_plus": {
+      "value": 168000,
+      "unit": "GBP/person/lifetime",
+      "description": "Lifetime earnings premium from a university degree compared to Level 3 only. Varies significantly by subject and institution.",
+      "source": "IFS (Belfield et al. 2018, updated)"
+    },
+    "apprenticeship_completion": {
+      "value": 48000,
+      "unit": "GBP/person/lifetime",
+      "description": "Estimated lifetime earnings uplift from completing an apprenticeship (Level 3). Combined fiscal and individual benefit.",
+      "source": "DfE Apprenticeships Evaluation (2019, inflated)"
+    },
+    "persistent_absence_cost": {
+      "value": 3500,
+      "unit": "GBP/pupil/year",
+      "description": "Estimated fiscal cost per year of a pupil being persistently absent (missing 10%+ of sessions). Includes reduced attainment, increased social services contact.",
+      "source": "DfE/GMCA estimates"
+    }
+  },
+  "housing": {
+    "temporary_accommodation": {
+      "value": 26000,
+      "unit": "GBP/household/year",
+      "description": "Average cost of providing temporary accommodation to a homeless household. Varies enormously by region (London: ~GBP 40k+, outside London: ~GBP 15k).",
+      "source": "DLUHC Homelessness Statistics, NAO Homelessness Report (2017, updated)"
+    },
+    "rough_sleeping": {
+      "value": 35000,
+      "unit": "GBP/person/year",
+      "description": "Estimated public service cost of a rough sleeper. Includes: emergency health services, mental health, substance misuse, police, outreach, temporary shelter.",
+      "source": "Crisis/GMCA estimates (Pleace & Bretherton 2019, updated)"
+    },
+    "housing_support_service": {
+      "value": 9800,
+      "unit": "GBP/person/year",
+      "description": "Cost of supported housing or floating support service per person.",
+      "source": "DLUHC/GMCA Unit Cost Database"
+    },
+    "category_1_hazard_remediation_health_saving": {
+      "value": 600,
+      "unit": "GBP/dwelling/year",
+      "description": "Average annual NHS cost saving from remediating a Category 1 housing hazard (e.g., excess cold, falls, damp). BRE Housing Health Cost Calculator.",
+      "source": "BRE (2019). The Full Cost of Poor Housing. Updated by BRE HHCC."
+    }
+  },
+  "transport": {
+    "note": "For detailed transport values, use the DfT TAG Databook directly. These are headline values only.",
+    "vot_work": {"value": 20.46, "unit": "GBP/hour", "source": "TAG Data Book v1.22 (2025)"},
+    "vot_commuting": {"value": 7.31, "unit": "GBP/hour", "source": "TAG Data Book v1.22 (2025)"},
+    "vot_leisure": {"value": 6.21, "unit": "GBP/hour", "source": "TAG Data Book v1.22 (2025)"},
+    "accident_fatal": {"value": 2340000, "unit": "GBP/fatality", "source": "TAG Data Book (includes human costs)"},
+    "accident_serious": {"value": 262000, "unit": "GBP/serious_injury", "source": "TAG Data Book"},
+    "accident_slight": {"value": 20200, "unit": "GBP/slight_injury", "source": "TAG Data Book"}
+  },
+  "source": {
+    "primary_databases": [
+      "GMCA Unit Cost Database (Greater Manchester Combined Authority, 2023 update)",
+      "PSSRU Unit Costs of Health and Social Care (University of Kent, 2024)",
+      "Home Office Research Report 99: The Economic and Social Costs of Crime (2018 update)",
+      "DfE Returns to Education evidence",
+      "DfT TAG Data Book v1.22 (2025)",
+      "DLUHC Homelessness Statistics and Appraisal Guide"
+    ],
+    "inflation_method": "Values from older publications updated to 2024-25 prices using GDP deflator (OBR forecast series).",
+    "update_frequency": "PSSRU: annual. TAG: annual. Home Office: periodic (last major update 2018). GMCA: periodic. DfE: periodic.",
+    "last_verified": "2026-04-08",
+    "expected_next_update": "2027-01"
+  }
+}

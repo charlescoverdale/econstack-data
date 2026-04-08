@@ -1,0 +1,58 @@
+{
+  "asset_type": "Road scheme (bypass, junction, widening)",
+  "jurisdiction": "uk",
+  "description": "New road construction, bypass, junction improvement, or carriageway widening. Appraised using DfT Transport Analysis Guidance (TAG).",
+  "typical_cost": {
+    "motorway_per_km": {"low": 20, "mid": 30, "high": 50, "unit": "GBP_millions/km", "source": "National Highways, IPA data"},
+    "dual_carriageway_per_km": {"low": 10, "mid": 20, "high": 35, "unit": "GBP_millions/km"},
+    "single_carriageway_per_km": {"low": 5, "mid": 10, "high": 20, "unit": "GBP_millions/km"},
+    "junction_improvement": {"low": 5, "mid": 15, "high": 40, "unit": "GBP_millions", "note": "Grade-separated junctions at the upper end"},
+    "bridge_structure": {"low": 10, "mid": 25, "high": 80, "unit": "GBP_millions", "note": "Wide range depending on span and complexity"},
+    "professional_fees_pct": {"value": 18, "range": [15, 22]},
+    "land_acquisition": "Use DLUHC land value estimates by region and land type (agricultural, residential, commercial)"
+  },
+  "typical_benefits": [
+    {"category": "Journey time savings", "description": "Reduced travel time for existing and new traffic", "monetisation": "DfT TAG values of time by purpose (work: ~GBP 20/hr, commuting: ~GBP 7/hr, leisure: ~GBP 6/hr). Apply ramp-up over 2-5 years."},
+    {"category": "Vehicle operating cost savings", "description": "Reduced fuel, maintenance from improved road conditions", "monetisation": "DfT TAG VOC tables"},
+    {"category": "Accident reduction", "description": "Fewer accidents from improved geometry, grade separation", "monetisation": "DfT TAG accident costs (fatal: ~GBP 2.3m, serious: ~GBP 260k, slight: ~GBP 20k)"},
+    {"category": "Journey time reliability", "description": "Reduced variability in journey times", "monetisation": "DfT TAG reliability values"},
+    {"category": "Wider economic impacts", "description": "Agglomeration, labour supply, imperfect competition", "monetisation": "Present separately from core BCR (Green Book 2026 requirement)"},
+    {"category": "Carbon", "description": "Net impact on emissions (may be positive or negative)", "monetisation": "DESNZ carbon values (pre-discounted, do not double-discount)"},
+    {"category": "Construction employment", "description": "Temporary construction phase", "monetisation": "IO multiplier"}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 60,
+    "optimism_bias_pct": {"soc": 44, "obc": 24, "fbc": 3, "project_type": "standard_civil_engineering"},
+    "discount_rate": "uk_declining",
+    "additionality_scenario": "not_applicable",
+    "additionality_note": "Transport schemes use TAG/WebTAG methodology, not HMT additionality adjustments. Induced demand is addressed separately.",
+    "benefit_ramp_up_years": 3,
+    "benefit_ramp_up_note": "TAG assumes traffic builds to forecast levels over 2-5 years post-opening"
+  },
+  "reference_bcr_range": {
+    "low": 0.5,
+    "mid": 2.0,
+    "high": 6.0,
+    "note": "DfT VfM categories: Poor (<1.0), Low (1.0-1.5), Medium (1.5-2.0), High (2.0-4.0), Very High (>4.0). Most approved schemes are Medium or above.",
+    "reference_cases": [
+      "A14 Cambridge to Huntingdon FBC (2014): initial BCR 1.8, adjusted BCR 2.5 with WEIs",
+      "A303 Stonehenge Tunnel OBC (2017): BCR 0.45 (proceeded on non-monetised heritage/connectivity grounds)",
+      "Lower Thames Crossing FBC (2022): BCR 1.22 (including WEIs)",
+      "Typical small junction improvement: BCR 3-6 (low cost, concentrated time savings)"
+    ]
+  },
+  "typical_risks": [
+    "Cost overruns: Flyvbjerg (2003) found average 28% overrun for road projects",
+    "Demand forecasting error: Flyvbjerg (2005) found benefits overestimated by 50% on average for transport",
+    "Environmental objections (SSSI, AONB, protected species) delaying planning",
+    "Utility diversions (unknown underground services)",
+    "Ground conditions (especially in river valleys, flood plains)",
+    "Induced demand partially offsetting journey time savings",
+    "Carbon impact may be net negative (more driving) unless offset by congestion relief"
+  ],
+  "source": {
+    "publications": ["DfT TAG Data Book", "DfT VfM Framework", "National Highways RIS pipeline data", "IPA Annual Report on Major Projects", "Green Book Supplementary Guidance: Optimism Bias"],
+    "reference_evaluations": ["What Works Centre for Local Economic Growth: Transport Evidence Review (2015)", "DfT Post Opening Project Evaluation (POPE) reports"],
+    "last_verified": "2026-04-08"
+  }
+}

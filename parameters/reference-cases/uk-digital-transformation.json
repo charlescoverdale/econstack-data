@@ -1,0 +1,54 @@
+{
+  "asset_type": "Digital transformation / IT system",
+  "jurisdiction": "uk",
+  "description": "New government digital service, IT system replacement, or major technology upgrade. Covers citizen-facing services, back-office systems, and data platforms.",
+  "typical_cost": {
+    "small_digital_service": {"low": 1, "mid": 5, "high": 15, "unit": "GBP_millions", "note": "Single citizen-facing service (e.g., online application form)"},
+    "medium_system_replacement": {"low": 20, "mid": 50, "high": 150, "unit": "GBP_millions", "note": "Department-level system (e.g., case management, HR/finance)"},
+    "large_platform": {"low": 100, "mid": 500, "high": 2000, "unit": "GBP_millions", "note": "Cross-government platform (e.g., Universal Credit IT). Reference: NAO Major Projects data."},
+    "ongoing_cost_pct_of_build": {"value": 20, "range": [15, 30], "unit": "percent_per_year", "note": "Annual running costs typically 15-30% of initial build cost for government IT"}
+  },
+  "typical_benefits": [
+    {"category": "Staff efficiency savings", "description": "Automation of manual processes, reduced processing time", "monetisation": "Staff time saved x average salary. Be conservative: automation rarely eliminates roles entirely (usually reallocated)."},
+    {"category": "Error reduction", "description": "Fewer manual errors in data entry, processing, payments", "monetisation": "Cost of correcting errors x volume x error rate reduction"},
+    {"category": "Citizen time savings", "description": "Faster, simpler online services vs paper/phone", "monetisation": "DfT TAG leisure time value (~GBP 6/hr) applied to citizen time saved. Caution: small per-transaction savings, large volumes."},
+    {"category": "Improved decision-making", "description": "Better data, analytics, reporting enables better policy decisions", "monetisation": "Very difficult to monetise. Present as non-monetised benefit with qualitative description."},
+    {"category": "Fraud reduction", "description": "Improved data matching and verification reduces fraud/error", "monetisation": "Expected fraud/error reduction x current fraud/error value. Reference: HMRC, DWP fraud and error statistics."},
+    {"category": "Decommissioning legacy systems", "description": "Reduced running costs of old systems", "monetisation": "Direct cost comparison: legacy running cost minus new system running cost"}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 10,
+    "appraisal_period_note": "IT systems have shorter economic lives than physical assets. 7-12 years typical before major refresh. Green Book supplementary guidance: IT systems 5-10 years.",
+    "optimism_bias_pct": {"soc": 200, "obc": 105, "fbc": 10, "project_type": "equipment_development"},
+    "optimism_bias_note": "Equipment/development projects have the highest optimism bias in the Green Book table (up to 200% at SOC). IT projects are notorious for cost overruns.",
+    "discount_rate": "uk_declining",
+    "additionality_scenario": "not_applicable",
+    "additionality_note": "Government IT projects are not subject to standard additionality adjustments."
+  },
+  "reference_bcr_range": {
+    "low": 0.3,
+    "mid": 1.5,
+    "high": 5.0,
+    "note": "High variance. Small digital services can have very high BCRs (low cost, large user base). Large system replacements frequently have BCRs below 1.0 when full costs (including transition, training, data migration) are included.",
+    "reference_cases": [
+      "Universal Credit IT (2013-ongoing): original BCR not published; NAO reported total cost GBP 1.3bn (vs original estimate GBP 0.4bn)",
+      "HMRC Making Tax Digital (2015-2024): BCR estimated at 1.3-2.0 depending on assumptions",
+      "GOV.UK single domain (2012): widely cited as high-BCR example (consolidated 300+ websites for ~GBP 10m)",
+      "NHS Spine 2 (2014): BCR reportedly >2.0 for the data-sharing platform",
+      "IPA Annual Report 2023: IT/digital projects have highest rate of 'red' RAG ratings of any category"
+    ]
+  },
+  "typical_risks": [
+    "Cost overruns: IT projects have the worst track record (Green Book OB: up to 200%)",
+    "Scope creep: requirements grow during development",
+    "Integration complexity: connecting to legacy systems, data migration",
+    "Organisational change: staff resistance, training requirements, process redesign",
+    "Vendor lock-in: proprietary technology constraining future options",
+    "Cybersecurity: new systems create new attack surfaces",
+    "Benefits realisation: efficiency savings often absorbed rather than realised (staff redeployed, not released)"
+  ],
+  "source": {
+    "publications": ["IPA Annual Report on Major Projects", "NAO Digital Transformation Reports", "Green Book Supplementary Guidance: Optimism Bias", "GDS Service Manual"],
+    "last_verified": "2026-04-08"
+  }
+}

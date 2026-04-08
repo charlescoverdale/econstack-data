@@ -1,0 +1,62 @@
+{
+  "asset_type": "Employment and skills programme",
+  "jurisdiction": "uk",
+  "description": "Government-funded employment support, training, apprenticeships, or welfare-to-work programme. Evaluated using Magenta Book 3Es framework.",
+  "typical_cost": {
+    "cost_per_participant": {"low": 500, "mid": 3000, "high": 15000, "unit": "GBP/participant", "note": "Light-touch job brokerage at the low end, intensive supported employment at the high end"},
+    "cost_per_job_outcome": {"low": 2000, "mid": 8000, "high": 25000, "unit": "GBP/sustained_job", "note": "Sustained = 6+ months in employment. Includes deadweight."},
+    "typical_programme_budget": {"low": 1, "mid": 20, "high": 200, "unit": "GBP_millions"}
+  },
+  "typical_benefits": [
+    {"category": "Fiscal savings from reduced benefits", "description": "JSA/UC savings when participants move into employment", "monetisation": "UC standard allowance (~GBP 4,700/year single, ~GBP 7,400/year couple) + housing element. Or use unit-costs-outcomes.json fiscal cost of unemployment."},
+    {"category": "Tax revenue from employment", "description": "Income tax and NICs from newly employed participants", "monetisation": "Use tax-parameters.json effective rates by earnings level"},
+    {"category": "Individual earnings uplift", "description": "Participant income net of benefit withdrawal", "monetisation": "Earnings minus benefit taper. Wider social value per Green Book."},
+    {"category": "Health and wellbeing", "description": "Employment reduces mental health service use, GP visits", "monetisation": "Unit costs from GMCA database (mental health episode ~GBP 1,750)"},
+    {"category": "Reduced crime", "description": "Employment is associated with reduced offending", "monetisation": "Use crime unit costs with caution (attribution is weak)"},
+    {"category": "Qualification attainment", "description": "If programme includes training/certification", "monetisation": "Lifetime earnings uplift from qualifications (Level 2: ~GBP 63k, Level 3: ~GBP 94k)"}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 10,
+    "appraisal_period_note": "Employment programmes typically evaluated over 5-10 years. Benefit persistence depends on job sustainability and wage progression.",
+    "optimism_bias_pct": {"value": 0, "note": "Not standard for programme CBA. Use sensitivity analysis instead."},
+    "discount_rate": "uk_declining",
+    "additionality_scenario": "standard",
+    "additionality_rates": {
+      "deadweight": {"value": 0.40, "note": "Employment programmes have relatively high deadweight: many participants would have found work eventually. DWP evaluation evidence suggests 30-50%."},
+      "displacement": {"value": 0.15, "note": "Job displacement is moderate for employment programmes. Higher for retail/service sector placements."},
+      "leakage": {"value": 0.10, "note": "Some participants may take jobs outside the target area."},
+      "substitution": {"value": 0.05}
+    },
+    "benefit_decay_rate": 0.10,
+    "benefit_decay_note": "Assume 10% annual decay in employment persistence (some participants return to unemployment). This is conservative; DWP evidence suggests 5-15% annual exit rates from sustained employment."
+  },
+  "reference_bcr_range": {
+    "low": 0.5,
+    "mid": 1.5,
+    "high": 4.0,
+    "note": "Employment programmes are hard to monetise fully. Fiscal BCR (Exchequer savings only) is typically lower than social BCR. High BCRs from intensive programmes targeting long-term unemployed with multiple barriers.",
+    "reference_cases": [
+      "Work Programme (2011-2017): fiscal BCR ~0.8-1.2 depending on cohort (DWP evaluation 2018)",
+      "Future Jobs Fund (2009-2011): BCR 2.0 (DWP/CESI evaluation, high due to direct job creation)",
+      "Troubled Families Programme (2012-2022): fiscal BCR 1.5-2.5 (MHCLG evaluation)",
+      "What Works Centre: employment programmes achieving SMS Level 3+ typically show 10-20% employment rate uplift over control"
+    ]
+  },
+  "typical_risks": [
+    "High deadweight: many participants would have found employment anyway (especially in strong labour markets)",
+    "Creaming: providers may select participants most likely to succeed, inflating apparent impact",
+    "Parking: hard-to-help participants may receive minimal support",
+    "Job sustainability: initial employment may not persist (measure at 6, 12, and 24 months)",
+    "Displacement: programme participants may take jobs from non-participants",
+    "Economic cycle: programme effectiveness is heavily influenced by the macro labour market"
+  ],
+  "evidence_base": {
+    "what_works": "What Works Centre for Local Economic Growth: Employment Training Evidence Review (2016). Overall evidence strength: moderate. Key finding: intensive, personalised support with employer engagement is most effective.",
+    "sms_levels_achieved": "Most UK employment programme evaluations are SMS Level 2 (before-and-after with controls). A few achieve Level 3 (DID with comparison areas). The Work Programme RCT (SMS Level 5) is the exception.",
+    "common_evaluation_gap": "Many programmes lack baseline data. Recommendation: collect participant data at registration, not just at programme exit."
+  },
+  "source": {
+    "publications": ["DWP Work Programme evaluation (2018)", "MHCLG Troubled Families evaluation (2022)", "What Works Centre for Local Economic Growth: Employment Training (2016)", "GMCA Unit Cost Database", "Green Book Supplementary Guidance: Additionality"],
+    "last_verified": "2026-04-08"
+  }
+}

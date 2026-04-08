@@ -1,167 +1,90 @@
 {
-  "parameter": "construction_benchmarks",
+  "parameter": "construction-benchmarks",
   "jurisdiction": "uk",
-  "label": "Empirical benchmarks for CBA validation",
-  "category": "validation",
-  "cost_overruns": {
-    "description": "Average cost overruns from Reference Class Forecasting literature",
-    "values": {
-      "roads": {
-        "mean_overrun": 0.28,
-        "label": "Road projects average 28% cost overrun"
-      },
-      "rail": {
-        "mean_overrun": 0.45,
-        "label": "Rail projects average 45% cost overrun"
-      },
-      "buildings": {
-        "mean_overrun": 0.2,
-        "label": "Building projects average 20% cost overrun"
-      },
-      "it": {
-        "mean_overrun": 1.07,
-        "label": "IT projects average 107% cost overrun"
-      }
+  "label": "Construction cost benchmarks by building and infrastructure type",
+  "category": "appraisal",
+  "price_base": "2025 Q1 GBP",
+  "caveat": "Indicative benchmarks for SOC/OBC-stage appraisal. NOT substitutes for quantity surveyor estimates. Regional variation is significant (apply location factors). Project-specific factors (site conditions, specification, procurement route) can cause costs to vary by 50%+ from these benchmarks.",
+  "buildings": {
+    "primary_school": {
+      "low": 1800, "mid": 2200, "high": 2600,
+      "unit": "GBP/sqm",
+      "source": "BCIS, DfE area cost allowances",
+      "typical_gifa_sqm": {"1FE": 1200, "2FE": 1800, "3FE": 2400}
     },
-    "source_detail": "Flyvbjerg, B. (2005). Policy and Planning for Large Infrastructure Projects: Problems, Causes, Cures."
-  },
-  "benefit_overestimation": {
-    "transport": {
-      "mean_overestimate": 0.5,
-      "label": "Transport benefits overestimated by 50% on average"
+    "secondary_school": {
+      "low": 2200, "mid": 2600, "high": 3100,
+      "unit": "GBP/sqm",
+      "source": "BCIS, DfE area cost allowances",
+      "typical_gifa_sqm": {"6FE": 6000, "8FE": 8000, "10FE": 10000}
     },
-    "source_detail": "Flyvbjerg, B. (2005); ex-post evaluation literature"
-  },
-  "asset_lives": {
-    "bridges": {
-      "low": 100,
-      "high": 120,
-      "unit": "years"
+    "hospital_acute": {
+      "low": 3200, "mid": 3800, "high": 4800,
+      "unit": "GBP/sqm",
+      "source": "BCIS, NHS Estates"
     },
-    "buildings": {
-      "value": 60,
-      "unit": "years"
+    "hospital_community": {
+      "low": 2400, "mid": 3000, "high": 3600,
+      "unit": "GBP/sqm",
+      "source": "BCIS"
     },
-    "roads_surface": {
-      "low": 20,
-      "high": 30,
-      "unit": "years"
+    "office_grade_a": {
+      "low": 2500, "mid": 3200, "high": 4000,
+      "unit": "GBP/sqm",
+      "source": "BCIS"
     },
-    "it_systems": {
-      "low": 5,
-      "high": 10,
-      "unit": "years"
+    "social_housing": {
+      "low": 1600, "mid": 2000, "high": 2500,
+      "unit": "GBP/sqm",
+      "source": "BCIS, Homes England"
     },
-    "rail_infrastructure": {
-      "low": 50,
-      "high": 80,
-      "unit": "years"
+    "private_housing": {
+      "low": 1400, "mid": 1800, "high": 2300,
+      "unit": "GBP/sqm",
+      "source": "BCIS"
+    },
+    "prison": {
+      "low": 2800, "mid": 3500, "high": 4500,
+      "unit": "GBP/sqm",
+      "source": "BCIS, MoJ"
+    },
+    "leisure_centre": {
+      "low": 2200, "mid": 2800, "high": 3500,
+      "unit": "GBP/sqm",
+      "source": "BCIS, Sport England"
+    },
+    "warehouse_distribution": {
+      "low": 600, "mid": 900, "high": 1300,
+      "unit": "GBP/sqm",
+      "source": "BCIS"
     }
   },
-  "residual_value_caps": {
-    "under_30_years": {
-      "max_proportion": 0.2,
-      "label": "Max 20% of capex for projects under 30 years"
-    },
-    "over_30_years": {
-      "max_proportion": 0.15,
-      "label": "Max 15% of capex for projects 30+ years"
-    }
+  "infrastructure": {
+    "motorway_per_km": {"low": 20, "mid": 30, "high": 50, "unit": "GBP_millions/km", "source": "National Highways, IPA"},
+    "dual_carriageway_per_km": {"low": 10, "mid": 20, "high": 35, "unit": "GBP_millions/km"},
+    "single_carriageway_per_km": {"low": 5, "mid": 10, "high": 20, "unit": "GBP_millions/km"},
+    "rail_new_build_per_km": {"low": 15, "mid": 35, "high": 80, "unit": "GBP_millions/km", "source": "Network Rail, IPA"},
+    "rail_electrification_per_km": {"low": 2, "mid": 5, "high": 10, "unit": "GBP_millions/km"},
+    "cycle_lane_per_km": {"low": 0.3, "mid": 0.8, "high": 2.0, "unit": "GBP_millions/km", "source": "Active Travel England"},
+    "flood_defence_per_km": {"low": 2, "mid": 8, "high": 25, "unit": "GBP_millions/km", "source": "EA"}
   },
-  "multiplier_benchmarks": {
-    "moretti_tradeable": {
-      "low": 1.5,
-      "high": 2.5,
-      "label": "Local multipliers for tradeable sectors (Moretti 2010)"
-    },
-    "type_i_plausible_range": {
-      "low": 1.0,
-      "high": 1.8,
-      "label": "Plausible Type I IO multiplier range"
-    }
+  "location_factors": {
+    "description": "Regional adjustment factors relative to UK average (1.00). BCIS TPI.",
+    "inner_london": 1.25, "outer_london": 1.15, "south_east": 1.08, "eastern": 1.02,
+    "south_west": 0.96, "west_midlands": 0.93, "east_midlands": 0.91,
+    "north_west": 0.93, "yorkshire_humber": 0.91, "north_east": 0.89,
+    "wales": 0.89, "scotland": 0.96, "northern_ireland": 0.86,
+    "source": "BCIS Tender Price Index Location Factors (2025 Q1)"
   },
-  "sensitivity_defaults": {
-    "benefit_variation": 0.2,
-    "cost_variation": 0.2,
-    "monte_carlo_iterations": 10000,
-    "monte_carlo_cost_distribution": {
-      "type": "triangular",
-      "min": 0.8,
-      "mode": 1.0,
-      "max": 1.5
-    },
-    "monte_carlo_benefit_distribution": {
-      "type": "triangular",
-      "min": 0.5,
-      "mode": 1.0,
-      "max": 1.2
-    },
-    "monte_carlo_threshold": 100000000,
-    "note": "Monte Carlo recommended for projects with PV costs > GBP 100m"
-  },
-  "bcr_vfm_categories": {
-    "poor": {
-      "max": 1.0
-    },
-    "low": {
-      "min": 1.0,
-      "max": 1.5
-    },
-    "medium": {
-      "min": 1.5,
-      "max": 2.0
-    },
-    "high": {
-      "min": 2.0,
-      "max": 4.0
-    },
-    "very_high": {
-      "min": 4.0
-    }
-  },
-  "s_curve_profiles": {
-    "3_year": [
-      0.2,
-      0.5,
-      0.3
-    ],
-    "5_year": [
-      0.1,
-      0.2,
-      0.3,
-      0.25,
-      0.15
-    ],
-    "7_year": [
-      0.05,
-      0.1,
-      0.2,
-      0.25,
-      0.2,
-      0.15,
-      0.05
-    ],
-    "10_year": [
-      0.03,
-      0.05,
-      0.08,
-      0.12,
-      0.15,
-      0.15,
-      0.15,
-      0.12,
-      0.1,
-      0.05
-    ]
+  "additions_pct": {
+    "external_works": {"typical": 15, "range": [10, 25]},
+    "professional_fees": {"typical": 15, "range": [12, 20]},
+    "furniture_equipment": {"typical": 8, "range": [3, 15]},
+    "contingency": {"typical": 10, "range": [5, 15]}
   },
   "source": {
-    "publication": "Various (see source_detail per section)",
-    "references": [
-      "Flyvbjerg, B. (2005). Policy and Planning for Large Infrastructure Projects.",
-      "Moretti, E. (2010). Local Multipliers. American Economic Review.",
-      "HM Treasury (2026). The Green Book."
-    ]
-  },
-  "last_verified": "2026-04-04",
-  "expected_next_update": "2028-01"
+    "publications": ["BCIS Quarterly Review of Building Prices", "BCIS TPI Location Factors", "NHS Estates HBN", "DfE Area Cost Allowances", "National Highways RIS Data", "Network Rail Cost Benchmarks"],
+    "last_verified": "2026-04-08",
+    "expected_next_update": "2026-07"
+  }
 }

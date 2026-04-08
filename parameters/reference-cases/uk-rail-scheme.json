@@ -1,0 +1,56 @@
+{
+  "asset_type": "Rail scheme (new station, line upgrade, electrification)",
+  "jurisdiction": "uk",
+  "description": "New rail station, line reopening, electrification, or capacity enhancement. Appraised using DfT TAG with rail-specific modules.",
+  "typical_cost": {
+    "new_station": {"low": 10, "mid": 30, "high": 80, "unit": "GBP_millions", "note": "Simple halt to major interchange. Excludes land. Reference: Beeching reopenings programme."},
+    "line_reopening_per_km": {"low": 5, "mid": 15, "high": 35, "unit": "GBP_millions/km", "note": "Depends heavily on whether trackbed is intact, structures condition, signalling scope."},
+    "electrification_per_km": {"low": 2, "mid": 5, "high": 10, "unit": "GBP_millions/km", "note": "OLE. Wide range depending on bridge clearances, re-gauging, power supply."},
+    "capacity_enhancement": {"low": 50, "mid": 200, "high": 1000, "unit": "GBP_millions", "note": "Platform lengthening at the low end, major junction remodelling at the high end."}
+  },
+  "typical_benefits": [
+    {"category": "Journey time savings", "description": "Faster rail journeys", "monetisation": "DfT TAG values of time (work: ~GBP 20/hr, commuting: ~GBP 7/hr)"},
+    {"category": "Crowding relief", "description": "Reduced overcrowding on existing services", "monetisation": "DfT TAG crowding multipliers applied to time savings"},
+    {"category": "Mode shift", "description": "Passengers switching from car to rail", "monetisation": "Decongestion benefits, accident reduction, carbon savings"},
+    {"category": "New trips", "description": "Journeys that would not otherwise occur (generated demand)", "monetisation": "Consumer surplus from rule of half"},
+    {"category": "Wider economic impacts", "description": "Agglomeration from improved connectivity", "monetisation": "Present separately from core BCR. Venables (2007), Graham (2007)."},
+    {"category": "Carbon", "description": "Net carbon impact (electrification reduces operational emissions; construction has embodied carbon)", "monetisation": "DESNZ values, pre-discounted"},
+    {"category": "Land value uplift", "description": "Property values increase near new stations", "monetisation": "Do NOT include alongside journey time savings (double counting risk). Present as supplementary only."}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 60,
+    "optimism_bias_pct": {"soc": 66, "obc": 35, "fbc": 6, "project_type": "non_standard_civil_engineering"},
+    "optimism_bias_note": "Rail projects have the highest optimism bias of any project type. Flyvbjerg (2003) found average cost overrun of 45% for rail.",
+    "discount_rate": "uk_declining",
+    "additionality_scenario": "not_applicable",
+    "benefit_ramp_up_years": 5,
+    "benefit_ramp_up_note": "Rail demand builds gradually. TAG assumes full forecast demand reached within 3-7 years of opening."
+  },
+  "reference_bcr_range": {
+    "low": 0.3,
+    "mid": 1.5,
+    "high": 4.0,
+    "note": "Rail BCRs are highly variable. Small stations on existing lines can have high BCRs. Major infrastructure (tunnels, viaducts) often has BCRs below 1.0 and proceeds on strategic/connectivity grounds.",
+    "reference_cases": [
+      "HS2 Phase 1 FBC (2020): BCR 1.2 (including WEIs), 0.9 (core BCR only)",
+      "Crossrail (Elizabeth Line) FBC (2007): BCR 1.97",
+      "Beeching reopenings programme (2020): indicative BCRs ranged 0.4-3.5",
+      "Northern Powerhouse Rail SOC (2019): BCR 1.0-2.5 depending on option",
+      "Typical small station: BCR 2-4 (low cost, concentrated time savings)"
+    ]
+  },
+  "typical_risks": [
+    "Cost overruns: rail has the highest average overrun of any project type (Flyvbjerg 2003: 45%)",
+    "Demand forecasting error: Flyvbjerg (2005) found rail demand overestimated by 50% on average",
+    "Network Rail possession availability (construction windows constrained by timetable)",
+    "Signalling system complexity (integration with existing network)",
+    "Environmental (protected habitats, heritage, noise/vibration)",
+    "Political risk (long planning/construction timelines span multiple administrations)",
+    "Electrification: bridge clearance issues, power supply constraints"
+  ],
+  "source": {
+    "publications": ["DfT TAG Rail Appraisal Modules", "DfT VfM Framework", "Network Rail Enhancement Pipeline", "IPA Annual Report", "Green Book Supplementary Guidance: Optimism Bias"],
+    "reference_evaluations": ["DfT POPE (Post Opening Project Evaluation) for rail", "What Works Centre: Transport Evidence Review (2015)"],
+    "last_verified": "2026-04-08"
+  }
+}

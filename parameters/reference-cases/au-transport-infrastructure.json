@@ -1,0 +1,53 @@
+{
+  "asset_type": "Transport infrastructure (road, rail, public transport)",
+  "jurisdiction": "au",
+  "description": "Major transport infrastructure in Australia. Appraised using ATAP (Australian Transport Assessment and Planning) guidelines.",
+  "typical_cost": {
+    "motorway_per_km": {"low": 50, "mid": 150, "high": 500, "unit": "AUD_millions/km", "note": "Wide range. Urban motorway tunnels at the upper end (e.g., WestConnex ~AUD 500m/km). Rural highway upgrades at the lower end."},
+    "rail_per_km": {"low": 30, "mid": 100, "high": 400, "unit": "AUD_millions/km", "note": "New metro lines at upper end. Reference: Melbourne Metro Tunnel ~AUD 300m/km."},
+    "bus_rapid_transit_per_km": {"low": 10, "mid": 30, "high": 80, "unit": "AUD_millions/km"},
+    "new_rail_station": {"low": 50, "mid": 150, "high": 400, "unit": "AUD_millions"},
+    "level_crossing_removal": {"low": 100, "mid": 250, "high": 500, "unit": "AUD_millions/crossing", "source": "Victorian Level Crossing Removal Programme"}
+  },
+  "typical_benefits": [
+    {"category": "Travel time savings", "description": "ATAP Parameter Values (updated annually)", "monetisation": "ATAP PV2: work ~AUD 50/hr, commuting ~AUD 18/hr, leisure ~AUD 15/hr (indicative, check latest ATAP databook)"},
+    {"category": "Vehicle operating cost savings", "description": "Fuel, maintenance from improved conditions", "monetisation": "ATAP PV2 tables"},
+    {"category": "Crash cost reduction", "description": "Reduced fatalities and injuries", "monetisation": "ATAP: statistical life value ~AUD 5.9m (2025). Serious injury ~AUD 680k."},
+    {"category": "Reliability improvements", "description": "Reduced travel time variability", "monetisation": "ATAP reliability guidelines"},
+    {"category": "Wider economic benefits", "description": "Agglomeration, labour market deepening, competition", "monetisation": "Present separately. Infrastructure Australia assessment criteria include WEBs."},
+    {"category": "Urban amenity", "description": "For level crossing removals: reduced severance, improved walkability, new open space", "monetisation": "Hedonic pricing or stated preference. Difficult to monetise robustly."}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 50,
+    "appraisal_period_note": "ATAP recommends 30-50 years for transport infrastructure. Infrastructure Australia typically uses 50 years.",
+    "discount_rate": {"central": 7, "sensitivity": [4, 10], "note": "7% central per OIA/ATAP. Victoria also reports at 4%. Sensitivity at 4% and 10%."},
+    "optimism_bias_approach": "Reference Class Forecasting (P50/P90). Fixed percentage uplifts not used in Australian practice.",
+    "cost_estimate_basis": "P90 recommended for budget submissions (VIC DTF guidance)"
+  },
+  "reference_bcr_range": {
+    "low": 0.5,
+    "mid": 1.5,
+    "high": 4.0,
+    "note": "Infrastructure Australia classifies: BCR < 1.0 at 7% = does not pass the threshold. BCR > 1.0 at 7% = passes. Note: a project with BCR 0.8 at 7% may have BCR > 1.0 at 4% (Victoria's lower rate).",
+    "reference_cases": [
+      "Melbourne Metro Tunnel (2016 business case): BCR 1.5 at 7%, 2.3 at 4%",
+      "WestConnex Stage 1 (2013): BCR 1.71",
+      "Victorian Level Crossing Removal (rolling programme): BCRs 1.2-4.0 per crossing (higher for high-frequency crossings)",
+      "Sydney Metro West (2020): BCR 1.1 at 7% (strategic connectivity case)",
+      "Inland Rail (Melbourne-Brisbane, 2015): BCR 1.02 at 7% (marginal, proceeded on national strategic grounds)"
+    ]
+  },
+  "typical_risks": [
+    "Cost overruns: Australian transport projects have comparable overrun rates to international benchmarks (Flyvbjerg data)",
+    "Demand forecasting: patronage forecasts for new public transport are particularly uncertain",
+    "Property acquisition (compulsory acquisition costs, delays, legal challenges)",
+    "Contaminated land (especially former industrial sites in inner urban areas)",
+    "Utility relocations (gas, water, power, telecommunications)",
+    "Construction disruption to existing transport network",
+    "Political risk: long project timelines span state and federal election cycles"
+  ],
+  "source": {
+    "publications": ["ATAP Guidelines (Australian Transport Assessment and Planning)", "Infrastructure Australia Assessment Framework", "Victorian DTF Investment Lifecycle Guidelines", "Infrastructure NSW State Infrastructure Strategy"],
+    "last_verified": "2026-04-08"
+  }
+}

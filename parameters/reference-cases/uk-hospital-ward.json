@@ -1,0 +1,51 @@
+{
+  "asset_type": "Hospital ward or clinical facility",
+  "jurisdiction": "uk",
+  "description": "New hospital ward, clinical facility, or hospital reconfiguration. Covers acute, community, and mental health settings.",
+  "typical_cost": {
+    "acute_hospital_sqm": {"low": 3200, "mid": 3800, "high": 4800, "unit": "GBP/sqm", "source": "BCIS, NHS Estates guidance"},
+    "community_hospital_sqm": {"low": 2400, "mid": 3000, "high": 3600, "unit": "GBP/sqm"},
+    "mental_health_unit_sqm": {"low": 2800, "mid": 3400, "high": 4200, "unit": "GBP/sqm"},
+    "equipment_medical_pct": {"value": 15, "range": [10, 25], "note": "Higher for specialist clinical areas"},
+    "typical_total_range": {"low": 30, "high": 600, "unit": "GBP_millions", "note": "Single ward to major reconfiguration. New hospitals typically GBP 200-600m."}
+  },
+  "typical_benefits": [
+    {"category": "Health outcomes", "description": "QALYs gained from improved care quality, reduced waiting times, avoided adverse events", "monetisation": "QALY value (GBP 70,000 per Green Book supplementary guidance). Use 1.5% health discount rate (Green Book 2026)."},
+    {"category": "Reduced emergency admissions", "description": "Better primary/community care reduces acute admissions", "monetisation": "Use unit-costs-outcomes.json hospital admission values"},
+    {"category": "Staff productivity", "description": "Modern facilities improve clinical workflow and reduce agency staff costs", "monetisation": "Staffing cost differential"},
+    {"category": "Travel time", "description": "If reconfiguration changes travel distances for patients/visitors", "monetisation": "DfT TAG non-work values"},
+    {"category": "Construction employment", "description": "Temporary construction phase jobs", "monetisation": "IO multiplier"}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 60,
+    "optimism_bias_pct": {"soc": 51, "obc": 28, "fbc": 4, "project_type": "non_standard_buildings"},
+    "discount_rate": "uk_declining",
+    "health_discount_rate": 1.5,
+    "health_discount_rate_note": "Green Book 2026 mandates 1.5% for health/QALY benefits (not the standard 3.5%)",
+    "additionality_scenario": "not_applicable",
+    "additionality_note": "NHS capital projects are not subject to standard additionality adjustments (no market displacement in healthcare delivery)"
+  },
+  "reference_bcr_range": {
+    "low": 0.8,
+    "mid": 2.0,
+    "high": 8.0,
+    "note": "Highly variable. Emergency department expansions and critical infrastructure replacement can have very high BCRs. Elective care expansions lower. Reference: NHS England SOC/OBC published business cases.",
+    "reference_cases": [
+      "Midland Metropolitan University Hospital OBC (2015): BCR 2.1",
+      "Royal Liverpool University Hospital FBC (2013): BCR 1.8",
+      "Papworth Hospital Relocation OBC (2012): BCR 3.2"
+    ]
+  },
+  "typical_risks": [
+    "Clinical adjacency requirements constraining design options",
+    "Decanting/phasing costs if building on an operational hospital site",
+    "Medical equipment specification changes during long build programmes",
+    "NHS workforce availability (recruitment to new facility)",
+    "Planning restrictions (especially historic hospital sites)",
+    "Cost inflation specific to healthcare construction (above general construction indices)"
+  ],
+  "source": {
+    "publications": ["BCIS Quarterly Review", "NHS Estates Health Building Notes", "Green Book Supplementary Guidance: Health", "DHSC Capital Regime and Investment Business Case Guide"],
+    "last_verified": "2026-04-08"
+  }
+}

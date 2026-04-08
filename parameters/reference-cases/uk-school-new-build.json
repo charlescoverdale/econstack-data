@@ -1,0 +1,48 @@
+{
+  "asset_type": "School (new build)",
+  "jurisdiction": "uk",
+  "description": "New primary or secondary school building. Covers both expansion of existing schools and entirely new establishments.",
+  "typical_cost": {
+    "primary_school_sqm": {"low": 1800, "mid": 2200, "high": 2600, "unit": "GBP/sqm", "source": "BCIS, DfE output specification"},
+    "secondary_school_sqm": {"low": 2200, "mid": 2600, "high": 3100, "unit": "GBP/sqm", "source": "BCIS, DfE output specification"},
+    "special_school_sqm": {"low": 2800, "mid": 3400, "high": 4200, "unit": "GBP/sqm", "source": "BCIS"},
+    "professional_fees_pct": {"value": 15, "range": [12, 18]},
+    "equipment_ict_pct": {"value": 8, "range": [5, 12]},
+    "land_acquisition": "site-specific (use DLUHC land value estimates for the region)",
+    "typical_total_range_primary": {"low": 8, "high": 25, "unit": "GBP_millions", "note": "1FE to 3FE primary"},
+    "typical_total_range_secondary": {"low": 25, "high": 55, "unit": "GBP_millions", "note": "6FE to 10FE secondary"}
+  },
+  "typical_benefits": [
+    {"category": "Educational outcomes", "description": "GCSE attainment uplift, reduced persistent absence, qualification progression", "monetisation": "Use education unit costs from unit-costs-outcomes.json"},
+    {"category": "Travel time savings", "description": "Reduced journey to school if replacing distant provision", "monetisation": "DfT TAG non-work travel values"},
+    {"category": "Community use", "description": "Sports hall, meeting rooms, library used outside school hours", "monetisation": "Willingness-to-pay or facility hire benchmarks"},
+    {"category": "Construction employment", "description": "Temporary construction jobs during build phase", "monetisation": "IO multiplier from /io-report"},
+    {"category": "Health and wellbeing", "description": "Improved physical activity, mental health from modern facilities", "monetisation": "QALY or wellbeing valuation (difficult to monetise robustly)"}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 60,
+    "optimism_bias_pct": {"soc": 24, "obc": 13, "fbc": 2, "project_type": "standard_buildings"},
+    "discount_rate": "uk_declining",
+    "additionality_scenario": "standard",
+    "price_base": "current year"
+  },
+  "reference_bcr_range": {
+    "low": 1.2,
+    "mid": 2.5,
+    "high": 5.0,
+    "note": "Wide range. Higher BCRs from school replacement in areas of acute need. Lower BCRs where existing provision is adequate and the driver is condition/suitability."
+  },
+  "typical_risks": [
+    "Planning permission delays (especially on greenfield or Green Belt sites)",
+    "Ground conditions (contamination on brownfield, flood risk)",
+    "Construction cost inflation above GDP deflator",
+    "Pupil number projections (demographic uncertainty)",
+    "Site acquisition costs exceeding benchmark land values",
+    "Scope creep during design development"
+  ],
+  "typical_appraisal_period_justification": "60 years reflects the expected economic life of a school building per Green Book supplementary guidance on asset lives. BCIS data shows median school building life of 55-65 years.",
+  "source": {
+    "publications": ["BCIS Quarterly Review of Building Prices", "DfE Output Specification and Area Guidelines", "DLUHC Land Value Estimates", "Green Book Supplementary Guidance: Optimism Bias"],
+    "last_verified": "2026-04-08"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "asset_type": "Housing development (social, affordable, mixed-tenure)",
+  "jurisdiction": "uk",
+  "description": "New housing development or estate regeneration. Covers social rent, affordable rent, shared ownership, and mixed-tenure schemes.",
+  "typical_cost": {
+    "social_housing_sqm": {"low": 1600, "mid": 2000, "high": 2500, "unit": "GBP/sqm", "source": "BCIS, Homes England benchmarks"},
+    "private_housing_sqm": {"low": 1400, "mid": 1800, "high": 2300, "unit": "GBP/sqm"},
+    "cost_per_unit_social": {"low": 120000, "mid": 165000, "high": 220000, "unit": "GBP/unit", "note": "2-bed flat to 3-bed house. Excludes land."},
+    "cost_per_unit_private": {"low": 100000, "mid": 150000, "high": 200000, "unit": "GBP/unit", "note": "Construction cost only, excludes land and developer margin"},
+    "land_cost": "Use DLUHC Land Value Estimates by region and existing use class (agricultural: ~GBP 22k/ha, residential: ~GBP 2-6m/ha depending on region)",
+    "section_106_cil": "Site-specific. Typical S106 affordable housing requirement: 25-40% of units."
+  },
+  "typical_benefits": [
+    {"category": "Housing supply", "description": "Additional homes addressing housing need", "monetisation": "DLUHC housing benefit values or hedonic pricing. Difficult to monetise directly; often presented as non-monetised benefit."},
+    {"category": "Reduced homelessness costs", "description": "Fewer households in temporary accommodation", "monetisation": "Use unit-costs-outcomes.json: temporary accommodation ~GBP 26k/household/year"},
+    {"category": "Health benefits", "description": "Improved housing quality reduces health service use", "monetisation": "BRE Housing Health Cost Calculator (2019): average GBP 600/year/household in avoided NHS costs for Category 1 hazard remediation"},
+    {"category": "Employment (construction phase)", "description": "Direct and supply chain jobs during build", "monetisation": "HBF estimate: 1.5 direct FTE jobs per dwelling constructed. Apply IO multiplier for indirect."},
+    {"category": "Council tax revenue", "description": "New homes generate ongoing council tax receipts", "monetisation": "Average Band D council tax by authority (GOV.UK dataset)"},
+    {"category": "Community infrastructure", "description": "CIL/S106 contributions fund schools, healthcare, green space", "monetisation": "Value of infrastructure delivered (often treated as cost offset rather than benefit)"},
+    {"category": "Land value uplift", "description": "Rezoning agricultural to residential land generates uplift", "monetisation": "DLUHC Land Value Estimates. NOTE: do not double-count with housing supply value."}
+  ],
+  "default_parameters": {
+    "appraisal_period_years": 60,
+    "optimism_bias_pct": {"soc": 24, "obc": 13, "fbc": 2, "project_type": "standard_buildings"},
+    "discount_rate": "uk_declining",
+    "additionality_scenario": "housing_and_homelessness",
+    "additionality_rates": {
+      "deadweight": {"value": 0.275, "note": "Some housing would be delivered by the market without intervention. Higher deadweight in strong housing markets."},
+      "displacement": {"value": 0.20, "note": "New housing on one site may displace development from another."},
+      "leakage": {"value": 0.15, "note": "Some occupants may come from outside the target area."},
+      "substitution": {"value": 0.0}
+    }
+  },
+  "reference_bcr_range": {
+    "low": 0.8,
+    "mid": 1.5,
+    "high": 3.0,
+    "note": "Housing BCRs are typically modest because the primary benefit (housing itself) is hard to monetise convincingly. Regeneration schemes with significant brownfield remediation or decongestion can score higher.",
+    "reference_cases": [
+      "Homes England Strategic Plan 2023: average BCR for grant-funded affordable housing 1.2-1.8",
+      "Northern Powerhouse housing schemes: BCRs typically 1.0-2.5 (MHCLG analysis)",
+      "Estate regeneration programmes: BCRs 0.8-1.5 (before non-monetised benefits)",
+      "DLUHC Appraisal Guide worked example (affordable housing): BCR 1.4"
+    ]
+  },
+  "typical_risks": [
+    "Planning delays (local opposition, design requirements, affordable housing negotiations)",
+    "Construction cost inflation (housing-specific indices often exceed general construction indices)",
+    "Developer viability (S106/affordable housing requirements may make schemes unviable)",
+    "Ground conditions on brownfield sites (contamination, subsidence)",
+    "Housing market downturn reducing cross-subsidy from private sales",
+    "Nutrient neutrality requirements (Natural England) in affected catchments"
+  ],
+  "source": {
+    "publications": ["DLUHC Appraisal Guide (3rd edition, 2025)", "Homes England Strategic Plan", "BCIS Housing Construction Benchmarks", "BRE Housing Health Cost Calculator", "DLUHC Land Value Estimates"],
+    "last_verified": "2026-04-08"
+  }
+}
