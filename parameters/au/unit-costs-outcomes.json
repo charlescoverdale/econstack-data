@@ -1,0 +1,347 @@
+{
+  "parameter": "unit-costs-outcomes",
+  "jurisdiction": "au",
+  "label": "Australian unit costs for outcome monetisation in programme evaluation and CBA",
+  "category": "evaluation",
+  "price_base": "2024-25 AUD (unless noted)",
+  "note": "Compiled from Productivity Commission Report on Government Services (RoGS 2026), IHACPA National Efficient Price, AIHW health expenditure data, and AIC crime costs. State-by-state breakdowns available for most metrics. Values are national averages unless specified.",
+  "education": {
+    "government_school_per_student": {
+      "value": 26140,
+      "unit": "AUD/FTE student/year",
+      "description": "Recurrent cost per FTE student in government schools (including user cost of capital).",
+      "excl_ucc": 21550,
+      "source": "RoGS 2026 Section 4 (2023-24 data)"
+    },
+    "government_primary_per_student": {
+      "value": 23248,
+      "unit": "AUD/FTE student/year",
+      "source": "RoGS 2026 Section 4"
+    },
+    "government_secondary_per_student": {
+      "value": 26925,
+      "unit": "AUD/FTE student/year",
+      "source": "RoGS 2026 Section 4"
+    },
+    "non_government_school_per_student": {
+      "value": 15262,
+      "unit": "AUD/FTE student/year",
+      "description": "Recurrent cost per FTE student in non-government schools (excluding user cost of capital).",
+      "source": "RoGS 2026 Section 4"
+    }
+  },
+  "health": {
+    "hospital_cost_per_weighted_separation": {
+      "value": 6211,
+      "unit": "AUD/weighted separation",
+      "description": "Recurrent cost per National Weighted Activity Unit (NWAU) separation in public hospitals.",
+      "source": "RoGS 2026 Section 12 (2023-24 data)"
+    },
+    "hospital_capital_per_weighted_separation": {
+      "value": 1677,
+      "unit": "AUD/weighted separation",
+      "description": "Capital cost per weighted separation (excluding land).",
+      "source": "RoGS 2026 Section 12"
+    },
+    "national_efficient_price_per_nwau": {
+      "value": 7258,
+      "unit": "AUD/NWAU",
+      "description": "IHACPA National Efficient Price for 2025-26. This is the benchmark price for hospital funding.",
+      "source": "IHACPA National Efficient Price Determination 2025-26"
+    },
+    "ed_presentation": {
+      "value": 802,
+      "unit": "AUD/presentation",
+      "description": "Cost per non-admitted emergency department presentation.",
+      "source": "RoGS 2026 Section 12"
+    },
+    "non_admitted_service_event": {
+      "value": 399,
+      "unit": "AUD/service event",
+      "description": "Cost per non-admitted service event (outpatient equivalent).",
+      "source": "RoGS 2026 Section 12"
+    },
+    "ambulance_per_person": {
+      "value": 233,
+      "unit": "AUD/person/year",
+      "description": "Total ambulance expenditure per head of population.",
+      "source": "RoGS 2026 Section 11 (2024-25)"
+    },
+    "health_expenditure_per_person": {
+      "value": 10037,
+      "unit": "AUD/person/year",
+      "description": "Total health expenditure per person (all sources: government, private, out-of-pocket).",
+      "source": "AIHW Health Expenditure 2023-24"
+    }
+  },
+  "crime_and_justice": {
+    "police_expenditure_per_person": {
+      "value": 652,
+      "unit": "AUD/person/year",
+      "description": "National average recurrent police expenditure per head of population.",
+      "state_range": {"low": 523, "high": 759, "outlier_nt": 1942},
+      "source": "RoGS 2026 Section 6 (2024-25)"
+    },
+    "court_supreme_criminal_per_finalisation": {
+      "value": 24745,
+      "unit": "AUD/finalisation",
+      "source": "RoGS 2026 Section 7 (2024-25)"
+    },
+    "court_supreme_civil_per_finalisation": {
+      "value": 6248,
+      "unit": "AUD/finalisation",
+      "source": "RoGS 2026 Section 7"
+    },
+    "court_district_criminal_per_finalisation": {
+      "value": 14089,
+      "unit": "AUD/finalisation",
+      "source": "RoGS 2026 Section 7"
+    },
+    "court_district_civil_per_finalisation": {
+      "value": 1686,
+      "unit": "AUD/finalisation",
+      "source": "RoGS 2026 Section 7"
+    },
+    "court_magistrates_criminal_per_finalisation": {
+      "value": 971,
+      "unit": "AUD/finalisation",
+      "source": "RoGS 2026 Section 7"
+    },
+    "court_magistrates_civil_per_finalisation": {
+      "value": 758,
+      "unit": "AUD/finalisation",
+      "source": "RoGS 2026 Section 7"
+    },
+    "court_coroners_per_death": {
+      "value": 2649,
+      "unit": "AUD/reported death or fire",
+      "source": "RoGS 2026 Section 7"
+    },
+    "prison_per_day": {
+      "value": 440.60,
+      "unit": "AUD/prisoner/day",
+      "description": "Total recurrent expenditure per prisoner per day (including capital costs).",
+      "net_operating_per_day": 326.43,
+      "annual_equivalent": 119147,
+      "source": "RoGS 2026 Section 8 (2024-25)"
+    },
+    "community_corrections_per_day": {
+      "value": 32.17,
+      "unit": "AUD/offender/day",
+      "source": "RoGS 2026 Section 8 (2024-25)"
+    },
+    "homicide_cost": {
+      "value": 2500000,
+      "unit": "AUD/incident",
+      "description": "Estimated total cost of a homicide (AIC 2003 estimate, inflated to 2024-25 prices). Includes: victim harm, lost productivity, criminal justice, emergency response.",
+      "source": "AIC (2003, inflated). CAUTION: severely outdated base estimate.",
+      "inflation_note": "Original AIC estimate ~AUD 1.6m in 2003 dollars. Inflated by CPI (~1.55x)."
+    },
+    "assault_cost": {
+      "value": 2800,
+      "unit": "AUD/incident",
+      "description": "AIC estimated cost per assault incident (inflated from 2003).",
+      "source": "AIC (2003, inflated). Use with strong caveats."
+    },
+    "burglary_cost": {
+      "value": 3700,
+      "unit": "AUD/incident",
+      "description": "AIC estimated cost per burglary (inflated from 2003).",
+      "source": "AIC (2003, inflated). Use with strong caveats."
+    },
+    "domestic_family_violence_total_annual": {
+      "value": 26000000000,
+      "unit": "AUD/year (total)",
+      "description": "Total estimated annual cost of violence against women and their children. Not a per-incident cost.",
+      "source": "KPMG/ANROWS (2016 methodology, updated estimate)"
+    }
+  },
+  "housing": {
+    "public_housing_per_dwelling_excl_ucc": {
+      "value": 14027,
+      "unit": "AUD/dwelling/year",
+      "source": "RoGS 2026 Section 18 (2024-25)"
+    },
+    "public_housing_per_dwelling_incl_ucc": {
+      "value": 55981,
+      "unit": "AUD/dwelling/year",
+      "description": "Including user cost of capital (reflecting the opportunity cost of the housing asset).",
+      "source": "RoGS 2026 Section 18"
+    },
+    "somih_per_dwelling_incl_ucc": {
+      "value": 76542,
+      "unit": "AUD/dwelling/year",
+      "description": "State Owned and Managed Indigenous Housing, including user cost of capital.",
+      "source": "RoGS 2026 Section 18"
+    },
+    "community_housing_per_tenancy": {
+      "value": 11191,
+      "unit": "AUD/tenancy rental unit/year",
+      "source": "RoGS 2026 Section 18 (2023-24 data)"
+    },
+    "homelessness_cost_per_day": {
+      "value": 57.80,
+      "unit": "AUD/day of support",
+      "source": "RoGS 2026 Section 19 (2024-25)"
+    },
+    "homelessness_cost_per_support_period": {
+      "value": 4306,
+      "unit": "AUD/completed support period",
+      "source": "RoGS 2026 Section 19"
+    },
+    "homelessness_cost_per_client": {
+      "value": 6073,
+      "unit": "AUD/client",
+      "source": "RoGS 2026 Section 19"
+    }
+  },
+  "child_protection": {
+    "cost_per_notification_investigated": {
+      "low": 1779,
+      "high": 6040,
+      "unit": "AUD/notification",
+      "description": "Cost per child protection notification investigated. Wide range across jurisdictions.",
+      "source": "RoGS 2026 Section 16 (2024-25)"
+    },
+    "oohc_per_placement_night": {
+      "value": 388,
+      "unit": "AUD/placement night",
+      "description": "Out-of-home care cost per placement night (national, excluding QLD).",
+      "source": "RoGS 2026 Section 16"
+    },
+    "oohc_non_residential_annual": {
+      "low": 57981,
+      "high": 78718,
+      "unit": "AUD/child/year",
+      "description": "Annual cost per child in non-residential out-of-home care (foster care, kinship care).",
+      "source": "RoGS 2026 Section 16"
+    },
+    "oohc_residential_annual": {
+      "low": 659665,
+      "high": 1200000,
+      "unit": "AUD/child/year",
+      "description": "Annual cost per child in residential care. Extremely expensive due to intensive staffing requirements.",
+      "source": "RoGS 2026 Section 16"
+    },
+    "intensive_family_support_per_child": {
+      "value": 11637,
+      "unit": "AUD/child",
+      "source": "RoGS 2026 Section 16"
+    },
+    "child_protection_expenditure_per_child_0_17": {
+      "value": 1943,
+      "unit": "AUD/child aged 0-17/year",
+      "description": "Total child protection expenditure divided by population aged 0-17.",
+      "source": "RoGS 2026 Section 16"
+    }
+  },
+  "youth_justice": {
+    "detention_per_day": {
+      "low": 2573,
+      "high": 7304,
+      "unit": "AUD/young person/day",
+      "description": "Cost per young person per day in detention. Enormous variation across jurisdictions.",
+      "source": "RoGS 2026 Section 17 (2024-25)"
+    },
+    "community_supervision_per_day": {
+      "low": 101,
+      "high": 601,
+      "unit": "AUD/young person/day",
+      "description": "Community-based supervision cost per day (excluding NT).",
+      "source": "RoGS 2026 Section 17"
+    }
+  },
+  "aged_care": {
+    "residential_per_occupied_bed_annual": {
+      "value": 120467,
+      "unit": "AUD/occupied bed/year",
+      "source": "RoGS 2026 Section 15 (2024-25)"
+    },
+    "home_care_per_recipient_annual": {
+      "value": 24516,
+      "unit": "AUD/recipient/year",
+      "source": "RoGS 2026 Section 15"
+    },
+    "home_care_level_1_annual": {
+      "value": 9300,
+      "unit": "AUD/recipient/year",
+      "source": "RoGS 2026 Section 15"
+    },
+    "home_care_level_4_annual": {
+      "value": 50500,
+      "unit": "AUD/recipient/year",
+      "source": "RoGS 2026 Section 15"
+    },
+    "chsp_per_recipient_annual": {
+      "value": 3899,
+      "unit": "AUD/recipient/year",
+      "description": "Commonwealth Home Support Programme cost per recipient.",
+      "source": "RoGS 2026 Section 15"
+    },
+    "chsp_nursing_per_hour": {
+      "value": 152.57,
+      "unit": "AUD/service hour",
+      "source": "RoGS 2026 Section 15"
+    },
+    "assessment_per_assessment": {
+      "value": 673,
+      "unit": "AUD/assessment",
+      "source": "RoGS 2026 Section 15"
+    },
+    "transition_care_per_day": {
+      "value": 380,
+      "unit": "AUD/recipient/day",
+      "source": "RoGS 2026 Section 15"
+    }
+  },
+  "disability": {
+    "ndis_average_per_participant": {
+      "value": 63300,
+      "unit": "AUD/participant/year",
+      "description": "Estimated average NDIS payment per participant (AUD 41.8bn / ~660k participants).",
+      "source": "NDIS Annual Report 2023-24 (calculated)"
+    },
+    "employment_services_per_user": {
+      "value": 4257,
+      "unit": "AUD/user",
+      "source": "RoGS 2026 Section 14 (2024-25)"
+    },
+    "supported_employment_per_user": {
+      "value": 17202,
+      "unit": "AUD/user",
+      "source": "RoGS 2026 Section 14"
+    }
+  },
+  "emergency_services": {
+    "fire_services_total_expenditure": {
+      "value": 7400000000,
+      "unit": "AUD/year",
+      "source": "RoGS 2026 Section 9 (2024-25)"
+    },
+    "fire_incidents_attended": {
+      "value": 472361,
+      "unit": "incidents/year",
+      "source": "RoGS 2026 Section 9"
+    },
+    "implied_cost_per_fire_incident": {
+      "value": 15665,
+      "unit": "AUD/incident",
+      "description": "Calculated: total expenditure / total incidents. Rough average including false alarms and non-fire responses.",
+      "source": "Calculated from RoGS 2026 Section 9"
+    }
+  },
+  "source": {
+    "primary": "Productivity Commission, Report on Government Services 2026 (RoGS)",
+    "supplementary": [
+      "IHACPA National Efficient Price Determination 2025-26",
+      "AIHW Health Expenditure Australia 2023-24",
+      "AIC Cost of Crime estimates (2003, inflated)",
+      "NDIS Annual Report 2023-24",
+      "KPMG/ANROWS violence against women cost estimates"
+    ],
+    "data_downloads": "https://www.pc.gov.au/ongoing/report-on-government-services/2025/data-downloads",
+    "license": "Creative Commons Attribution 4.0 (Commonwealth of Australia)",
+    "last_verified": "2026-04-08",
+    "expected_next_update": "2027-02"
+  }
+}
