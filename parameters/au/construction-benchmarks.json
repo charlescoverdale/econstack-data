@@ -1,0 +1,189 @@
+{
+  "parameter": "construction-benchmarks",
+  "jurisdiction": "au",
+  "label": "Australian construction cost benchmarks by building and infrastructure type",
+  "category": "appraisal",
+  "price_base": "2025 AUD",
+  "caveat": "Indicative benchmarks from Rawlinsons Construction Cost Guide 2026 and publicly available QS sources. NOT substitutes for quantity surveyor estimates. State and regional variation is significant (apply location factors). Costs exclude external works, professional fees, land, GST, and furniture/equipment unless noted.",
+  "buildings": {
+    "primary_school": {
+      "low": 3000, "mid": 3500, "high": 5000,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026, state education department benchmarks",
+      "note": "Per student cost: AUD 14,000-30,000 depending on city and specification"
+    },
+    "secondary_school": {
+      "low": 3200, "mid": 4000, "high": 5500,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "hospital_general": {
+      "low": 4200, "mid": 5100, "high": 6500,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026, AIQS",
+      "note": "General hospital. Operating theatres, imaging suites, and specialist clinical areas at the upper end."
+    },
+    "medical_facility_specialist": {
+      "low": 3800, "mid": 5200, "high": 6500,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "office_standard": {
+      "low": 2500, "mid": 3200, "high": 3800,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "office_mid_rise": {
+      "low": 2400, "mid": 3300, "high": 4200,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "residential_budget": {
+      "low": 1800, "mid": 2100, "high": 2400,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026, HIA"
+    },
+    "residential_standard": {
+      "low": 2400, "mid": 2800, "high": 3200,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026, HIA"
+    },
+    "residential_premium": {
+      "low": 3200, "mid": 4000, "high": 5000,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "social_housing": {
+      "low": 2200, "mid": 2800, "high": 3400,
+      "unit": "AUD/sqm",
+      "source": "State housing authority benchmarks, Rawlinsons",
+      "note": "State housing authorities typically target AUD 300k-450k per dwelling (1-2 bed unit)."
+    },
+    "retail": {
+      "low": 2200, "mid": 2850, "high": 3500,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "hotel_hospitality": {
+      "low": 3000, "mid": 3750, "high": 4500,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "warehouse_industrial": {
+      "low": 1200, "mid": 1700, "high": 2200,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026",
+      "note": "Basic shell. Fit-out additional."
+    },
+    "warehouse_basic_portal_frame": {
+      "low": 800, "mid": 1150, "high": 1500,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    },
+    "aged_care_facility": {
+      "low": 2800, "mid": 3500, "high": 4200,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026, ACSA benchmarks"
+    },
+    "childcare_centre": {
+      "low": 2500, "mid": 3200, "high": 4000,
+      "unit": "AUD/sqm",
+      "source": "Rawlinsons 2026"
+    }
+  },
+  "infrastructure": {
+    "motorway_urban_per_km": {
+      "low": 50, "mid": 150, "high": 500,
+      "unit": "AUD_millions/km",
+      "source": "Infrastructure Australia, state transport data",
+      "note": "Enormous range. At-grade rural highway at the low end. Urban motorway tunnels (WestConnex, NorthConnex) at the upper end."
+    },
+    "rail_metro_per_km": {
+      "low": 100, "mid": 250, "high": 400,
+      "unit": "AUD_millions/km",
+      "source": "Melbourne Metro Tunnel, Sydney Metro data",
+      "reference_cases": [
+        "Melbourne Metro Tunnel: ~AUD 300m/km (tunnelled urban)",
+        "Sydney Metro City & Southwest: ~AUD 350m/km",
+        "Cross River Rail (Brisbane): ~AUD 200m/km"
+      ]
+    },
+    "light_rail_per_km": {
+      "low": 40, "mid": 80, "high": 150,
+      "unit": "AUD_millions/km",
+      "source": "Gold Coast Light Rail, Canberra Light Rail, Sydney Light Rail data",
+      "reference_cases": [
+        "Gold Coast Light Rail Stage 3: ~AUD 70m/km",
+        "Canberra Light Rail Stage 1: ~AUD 60m/km",
+        "Sydney CBD Light Rail: ~AUD 150m/km (extreme complexity)"
+      ]
+    },
+    "bus_rapid_transit_per_km": {
+      "low": 10, "mid": 30, "high": 80,
+      "unit": "AUD_millions/km",
+      "source": "Brisbane Metro, Adelaide O-Bahn data"
+    },
+    "level_crossing_removal": {
+      "low": 100, "mid": 250, "high": 500,
+      "unit": "AUD_millions/crossing",
+      "source": "Victorian Level Crossing Removal Programme",
+      "note": "85 crossings being removed. Average cost ~AUD 200-250m per crossing. Includes road/rail grade separation, station rebuild, and precinct development."
+    },
+    "flood_levee_per_km": {
+      "low": 5, "mid": 15, "high": 40,
+      "unit": "AUD_millions/km",
+      "source": "CSIRO, state emergency management data"
+    }
+  },
+  "location_factors": {
+    "description": "City-level cost indices relative to Sydney (1.00). Based on Rawlinsons and QS industry data. Regional and remote areas have significant premiums due to labour availability and transport costs.",
+    "sydney": 1.00,
+    "melbourne": 0.97,
+    "brisbane": 0.93,
+    "perth": 0.96,
+    "adelaide": 0.87,
+    "hobart": 0.90,
+    "darwin": 1.05,
+    "canberra": 0.95,
+    "regional_nsw": 1.08,
+    "regional_vic": 1.02,
+    "regional_qld": 1.05,
+    "regional_wa": 1.15,
+    "pilbara_remote_wa": 1.40,
+    "northern_territory_remote": 1.35,
+    "source": "Rawlinsons 2026 location factors, industry QS benchmarks",
+    "note": "Remote and regional areas are MORE expensive than capital cities due to labour shortages, accommodation costs, and materials transport. The Pilbara premium (1.40x) reflects FIFO workforce costs."
+  },
+  "additions_pct": {
+    "description": "Common additions on top of base sqm rates.",
+    "external_works": {"typical": 15, "range": [10, 25]},
+    "professional_fees": {"typical": 12, "range": [10, 18], "note": "Typically lower fee percentages than UK due to different market structure"},
+    "furniture_equipment": {"typical": 8, "range": [3, 15]},
+    "contingency": {"typical": 10, "range": [5, 15]},
+    "gst": {"rate": 10, "note": "GST applies to construction. Government entities can generally claim GST credits. Private sector: GST is additional to stated costs."},
+    "escalation": "Apply construction cost escalation for projects with long lead times. Australian construction cost inflation has been volatile (5-10% p.a. in 2022-24, moderating to 3-5% in 2025)."
+  },
+  "uk_to_au_comparison": {
+    "description": "Rough conversion factors for comparing UK and AU construction costs. These are indicative only.",
+    "exchange_rate_note": "At AUD 1.00 = GBP 0.50 (mid-2025), Australian construction costs appear similar to or slightly above UK costs in GBP terms. However, purchasing power parity suggests Australian costs are genuinely 10-20% higher than UK for comparable buildings.",
+    "key_differences": [
+      "Australian buildings typically have higher seismic and wind load specifications than UK",
+      "Energy efficiency requirements differ (NCC vs Building Regs)",
+      "Labour costs are higher in Australia (minimum wage AUD 24.10/hr vs UK GBP 11.44/hr)",
+      "Materials costs are comparable, but transport to regional/remote sites adds significantly in Australia",
+      "Australian construction has lower productivity than UK (OECD data)"
+    ]
+  },
+  "source": {
+    "publications": [
+      "Rawlinsons Construction Cost Guide 2026 (January 2026 base rates)",
+      "AIQS (Australian Institute of Quantity Surveyors) benchmarks",
+      "Infrastructure Australia Assessment Framework data",
+      "Victorian DTF Investment Lifecycle Guidelines",
+      "HIA (Housing Industry Association) cost data"
+    ],
+    "note": "Rawlinsons is proprietary (AUD 250-400). Values above are from publicly available QS sources, government publications, and industry reports. For project-level estimates, purchase the Rawlinsons guide or commission a QS.",
+    "last_verified": "2026-04-08",
+    "expected_next_update": "2027-01"
+  }
+}
